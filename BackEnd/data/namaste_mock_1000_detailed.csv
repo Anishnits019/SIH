@@ -1,0 +1,1001 @@
+code,system,display,definition,synonyms
+AY-0001,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0002,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0003,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0004,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0005,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0006,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0007,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0008,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0009,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0010,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0011,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0012,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0013,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0014,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0015,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0016,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0017,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0018,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0019,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0020,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0021,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0022,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0023,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0024,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0025,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0026,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0027,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0028,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0029,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0030,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0031,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0032,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0033,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0034,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0035,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0036,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0037,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0038,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0039,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0040,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0041,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0042,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0043,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0044,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0045,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0046,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0047,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0048,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0049,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0050,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0051,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0052,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0053,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0054,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0055,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0056,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0057,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0058,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0059,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0060,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0061,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0062,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0063,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0064,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0065,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0066,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0067,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0068,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0069,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0070,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0071,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0072,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0073,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0074,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0075,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0076,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0077,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0078,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0079,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0080,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0081,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0082,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0083,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0084,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0085,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0086,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0087,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0088,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0089,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0090,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0091,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0092,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0093,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0094,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0095,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0096,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0097,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0098,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0099,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0100,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0101,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0102,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0103,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0104,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0105,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0106,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0107,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0108,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0109,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0110,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0111,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0112,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0113,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0114,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0115,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0116,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0117,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0118,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0119,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0120,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0121,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0122,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0123,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0124,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0125,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0126,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0127,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0128,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0129,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0130,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0131,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0132,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0133,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0134,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0135,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0136,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0137,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0138,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0139,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0140,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0141,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0142,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0143,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0144,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0145,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0146,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0147,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0148,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0149,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0150,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0151,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0152,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0153,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0154,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0155,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0156,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0157,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0158,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0159,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0160,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0161,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0162,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0163,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0164,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0165,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0166,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0167,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0168,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0169,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0170,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0171,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0172,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0173,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0174,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0175,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0176,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0177,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0178,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0179,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0180,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0181,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0182,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0183,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0184,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0185,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0186,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0187,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0188,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0189,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0190,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0191,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0192,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0193,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0194,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0195,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0196,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0197,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0198,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0199,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0200,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0201,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0202,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0203,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0204,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0205,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0206,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0207,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0208,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0209,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0210,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0211,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0212,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0213,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0214,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0215,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0216,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0217,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0218,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0219,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0220,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0221,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0222,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0223,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0224,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0225,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0226,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0227,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0228,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0229,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0230,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0231,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0232,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0233,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0234,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0235,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0236,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0237,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0238,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0239,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0240,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0241,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0242,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0243,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0244,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0245,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0246,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0247,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0248,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0249,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0250,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0251,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0252,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0253,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0254,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0255,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0256,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0257,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0258,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0259,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0260,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0261,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0262,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0263,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0264,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0265,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0266,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0267,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0268,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0269,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0270,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0271,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0272,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0273,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0274,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0275,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0276,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0277,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0278,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0279,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0280,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0281,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0282,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0283,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0284,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0285,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0286,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0287,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0288,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0289,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0290,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0291,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0292,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0293,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0294,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0295,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0296,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0297,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0298,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0299,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0300,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0301,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0302,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0303,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0304,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0305,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0306,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0307,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0308,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0309,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0310,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0311,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0312,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0313,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0314,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0315,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0316,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0317,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0318,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0319,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0320,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0321,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0322,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0323,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0324,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0325,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0326,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0327,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0328,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0329,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0330,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0331,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0332,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0333,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0334,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0335,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0336,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0337,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0338,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0339,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0340,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0341,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0342,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0343,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0344,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0345,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0346,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0347,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0348,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0349,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0350,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0351,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0352,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0353,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0354,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0355,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0356,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0357,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0358,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0359,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0360,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0361,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0362,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0363,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0364,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0365,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0366,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0367,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0368,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0369,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0370,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0371,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0372,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0373,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0374,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0375,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0376,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0377,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0378,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0379,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0380,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0381,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0382,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0383,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0384,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0385,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0386,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0387,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0388,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0389,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0390,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0391,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0392,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0393,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0394,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0395,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0396,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0397,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0398,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0399,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0400,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0401,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0402,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0403,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0404,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0405,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0406,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0407,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0408,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0409,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0410,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0411,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0412,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0413,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0414,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0415,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0416,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0417,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0418,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0419,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0420,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0421,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0422,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0423,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0424,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0425,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0426,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0427,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0428,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0429,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0430,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0431,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0432,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0433,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0434,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0435,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0436,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0437,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0438,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0439,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0440,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0441,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0442,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0443,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0444,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0445,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0446,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0447,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0448,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0449,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0450,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0451,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0452,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0453,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0454,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0455,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0456,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0457,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0458,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0459,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0460,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0461,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0462,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0463,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0464,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0465,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0466,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0467,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0468,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0469,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0470,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0471,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0472,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0473,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0474,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0475,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0476,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0477,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0478,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0479,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0480,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0481,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0482,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0483,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0484,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0485,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0486,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0487,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0488,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0489,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0490,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+AY-0491,ayurveda,Amavata,"A chronic joint disorder in Ayurveda caused by the accumulation of ama and vata, similar to rheumatoid arthritis.",Amavata;Amavata ayurveda;Amavata disease
+AY-0492,ayurveda,Sandhivata,"A degenerative condition of the joints in Ayurveda, often compared with osteoarthritis.",Sandhivata;Sandhivata ayurveda;Sandhivata disease
+AY-0493,ayurveda,Jwara,A category of fevers in Ayurveda caused by imbalance of doshas.,Jwara;Jwara ayurveda;Jwara disease
+AY-0494,ayurveda,Pandu,"An anemic condition described in Ayurveda, characterized by paleness and weakness.",Pandu;Pandu ayurveda;Pandu disease
+AY-0495,ayurveda,Kasa,"Respiratory condition in Ayurveda, often referring to chronic cough.",Kasa;Kasa ayurveda;Kasa disease
+AY-0496,ayurveda,Prameha,"A metabolic disorder in Ayurveda, broadly linked with diabetes mellitus.",Prameha;Prameha ayurveda;Prameha disease
+AY-0497,ayurveda,Arsha,Condition of piles or hemorrhoids described in Ayurveda.,Arsha;Arsha ayurveda;Arsha disease
+AY-0498,ayurveda,Amlapitta,Gastric disorder in Ayurveda involving acid reflux and indigestion.,Amlapitta;Amlapitta ayurveda;Amlapitta disease
+AY-0499,ayurveda,Udara Roga,A group of abdominal diseases categorized in Ayurveda.,Udara Roga;Udara Roga ayurveda;Udara Roga disease
+AY-0500,ayurveda,Shwasa,"Respiratory disorder in Ayurveda, often linked with asthma.",Shwasa;Shwasa ayurveda;Shwasa disease
+SD-0001,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0002,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0003,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0004,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0005,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0006,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0007,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0008,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0009,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0010,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0011,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0012,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0013,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0014,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0015,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0016,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0017,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0018,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0019,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0020,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0021,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0022,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0023,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0024,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0025,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0026,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0027,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0028,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0029,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0030,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0031,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0032,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0033,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0034,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0035,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0036,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0037,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0038,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0039,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0040,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0041,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0042,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0043,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0044,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0045,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0046,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0047,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0048,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0049,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0050,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0051,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0052,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0053,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0054,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0055,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0056,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0057,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0058,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0059,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0060,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0061,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0062,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0063,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0064,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0065,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0066,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0067,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0068,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0069,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0070,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0071,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0072,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0073,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0074,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0075,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0076,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0077,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0078,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0079,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0080,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0081,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0082,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0083,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0084,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0085,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0086,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0087,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0088,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0089,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0090,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0091,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0092,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0093,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0094,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0095,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0096,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0097,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0098,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0099,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0100,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0101,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0102,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0103,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0104,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0105,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0106,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0107,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0108,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0109,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0110,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0111,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0112,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0113,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0114,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0115,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0116,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0117,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0118,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0119,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0120,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0121,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0122,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0123,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0124,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0125,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0126,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0127,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0128,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0129,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0130,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0131,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0132,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0133,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0134,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0135,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0136,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0137,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0138,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0139,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0140,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0141,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0142,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0143,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+SD-0144,siddha,Kuttam,A set of chronic skin diseases described in Siddha.,Kuttam;Kuttam siddha;Kuttam disorder
+SD-0145,siddha,Sanni Noi,Convulsive disorders in Siddha tradition.,Sanni Noi;Sanni Noi siddha;Sanni Noi disorder
+SD-0146,siddha,Pitham Noi,A disease due to imbalance of pitham in Siddha.,Pitham Noi;Pitham Noi siddha;Pitham Noi disorder
+SD-0147,siddha,Thirikai Noi,A condition involving derangement of the three humors in Siddha.,Thirikai Noi;Thirikai Noi siddha;Thirikai Noi disorder
+SD-0148,siddha,Vatha Noi,"A Siddha condition caused by derangement of vatham, leading to stiffness and joint pain.",Vatha Noi;Vatha Noi siddha;Vatha Noi disorder
+SD-0149,siddha,Kaba Suram,"A type of fever in Siddha due to kapha imbalance, often respiratory in nature.",Kaba Suram;Kaba Suram siddha;Kaba Suram disorder
+SD-0150,siddha,Meganoikal,Urinary disorders in Siddha medicine.,Meganoikal;Meganoikal siddha;Meganoikal disorder
+UN-0001,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0002,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0003,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0004,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0005,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0006,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0007,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0008,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0009,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0010,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0011,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0012,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0013,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0014,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0015,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0016,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0017,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0018,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0019,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0020,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0021,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0022,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0023,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0024,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0025,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0026,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0027,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0028,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0029,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0030,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0031,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0032,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0033,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0034,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0035,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0036,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0037,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0038,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0039,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0040,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0041,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0042,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0043,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0044,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0045,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0046,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0047,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0048,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0049,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0050,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0051,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0052,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0053,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0054,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0055,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0056,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0057,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0058,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0059,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0060,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0061,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0062,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0063,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0064,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0065,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0066,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0067,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0068,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0069,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0070,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0071,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0072,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0073,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0074,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0075,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0076,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0077,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0078,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0079,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0080,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0081,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0082,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0083,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0084,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0085,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0086,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0087,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0088,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0089,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0090,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0091,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0092,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0093,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0094,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0095,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0096,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0097,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0098,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0099,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0100,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0101,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0102,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0103,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0104,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0105,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0106,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0107,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0108,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0109,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0110,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0111,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0112,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0113,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0114,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0115,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0116,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0117,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0118,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0119,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0120,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0121,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0122,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0123,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0124,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0125,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0126,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0127,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0128,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0129,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0130,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0131,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0132,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0133,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0134,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0135,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0136,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0137,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0138,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0139,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0140,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0141,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0142,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0143,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+UN-0144,unani,Ishaal,"A gastrointestinal disorder in Unani, referring to diarrhea.",Ishaal;Ishaal unani;Ishaal illness
+UN-0145,unani,Amraz-e-jild,Unani category for skin diseases.,Amraz-e-jild;Amraz-e-jild unani;Amraz-e-jild illness
+UN-0146,unani,Sual,A chronic cough condition in Unani.,Sual;Sual unani;Sual illness
+UN-0147,unani,Humma Balghami,A phlegmatic fever described in Unani medicine.,Humma Balghami;Humma Balghami unani;Humma Balghami illness
+UN-0148,unani,Zukam,"Common cold in Unani medicine, presenting with sneezing and nasal discharge.",Zukam;Zukam unani;Zukam illness
+UN-0149,unani,Hummiyat,General term for fevers in Unani system.,Hummiyat;Hummiyat unani;Hummiyat illness
+UN-0150,unani,Nazla,"A respiratory condition in Unani, associated with rhinitis.",Nazla;Nazla unani;Nazla illness
+YG-0001,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0002,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0003,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0004,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0005,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0006,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0007,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0008,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0009,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0010,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0011,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0012,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0013,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0014,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0015,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0016,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0017,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0018,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0019,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0020,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0021,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0022,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0023,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0024,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0025,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0026,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0027,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0028,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0029,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0030,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0031,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0032,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0033,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0034,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0035,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0036,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0037,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0038,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0039,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0040,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0041,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0042,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0043,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0044,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0045,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0046,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0047,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0048,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0049,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0050,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0051,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0052,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0053,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0054,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0055,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0056,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0057,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0058,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0059,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0060,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0061,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0062,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0063,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0064,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0065,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0066,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0067,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0068,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0069,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0070,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0071,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0072,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0073,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0074,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0075,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0076,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0077,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0078,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0079,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0080,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0081,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0082,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0083,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0084,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0085,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0086,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0087,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0088,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0089,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0090,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0091,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0092,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0093,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0094,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+YG-0095,yoga,Bhujangasana,Cobra pose in Yoga used to strengthen the spine and improve flexibility.,Bhujangasana;Bhujangasana yoga;Bhujangasana therapy
+YG-0096,yoga,Shavasana,Corpse pose in Yoga practiced for relaxation and recovery.,Shavasana;Shavasana yoga;Shavasana therapy
+YG-0097,yoga,Pranayama Therapy,Controlled breathing practice in Yoga used for respiratory disorders and stress management.,Pranayama Therapy;Pranayama Therapy yoga;Pranayama Therapy therapy
+YG-0098,yoga,Surya Namaskar,A series of yoga postures performed to improve flexibility and manage obesity.,Surya Namaskar;Surya Namaskar yoga;Surya Namaskar therapy
+YG-0099,yoga,Yoga Nidra,A deep relaxation technique in Yoga helpful for anxiety and insomnia.,Yoga Nidra;Yoga Nidra yoga;Yoga Nidra therapy
+YG-0100,yoga,Dhyana Meditation,Meditative practice in Yoga aimed at mental focus and stress relief.,Dhyana Meditation;Dhyana Meditation yoga;Dhyana Meditation therapy
+HM-0001,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0002,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0003,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0004,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0005,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0006,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0007,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0008,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0009,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0010,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0011,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0012,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0013,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0014,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0015,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0016,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0017,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0018,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0019,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0020,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0021,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0022,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0023,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0024,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0025,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0026,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0027,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0028,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0029,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0030,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0031,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0032,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0033,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0034,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0035,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0036,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0037,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0038,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0039,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0040,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0041,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0042,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0043,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0044,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0045,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0046,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0047,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0048,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0049,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0050,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0051,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0052,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0053,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0054,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0055,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0056,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0057,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0058,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0059,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0060,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0061,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0062,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0063,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0064,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0065,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0066,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0067,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0068,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0069,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0070,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0071,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0072,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0073,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0074,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0075,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0076,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0077,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0078,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0079,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0080,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0081,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0082,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0083,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0084,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0085,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0086,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0087,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0088,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0089,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0090,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0091,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0092,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0093,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy
+HM-0094,homeopathy,Nux Vomica,"A homeopathic medicine used for digestive problems, nausea, and headaches.",Nux Vomica;Nux Vomica homeopathy;Nux Vomica remedy
+HM-0095,homeopathy,Bryonia,"A remedy used in Homeopathy for joint pain, dry cough, and headaches.",Bryonia;Bryonia homeopathy;Bryonia remedy
+HM-0096,homeopathy,Pulsatilla,"A remedy in Homeopathy used for colds, coughs, and conditions with shifting symptoms.",Pulsatilla;Pulsatilla homeopathy;Pulsatilla remedy
+HM-0097,homeopathy,Rhus Toxicodendron,A homeopathic remedy prescribed for rheumatic pains and stiffness.,Rhus Toxicodendron;Rhus Toxicodendron homeopathy;Rhus Toxicodendron remedy
+HM-0098,homeopathy,Sulphur,A remedy in Homeopathy used for chronic skin conditions like eczema and itching.,Sulphur;Sulphur homeopathy;Sulphur remedy
+HM-0099,homeopathy,Arnica Montana,"A widely used homeopathic remedy for trauma, bruises, and injuries.",Arnica Montana;Arnica Montana homeopathy;Arnica Montana remedy
+HM-0100,homeopathy,Belladonna,A remedy in Homeopathy often prescribed for sudden high fevers and inflammation.,Belladonna;Belladonna homeopathy;Belladonna remedy

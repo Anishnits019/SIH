@@ -1,0 +1,1 @@
+export default function JsonCard({ title, data }){return(<div className="card"><div className="flex items-center justify-between"><h3 className="font-semibold text-gray-800">{title}</h3></div><pre className="mt-2 text-xs bg-gray-50 rounded-xl p-3 overflow-auto">{JSON.stringify(data,null,2)}</pre></div>)}

@@ -1,0 +1,27 @@
+{
+  "name": "sih-terminology-backend-esm-full",
+  "version": "1.1.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node BackEnd/config/seed.js",
+    "build:cs:all": "node scripts/build-codesystem.js --in data/namaste_mock_1000_detailed.csv --out out --version 2025.09 --publisher \"Team Namaste, SIH 2025\"",
+    "cm:auto": "node scripts/build-conceptmaps-from-codesystem.js --in out/codesystem --out out/conceptmaps --limit 3 --max 0"
+  },
+  
+  "dependencies": {
+    "cors": "^2.8.5",
+    "axios": "^1.7.7",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
