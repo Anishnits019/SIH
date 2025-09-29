@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-unani-all",
+  "url": "https://yourgithubusername.github.io/namaste-fhir/ValueSet/vs-unani-all",
+  "version": "2025.09",
+  "name": "AllUnaniDisordersVS",
+  "title": "ValueSet - All NAMASTE Unani Disorders",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Team Namaste, SIH 2025",
+  "date": "2025-09-29",
+  "description": "This ValueSet includes all unani disorders from the associated CodeSystem.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-unani"
+      }
+    ]
+  }
+}

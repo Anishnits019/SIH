@@ -1,0 +1,1659 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "namaste-ayurveda-to-icd11",
+  "url": "https://yourgithubusername.github.io/namaste-fhir/ConceptMap/namaste-ayurveda-to-icd11",
+  "version": "2025.09",
+  "name": "NamasteAyurvedaToICD11",
+  "title": "ConceptMap: NAMASTE Ayurveda → ICD-11",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Team Namaste, SIH 2025",
+  "date": "2025-09-29",
+  "description": "Mapping between NAMASTE Ayurveda codes and ICD-11 MMS (TM2 where provided).",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <h2>ConceptMap: Ayurveda → ICD-11 (MMS & TM2)</h2>\n  <p>Auto-generated from uploaded CSV. Source system is NAMASTE/ayurveda. Targets are ICD-11 MMS and ICD-11 TM2 in separate groups (FHIR R4).</p>\n  <p><b>Total elements:</b> MMS=114, TM2=34</p>\n  <table border=\"1\">\n    <thead><tr><th>NAMASTE</th><th>Name</th><th>MMS</th><th>TM2</th></tr></thead>\n    <tbody><tr><td>EC-3</td><td>Jwara</td><td>MG26</td><td>SP51</td></tr><tr><td>EC-3.2</td><td>Vataja Jwara</td><td>MG26</td><td>SP54</td></tr><tr><td>EC-3.3</td><td>Pittaja Jwara</td><td>MG26</td><td>SP53</td></tr><tr><td>EC-3.4</td><td>Kaphaja Jwara</td><td>MG26</td><td>SP52</td></tr><tr><td>EC-3.8</td><td>Sannipataja Jwara</td><td>MG26</td><td>SP56</td></tr><tr><td>EC-3.8.25</td><td>Visama Jwara</td><td>1A25</td><td>SP57</td></tr><tr><td>EC-3.8.24</td><td>Aupasargika Jwara</td><td>1C1Z</td><td>SP59</td></tr><tr><td>EA-3</td><td>Kasa</td><td>MD12</td><td>SL41</td></tr><tr><td>EA-3.2</td><td>Vataja Kasa</td><td>MD12</td><td>SL41</td></tr><tr><td>EA-3.3</td><td>Pittaja Kasa</td><td>MD12</td><td>SL41</td></tr><tr><td>EA-3.4</td><td>Kaphaja Kasa</td><td>MD12</td><td>SL41</td></tr><tr><td>EA-3.5</td><td>Ksataja Kasa</td><td>MD12</td><td>SL41</td></tr></tbody>\n  </table>\n</div>"
+  },
+  "group": [
+    {
+      "source": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-ayurveda",
+      "target": "http://id.who.int/icd/release/11/mms",
+      "element": [
+        {
+          "code": "EC-3",
+          "display": "Jwara",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.2",
+          "display": "Vataja Jwara",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Vata-type Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.3",
+          "display": "Pittaja Jwara",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Pitta-type Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.4",
+          "display": "Kaphaja Jwara",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Kapha-type Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.8",
+          "display": "Sannipataja Jwara",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Tridoshic Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.8.25",
+          "display": "Visama Jwara",
+          "target": [
+            {
+              "code": "1A25",
+              "equivalence": "relatedto",
+              "display": "Intermittent Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.8.24",
+          "display": "Aupasargika Jwara",
+          "target": [
+            {
+              "code": "1C1Z",
+              "equivalence": "relatedto",
+              "display": "Infective Fever"
+            }
+          ]
+        },
+        {
+          "code": "EA-3",
+          "display": "Kasa",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.2",
+          "display": "Vataja Kasa",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Vata-type Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.3",
+          "display": "Pittaja Kasa",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Pitta-type Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.4",
+          "display": "Kaphaja Kasa",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Kapha-type Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.5",
+          "display": "Ksataja Kasa",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Traumatic Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.6",
+          "display": "Ksayaja Kasa",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Wasting-related Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-4",
+          "display": "Svasa",
+          "target": [
+            {
+              "code": "MD11.5",
+              "equivalence": "relatedto",
+              "display": "Dyspnoea"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.5",
+          "display": "Tamaka Svasa",
+          "target": [
+            {
+              "code": "CA23.3",
+              "equivalence": "relatedto",
+              "display": "Asthma"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.6",
+          "display": "Ksudra Svasa",
+          "target": [
+            {
+              "code": "MD11.5",
+              "equivalence": "relatedto",
+              "display": "Mild Dyspnoea"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.2",
+          "display": "Maha Svasa",
+          "target": [
+            {
+              "code": "MD11.5",
+              "equivalence": "relatedto",
+              "display": "Severe Dyspnoea"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.3",
+          "display": "Urdhva Svasa",
+          "target": [
+            {
+              "code": "MD11.5",
+              "equivalence": "relatedto",
+              "display": "Expiratory Dyspnoea"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.4",
+          "display": "Chinna Svasa",
+          "target": [
+            {
+              "code": "MD11.5",
+              "equivalence": "relatedto",
+              "display": "Interrupted Breathing"
+            }
+          ]
+        },
+        {
+          "code": "I-1",
+          "display": "Pratishyaya",
+          "target": [
+            {
+              "code": "CA04",
+              "equivalence": "relatedto",
+              "display": "Rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "I-1.x",
+          "display": "Dushta Pratishyaya",
+          "target": [
+            {
+              "code": "CA01.1Z",
+              "equivalence": "relatedto",
+              "display": "Chronic Sinusitis"
+            }
+          ]
+        },
+        {
+          "code": "I-1.sub",
+          "display": "Pinasa",
+          "target": [
+            {
+              "code": "CA09.0",
+              "equivalence": "relatedto",
+              "display": "Chronic Rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Kanthashula",
+          "display": "Kanthashula",
+          "target": [
+            {
+              "code": "CA02",
+              "equivalence": "relatedto",
+              "display": "Sore Throat"
+            }
+          ]
+        },
+        {
+          "code": "EA-5",
+          "display": "Svarabheda",
+          "target": [
+            {
+              "code": "MK20.2",
+              "equivalence": "relatedto",
+              "display": "Hoarseness"
+            }
+          ]
+        },
+        {
+          "code": "EB-3",
+          "display": "Ajirna",
+          "target": [
+            {
+              "code": "DA44",
+              "equivalence": "relatedto",
+              "display": "Indigestion (Dyspepsia)"
+            }
+          ]
+        },
+        {
+          "code": "DB-1",
+          "display": "Agnimandya",
+          "target": [
+            {
+              "code": "DD27",
+              "equivalence": "relatedto",
+              "display": "Weak Digestion"
+            }
+          ]
+        },
+        {
+          "code": "EB-5",
+          "display": "Aruci",
+          "target": [
+            {
+              "code": "MD13.1",
+              "equivalence": "relatedto",
+              "display": "Loss of Appetite"
+            }
+          ]
+        },
+        {
+          "code": "EB-2.15",
+          "display": "Alasaka",
+          "target": [
+            {
+              "code": "DD90",
+              "equivalence": "relatedto",
+              "display": "Intestinal Atony/Ileus"
+            }
+          ]
+        },
+        {
+          "code": "EB-3.7",
+          "display": "Visuchika",
+          "target": [
+            {
+              "code": "1A20",
+              "equivalence": "relatedto",
+              "display": "Acute Gastroenteritis"
+            }
+          ]
+        },
+        {
+          "code": "EB-2",
+          "display": "Atisara",
+          "target": [
+            {
+              "code": "ME05.1",
+              "equivalence": "relatedto",
+              "display": "Diarrhoea"
+            }
+          ]
+        },
+        {
+          "code": "EB-2.13",
+          "display": "Pravahika",
+          "target": [
+            {
+              "code": "1A23",
+              "equivalence": "relatedto",
+              "display": "Dysentery"
+            }
+          ]
+        },
+        {
+          "code": "EB-7",
+          "display": "Grahani",
+          "target": [
+            {
+              "code": "DA87.0",
+              "equivalence": "relatedto",
+              "display": "Malabsorption Syndrome"
+            }
+          ]
+        },
+        {
+          "code": "AAB-17",
+          "display": "Udavarta",
+          "target": [
+            {
+              "code": "DD12.3",
+              "equivalence": "relatedto",
+              "display": "Reverse Peristalsis"
+            }
+          ]
+        },
+        {
+          "code": "EB-4",
+          "display": "Amlapitta",
+          "target": [
+            {
+              "code": "DA22.0",
+              "equivalence": "relatedto",
+              "display": "GERD/Acid Dyspepsia"
+            }
+          ]
+        },
+        {
+          "code": "EA-2",
+          "display": "Hikka",
+          "target": [
+            {
+              "code": "MD13.3",
+              "equivalence": "relatedto",
+              "display": "Hiccup"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Chardi",
+          "display": "Chardi",
+          "target": [
+            {
+              "code": "MD58.Z",
+              "equivalence": "relatedto",
+              "display": "Vomiting"
+            }
+          ]
+        },
+        {
+          "code": "EB-10",
+          "display": "Shula",
+          "target": [
+            {
+              "code": "MD81.2",
+              "equivalence": "relatedto",
+              "display": "Colic/Abdominal Pain"
+            }
+          ]
+        },
+        {
+          "code": "EB-10.16",
+          "display": "Parinama Shula",
+          "target": [
+            {
+              "code": "DA61.1",
+              "equivalence": "relatedto",
+              "display": "Duodenal Ulcer Pain"
+            }
+          ]
+        },
+        {
+          "code": "EK-4",
+          "display": "Gulma",
+          "target": [
+            {
+              "code": "DB94.Z",
+              "equivalence": "relatedto",
+              "display": "Abdominal Mass"
+            }
+          ]
+        },
+        {
+          "code": "EK-*",
+          "display": "Jalodara",
+          "target": [
+            {
+              "code": "ME04",
+              "equivalence": "relatedto",
+              "display": "Ascites"
+            }
+          ]
+        },
+        {
+          "code": "ED-12",
+          "display": "Plihodara",
+          "target": [
+            {
+              "code": "DB94.1",
+              "equivalence": "relatedto",
+              "display": "Splenomegaly"
+            }
+          ]
+        },
+        {
+          "code": "ED-12.5",
+          "display": "Yakrtodara",
+          "target": [
+            {
+              "code": "DB94.0",
+              "equivalence": "relatedto",
+              "display": "Hepatomegaly"
+            }
+          ]
+        },
+        {
+          "code": "EC-5",
+          "display": "Pandu",
+          "target": [
+            {
+              "code": "3A00.Z",
+              "equivalence": "relatedto",
+              "display": "Iron Deficiency Anaemia"
+            }
+          ]
+        },
+        {
+          "code": "EC-*",
+          "display": "Kamala",
+          "target": [
+            {
+              "code": "ME10.1",
+              "equivalence": "relatedto",
+              "display": "Jaundice"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Kumbhakamala",
+          "display": "Kumbhakamala",
+          "target": [
+            {
+              "code": "DB97.Z",
+              "equivalence": "relatedto",
+              "display": "Chronic Jaundice (Cirrhotic)"
+            }
+          ]
+        },
+        {
+          "code": "ED-7",
+          "display": "Raktapitta",
+          "target": [
+            {
+              "code": "4B00.Z",
+              "equivalence": "relatedto",
+              "display": "Bleeding Disorder"
+            }
+          ]
+        },
+        {
+          "code": "EK-3",
+          "display": "Shotha",
+          "target": [
+            {
+              "code": "MG29.Z",
+              "equivalence": "relatedto",
+              "display": "Oedema"
+            }
+          ]
+        },
+        {
+          "code": "ED-9",
+          "display": "Vidradhi",
+          "target": [
+            {
+              "code": "1G80.0",
+              "equivalence": "relatedto",
+              "display": "Abscess"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Vrana",
+          "display": "Vrana",
+          "target": [
+            {
+              "code": "NF01",
+              "equivalence": "relatedto",
+              "display": "Ulcer/Wound"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Dusta_Vrana",
+          "display": "Dusta Vrana",
+          "target": [
+            {
+              "code": "NF01.3",
+              "equivalence": "relatedto",
+              "display": "Chronic Non-healing Ulcer"
+            }
+          ]
+        },
+        {
+          "code": "EE-4",
+          "display": "Granthi",
+          "target": [
+            {
+              "code": "2F80",
+              "equivalence": "relatedto",
+              "display": "Benign Cystic Swelling"
+            }
+          ]
+        },
+        {
+          "code": "EE-2",
+          "display": "Arbuda",
+          "target": [
+            {
+              "code": "2C80.Z",
+              "equivalence": "relatedto",
+              "display": "Tumor/Neoplasm"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Apachi",
+          "display": "Apachi",
+          "target": [
+            {
+              "code": "1B20.1",
+              "equivalence": "relatedto",
+              "display": "Tuberculous Lymphadenitis"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Galaganda",
+          "display": "Galaganda",
+          "target": [
+            {
+              "code": "5A00",
+              "equivalence": "relatedto",
+              "display": "Goitre"
+            }
+          ]
+        },
+        {
+          "code": "ED-13",
+          "display": "Slipada",
+          "target": [
+            {
+              "code": "4B83.0",
+              "equivalence": "relatedto",
+              "display": "Elephantiasis"
+            }
+          ]
+        },
+        {
+          "code": "ED-4",
+          "display": "Kustha",
+          "target": [
+            {
+              "code": "1B20",
+              "equivalence": "relatedto",
+              "display": "Leprosy / Skin Disorders"
+            }
+          ]
+        },
+        {
+          "code": "ED-4.4",
+          "display": "Mahakustha",
+          "target": [
+            {
+              "code": "1B20.3",
+              "equivalence": "relatedto",
+              "display": "Major Leprosy"
+            }
+          ]
+        },
+        {
+          "code": "ED-5",
+          "display": "Svitra",
+          "target": [
+            {
+              "code": "ED63.0",
+              "equivalence": "relatedto",
+              "display": "Vitiligo"
+            }
+          ]
+        },
+        {
+          "code": "ED-4.3.3",
+          "display": "Kitibha",
+          "target": [
+            {
+              "code": "EA90.Z",
+              "equivalence": "relatedto",
+              "display": "Psoriasis"
+            }
+          ]
+        },
+        {
+          "code": "ED-4.3.6",
+          "display": "Dadru",
+          "target": [
+            {
+              "code": "1F20",
+              "equivalence": "relatedto",
+              "display": "Dermatophytosis (Tinea)"
+            }
+          ]
+        },
+        {
+          "code": "ED-4.3.8",
+          "display": "Pama",
+          "target": [
+            {
+              "code": "1F51",
+              "equivalence": "relatedto",
+              "display": "Scabies"
+            }
+          ]
+        },
+        {
+          "code": "ED-2.2",
+          "display": "Kandu",
+          "target": [
+            {
+              "code": "4A80.Y",
+              "equivalence": "relatedto",
+              "display": "Pruritus"
+            }
+          ]
+        },
+        {
+          "code": "ED-4.3.7",
+          "display": "Carmadala",
+          "target": [
+            {
+              "code": "ED90",
+              "equivalence": "relatedto",
+              "display": "Urticaria (Hives)"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Mukhadushika",
+          "display": "Mukhadushika",
+          "target": [
+            {
+              "code": "ED80",
+              "equivalence": "relatedto",
+              "display": "Acne vulgaris"
+            }
+          ]
+        },
+        {
+          "code": "ED-6",
+          "display": "Masurika",
+          "target": [
+            {
+              "code": "1D53",
+              "equivalence": "relatedto",
+              "display": "Pox-like Eruptions"
+            }
+          ]
+        },
+        {
+          "code": "ED-2.9",
+          "display": "Pidaka",
+          "target": [
+            {
+              "code": "1G80.1",
+              "equivalence": "relatedto",
+              "display": "Boils/Furuncles"
+            }
+          ]
+        },
+        {
+          "code": "H-*",
+          "display": "Netra Abhishyanda",
+          "target": [
+            {
+              "code": "9A84",
+              "equivalence": "relatedto",
+              "display": "Conjunctivitis"
+            }
+          ]
+        },
+        {
+          "code": "H-*.v",
+          "display": "Vataja Abhishyanda",
+          "target": [
+            {
+              "code": "9A84",
+              "equivalence": "relatedto",
+              "display": "Vata-type Conjunctivitis"
+            }
+          ]
+        },
+        {
+          "code": "H-*.p",
+          "display": "Pittaja Abhishyanda",
+          "target": [
+            {
+              "code": "9A84",
+              "equivalence": "relatedto",
+              "display": "Pitta-type Conjunctivitis"
+            }
+          ]
+        },
+        {
+          "code": "H-*.k",
+          "display": "Kaphaja Abhishyanda",
+          "target": [
+            {
+              "code": "9A81",
+              "equivalence": "relatedto",
+              "display": "Kapha-type Conjunctivitis"
+            }
+          ]
+        },
+        {
+          "code": "H-*.s",
+          "display": "Sannipata Abhishyanda",
+          "target": [
+            {
+              "code": "9A8Z",
+              "equivalence": "relatedto",
+              "display": "Mixed Conjunctivitis"
+            }
+          ]
+        },
+        {
+          "code": "HG-1",
+          "display": "Adhimantha",
+          "target": [
+            {
+              "code": "9C61.0",
+              "equivalence": "relatedto",
+              "display": "Acute Angle-closure Glaucoma (like)"
+            }
+          ]
+        },
+        {
+          "code": "HG-1.*",
+          "display": "Timira",
+          "target": [
+            {
+              "code": "9D91.3",
+              "equivalence": "relatedto",
+              "display": "Refractive Error / Early Cataract"
+            }
+          ]
+        },
+        {
+          "code": "HG-1.sub",
+          "display": "Kaca",
+          "target": [
+            {
+              "code": "9B10.0",
+              "equivalence": "relatedto",
+              "display": "Early Cataract"
+            }
+          ]
+        },
+        {
+          "code": "HG-1.11",
+          "display": "Linganasha",
+          "target": [
+            {
+              "code": "9D80",
+              "equivalence": "relatedto",
+              "display": "Blindness (Advanced Cataract)"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Arma",
+          "display": "Arma",
+          "target": [
+            {
+              "code": "9A92.0",
+              "equivalence": "relatedto",
+              "display": "Pterygium"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Krimigranthi_(Netra)",
+          "display": "Krimigranthi (Netra)",
+          "target": [
+            {
+              "code": "1F44",
+              "equivalence": "relatedto",
+              "display": "Ocular Parasitic Granuloma"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Sirashula",
+          "display": "Sirashula",
+          "target": [
+            {
+              "code": "MB20.Z",
+              "equivalence": "relatedto",
+              "display": "Headache"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Ardhavabhedaka",
+          "display": "Ardhavabhedaka",
+          "target": [
+            {
+              "code": "8A80",
+              "equivalence": "relatedto",
+              "display": "Migraine"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Bhrama",
+          "display": "Bhrama",
+          "target": [
+            {
+              "code": "MB48.Z",
+              "equivalence": "relatedto",
+              "display": "Vertigo/Dizziness"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Murcha",
+          "display": "Murcha",
+          "target": [
+            {
+              "code": "MB26.0",
+              "equivalence": "relatedto",
+              "display": "Syncope"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Apasmara",
+          "display": "Apasmara",
+          "target": [
+            {
+              "code": "8A60",
+              "equivalence": "relatedto",
+              "display": "Epilepsy"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Unmada",
+          "display": "Unmada",
+          "target": [
+            {
+              "code": "6A40",
+              "equivalence": "relatedto",
+              "display": "Psychosis/Mania"
+            }
+          ]
+        },
+        {
+          "code": "ED-2.8",
+          "display": "Anidra",
+          "target": [
+            {
+              "code": "7A0Z",
+              "equivalence": "relatedto",
+              "display": "Insomnia"
+            }
+          ]
+        },
+        {
+          "code": "ED-2.8",
+          "display": "Nidranasha",
+          "target": [
+            {
+              "code": "MB2A",
+              "equivalence": "relatedto",
+              "display": "Sleep Disturbance"
+            }
+          ]
+        },
+        {
+          "code": "EI-2",
+          "display": "Klaibya",
+          "target": [
+            {
+              "code": "GA30",
+              "equivalence": "relatedto",
+              "display": "Erectile Dysfunction"
+            }
+          ]
+        },
+        {
+          "code": "EI-2.7.4",
+          "display": "Shukra Kshaya",
+          "target": [
+            {
+              "code": "GA20.2",
+              "equivalence": "relatedto",
+              "display": "Oligospermia"
+            }
+          ]
+        },
+        {
+          "code": "EF-2.2.6",
+          "display": "Shukrameha",
+          "target": [
+            {
+              "code": "GA20.Y",
+              "equivalence": "relatedto",
+              "display": "Spermatorrhea"
+            }
+          ]
+        },
+        {
+          "code": "CA-*",
+          "display": "Mutrakricchra",
+          "target": [
+            {
+              "code": "MB30.1",
+              "equivalence": "relatedto",
+              "display": "Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "CA-*.v",
+          "display": "Vatika Mutrakricchra",
+          "target": [
+            {
+              "code": "MB30.1",
+              "equivalence": "relatedto",
+              "display": "Vata-type Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "CA-*.p",
+          "display": "Pittaja Mutrakricchra",
+          "target": [
+            {
+              "code": "MB30.1",
+              "equivalence": "relatedto",
+              "display": "Pitta-type Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "CA-*.k",
+          "display": "Kaphaja Mutrakricchra",
+          "target": [
+            {
+              "code": "MB30.1",
+              "equivalence": "relatedto",
+              "display": "Kapha-type Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "CA-*.s",
+          "display": "Sannipata Mutrakricchra",
+          "target": [
+            {
+              "code": "MB30.1",
+              "equivalence": "relatedto",
+              "display": "Mixed-type Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Mutraghata",
+          "display": "Mutraghata",
+          "target": [
+            {
+              "code": "GC20",
+              "equivalence": "relatedto",
+              "display": "Urinary Retention"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Vatakundalika",
+          "display": "Vatakundalika",
+          "target": [
+            {
+              "code": "GC20.1",
+              "equivalence": "relatedto",
+              "display": "Urethral Spasm/Stricture (like)"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Mutrashmari",
+          "display": "Mutrashmari",
+          "target": [
+            {
+              "code": "GB60",
+              "equivalence": "relatedto",
+              "display": "Urinary Calculus"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Vataja_Ashmari",
+          "display": "Vataja Ashmari",
+          "target": [
+            {
+              "code": "GB60",
+              "equivalence": "relatedto",
+              "display": "Vata-type Calculus"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Pittaja_Ashmari",
+          "display": "Pittaja Ashmari",
+          "target": [
+            {
+              "code": "GB60",
+              "equivalence": "relatedto",
+              "display": "Pitta-type Calculus"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Kaphaja_Ashmari",
+          "display": "Kaphaja Ashmari",
+          "target": [
+            {
+              "code": "GB60",
+              "equivalence": "relatedto",
+              "display": "Kapha-type Calculus"
+            }
+          ]
+        },
+        {
+          "code": "EF-2",
+          "display": "Prameha",
+          "target": [
+            {
+              "code": "5A20",
+              "equivalence": "relatedto",
+              "display": "Polyuria/Metabolic Syndrome"
+            }
+          ]
+        },
+        {
+          "code": "EF-2.4.4",
+          "display": "Madhumeha",
+          "target": [
+            {
+              "code": "5A11",
+              "equivalence": "relatedto",
+              "display": "Type 2 Diabetes Mellitus"
+            }
+          ]
+        },
+        {
+          "code": "EF-3",
+          "display": "Sthaulya",
+          "target": [
+            {
+              "code": "5B81",
+              "equivalence": "relatedto",
+              "display": "Obesity"
+            }
+          ]
+        },
+        {
+          "code": "EF-3",
+          "display": "Medoroga",
+          "target": [
+            {
+              "code": "5C50",
+              "equivalence": "relatedto",
+              "display": "Dyslipidaemia/Adiposity"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Karshya",
+          "display": "Karshya",
+          "target": [
+            {
+              "code": "5B90",
+              "equivalence": "relatedto",
+              "display": "Underweight/Emaciation"
+            }
+          ]
+        },
+        {
+          "code": "BI",
+          "display": "Rajayakshma",
+          "target": [
+            {
+              "code": "1B10",
+              "equivalence": "relatedto",
+              "display": "Pulmonary Tuberculosis"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Ksaya_Roga",
+          "display": "Ksaya Roga",
+          "target": [
+            {
+              "code": "5B91",
+              "equivalence": "relatedto",
+              "display": "Cachexia (Wasting)"
+            }
+          ]
+        },
+        {
+          "code": "AAB-18",
+          "display": "Katigraha",
+          "target": [
+            {
+              "code": "FA50",
+              "equivalence": "relatedto",
+              "display": "Low Back Pain"
+            }
+          ]
+        },
+        {
+          "code": "AAC-32",
+          "display": "Manyastambha",
+          "target": [
+            {
+              "code": "FA01.0",
+              "equivalence": "relatedto",
+              "display": "Torticollis/Cervical Spondylosis"
+            }
+          ]
+        },
+        {
+          "code": "AAB-33",
+          "display": "Visvachi",
+          "target": [
+            {
+              "code": "8B93.0",
+              "equivalence": "relatedto",
+              "display": "Cervico-brachial Neuralgia"
+            }
+          ]
+        },
+        {
+          "code": "AAC-8",
+          "display": "Avabahuka",
+          "target": [
+            {
+              "code": "FA03.0",
+              "equivalence": "relatedto",
+              "display": "Frozen Shoulder"
+            }
+          ]
+        },
+        {
+          "code": "AAE-16",
+          "display": "Sandhivata",
+          "target": [
+            {
+              "code": "FA26",
+              "equivalence": "relatedto",
+              "display": "Osteoarthritis"
+            }
+          ]
+        },
+        {
+          "code": "EC-6",
+          "display": "Amavata",
+          "target": [
+            {
+              "code": "FA20.00",
+              "equivalence": "relatedto",
+              "display": "Rheumatoid Arthritis-like"
+            }
+          ]
+        },
+        {
+          "code": "ED-8",
+          "display": "Vatarakta",
+          "target": [
+            {
+              "code": "FA20.20",
+              "equivalence": "relatedto",
+              "display": "Gout-like Arthritis"
+            }
+          ]
+        },
+        {
+          "code": "AAB-37",
+          "display": "Gridhrasi",
+          "target": [
+            {
+              "code": "ME84.3",
+              "equivalence": "relatedto",
+              "display": "Sciatica"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-ayurveda",
+      "target": "http://id.who.int/icd/release/11/tm2",
+      "element": [
+        {
+          "code": "EC-3",
+          "display": "Jwara",
+          "target": [
+            {
+              "code": "SP51",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.2",
+          "display": "Vataja Jwara",
+          "target": [
+            {
+              "code": "SP54",
+              "equivalence": "relatedto",
+              "display": "Vata-type Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.3",
+          "display": "Pittaja Jwara",
+          "target": [
+            {
+              "code": "SP53",
+              "equivalence": "relatedto",
+              "display": "Pitta-type Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.4",
+          "display": "Kaphaja Jwara",
+          "target": [
+            {
+              "code": "SP52",
+              "equivalence": "relatedto",
+              "display": "Kapha-type Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.8",
+          "display": "Sannipataja Jwara",
+          "target": [
+            {
+              "code": "SP56",
+              "equivalence": "relatedto",
+              "display": "Tridoshic Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.8.25",
+          "display": "Visama Jwara",
+          "target": [
+            {
+              "code": "SP57",
+              "equivalence": "relatedto",
+              "display": "Intermittent Fever"
+            }
+          ]
+        },
+        {
+          "code": "EC-3.8.24",
+          "display": "Aupasargika Jwara",
+          "target": [
+            {
+              "code": "SP59",
+              "equivalence": "relatedto",
+              "display": "Infective Fever"
+            }
+          ]
+        },
+        {
+          "code": "EA-3",
+          "display": "Kasa",
+          "target": [
+            {
+              "code": "SL41",
+              "equivalence": "relatedto",
+              "display": "Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.2",
+          "display": "Vataja Kasa",
+          "target": [
+            {
+              "code": "SL41",
+              "equivalence": "relatedto",
+              "display": "Vata-type Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.3",
+          "display": "Pittaja Kasa",
+          "target": [
+            {
+              "code": "SL41",
+              "equivalence": "relatedto",
+              "display": "Pitta-type Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.4",
+          "display": "Kaphaja Kasa",
+          "target": [
+            {
+              "code": "SL41",
+              "equivalence": "relatedto",
+              "display": "Kapha-type Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.5",
+          "display": "Ksataja Kasa",
+          "target": [
+            {
+              "code": "SL41",
+              "equivalence": "relatedto",
+              "display": "Traumatic Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-3.6",
+          "display": "Ksayaja Kasa",
+          "target": [
+            {
+              "code": "SL41",
+              "equivalence": "relatedto",
+              "display": "Wasting-related Cough"
+            }
+          ]
+        },
+        {
+          "code": "EA-4",
+          "display": "Svasa",
+          "target": [
+            {
+              "code": "SL42",
+              "equivalence": "relatedto",
+              "display": "Dyspnoea"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.5",
+          "display": "Tamaka Svasa",
+          "target": [
+            {
+              "code": "SL40",
+              "equivalence": "relatedto",
+              "display": "Asthma"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.6",
+          "display": "Ksudra Svasa",
+          "target": [
+            {
+              "code": "SL42",
+              "equivalence": "relatedto",
+              "display": "Mild Dyspnoea"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.2",
+          "display": "Maha Svasa",
+          "target": [
+            {
+              "code": "SL42",
+              "equivalence": "relatedto",
+              "display": "Severe Dyspnoea"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.3",
+          "display": "Urdhva Svasa",
+          "target": [
+            {
+              "code": "SL42",
+              "equivalence": "relatedto",
+              "display": "Expiratory Dyspnoea"
+            }
+          ]
+        },
+        {
+          "code": "EA-4.4",
+          "display": "Chinna Svasa",
+          "target": [
+            {
+              "code": "SL42",
+              "equivalence": "relatedto",
+              "display": "Interrupted Breathing"
+            }
+          ]
+        },
+        {
+          "code": "I-1",
+          "display": "Pratishyaya",
+          "target": [
+            {
+              "code": "SK95",
+              "equivalence": "relatedto",
+              "display": "Rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "I-1.x",
+          "display": "Dushta Pratishyaya",
+          "target": [
+            {
+              "code": "SK99",
+              "equivalence": "relatedto",
+              "display": "Chronic Sinusitis"
+            }
+          ]
+        },
+        {
+          "code": "I-1.sub",
+          "display": "Pinasa",
+          "target": [
+            {
+              "code": "SK95",
+              "equivalence": "relatedto",
+              "display": "Chronic Rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "EA-2",
+          "display": "Hikka",
+          "target": [
+            {
+              "code": "SM74",
+              "equivalence": "relatedto",
+              "display": "Hiccup"
+            }
+          ]
+        },
+        {
+          "code": "ED-7",
+          "display": "Raktapitta",
+          "target": [
+            {
+              "code": "SL81",
+              "equivalence": "relatedto",
+              "display": "Bleeding Disorder"
+            }
+          ]
+        },
+        {
+          "code": "EE-2",
+          "display": "Arbuda",
+          "target": [
+            {
+              "code": "SP72",
+              "equivalence": "relatedto",
+              "display": "Tumor/Neoplasm"
+            }
+          ]
+        },
+        {
+          "code": "AUTO:ayurveda:Galaganda",
+          "display": "Galaganda",
+          "target": [
+            {
+              "code": "SL0Y",
+              "equivalence": "relatedto",
+              "display": "Goitre"
+            }
+          ]
+        },
+        {
+          "code": "EI-2",
+          "display": "Klaibya",
+          "target": [
+            {
+              "code": "SN02",
+              "equivalence": "relatedto",
+              "display": "Erectile Dysfunction"
+            }
+          ]
+        },
+        {
+          "code": "EI-2.7.4",
+          "display": "Shukra Kshaya",
+          "target": [
+            {
+              "code": "SN03",
+              "equivalence": "relatedto",
+              "display": "Oligospermia"
+            }
+          ]
+        },
+        {
+          "code": "CA-*",
+          "display": "Mutrakricchra",
+          "target": [
+            {
+              "code": "SM87",
+              "equivalence": "relatedto",
+              "display": "Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "CA-*.v",
+          "display": "Vatika Mutrakricchra",
+          "target": [
+            {
+              "code": "SM87",
+              "equivalence": "relatedto",
+              "display": "Vata-type Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "CA-*.p",
+          "display": "Pittaja Mutrakricchra",
+          "target": [
+            {
+              "code": "SM87",
+              "equivalence": "relatedto",
+              "display": "Pitta-type Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "CA-*.k",
+          "display": "Kaphaja Mutrakricchra",
+          "target": [
+            {
+              "code": "SM87",
+              "equivalence": "relatedto",
+              "display": "Kapha-type Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "CA-*.s",
+          "display": "Sannipata Mutrakricchra",
+          "target": [
+            {
+              "code": "SM87",
+              "equivalence": "relatedto",
+              "display": "Mixed-type Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "BI",
+          "display": "Rajayakshma",
+          "target": [
+            {
+              "code": "SP5B",
+              "equivalence": "relatedto",
+              "display": "Pulmonary Tuberculosis"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

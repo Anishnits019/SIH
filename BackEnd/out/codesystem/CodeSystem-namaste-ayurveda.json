@@ -1,0 +1,864 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "namaste-ayurveda",
+  "url": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-ayurveda",
+  "version": "2025.09",
+  "name": "NAMASTEAyurvedaTerms",
+  "title": "NAMASTE Ayurveda Terms",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Team Namaste, SIH 2025",
+  "date": "2025-09-29",
+  "description": "Terminology for ayurveda disorders curated from CSV; generated as FHIR CodeSystem.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "EC-3",
+      "display": "Jwara",
+      "definition": "Abnormal elevation of body temperature indicating illness.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EC-3.2",
+      "display": "Vataja Jwara",
+      "definition": "Fever with chills and body aches, Vata-dominant pattern.",
+      "designation": [
+        {
+          "value": "Vata-type Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EC-3.3",
+      "display": "Pittaja Jwara",
+      "definition": "High fever with flushing and burning, Pitta-dominant.",
+      "designation": [
+        {
+          "value": "Pitta-type Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EC-3.4",
+      "display": "Kaphaja Jwara",
+      "definition": "Mild fever with heaviness and catarrh, Kapha-dominant.",
+      "designation": [
+        {
+          "value": "Kapha-type Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EC-3.8",
+      "display": "Sannipataja Jwara",
+      "definition": "Severe fever involving all three doshas.",
+      "designation": [
+        {
+          "value": "Tridoshic Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EC-3.8.25",
+      "display": "Visama Jwara",
+      "definition": "Periodic fever with symptom-free intervals.",
+      "designation": [
+        {
+          "value": "Intermittent Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EC-3.8.24",
+      "display": "Aupasargika Jwara",
+      "definition": "Fever due to contagious/infectious causes.",
+      "designation": [
+        {
+          "value": "Infective Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-3",
+      "display": "Kasa",
+      "definition": "Forceful expulsion of air to clear airways (cough).",
+      "designation": [
+        {
+          "value": "Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-3.2",
+      "display": "Vataja Kasa",
+      "definition": "Dry, spasmodic cough dominated by Vata.",
+      "designation": [
+        {
+          "value": "Vata-type Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-3.3",
+      "display": "Pittaja Kasa",
+      "definition": "Irritative cough with heat/burning, Pitta-dominant.",
+      "designation": [
+        {
+          "value": "Pitta-type Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-3.4",
+      "display": "Kaphaja Kasa",
+      "definition": "Productive cough with mucus, Kapha-dominant.",
+      "designation": [
+        {
+          "value": "Kapha-type Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-3.5",
+      "display": "Ksataja Kasa",
+      "definition": "Cough following chest injury or lung trauma.",
+      "designation": [
+        {
+          "value": "Traumatic Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-3.6",
+      "display": "Ksayaja Kasa",
+      "definition": "Chronic cough associated with emaciation.",
+      "designation": [
+        {
+          "value": "Wasting-related Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-4",
+      "display": "Svasa",
+      "definition": "Breathlessness or difficulty breathing.",
+      "designation": [
+        {
+          "value": "Dyspnoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-4.5",
+      "display": "Tamaka Svasa",
+      "definition": "Chronic inflammatory airway disease with episodic wheeze.",
+      "designation": [
+        {
+          "value": "Asthma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-4.6",
+      "display": "Ksudra Svasa",
+      "definition": "Transient exertional shortness of breath.",
+      "designation": [
+        {
+          "value": "Mild Dyspnoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-4.2",
+      "display": "Maha Svasa",
+      "definition": "Grave breathing difficulty, often orthopnea-like.",
+      "designation": [
+        {
+          "value": "Severe Dyspnoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-4.3",
+      "display": "Urdhva Svasa",
+      "definition": "Breathing out is especially difficult; wheeze.",
+      "designation": [
+        {
+          "value": "Expiratory Dyspnoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-4.4",
+      "display": "Chinna Svasa",
+      "definition": "Broken/irregular respiratory pattern.",
+      "designation": [
+        {
+          "value": "Interrupted Breathing",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "I-1",
+      "display": "Pratishyaya",
+      "definition": "Inflammation of nasal mucosa with sneezing/runny nose.",
+      "designation": [
+        {
+          "value": "Rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "I-1.x",
+      "display": "Dushta Pratishyaya",
+      "definition": "Chronic sinus inflammation with congestion/discharge.",
+      "designation": [
+        {
+          "value": "Chronic Sinusitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "I-1.sub",
+      "display": "Pinasa",
+      "definition": "Long-standing nasal catarrh with mucus.",
+      "designation": [
+        {
+          "value": "Chronic Rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-5",
+      "display": "Svarabheda",
+      "definition": "Altered voice quality (dysphonia/hoarseness).",
+      "designation": [
+        {
+          "value": "Hoarseness",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-3",
+      "display": "Ajirna",
+      "definition": "Upper abdominal discomfort after meals.",
+      "designation": [
+        {
+          "value": "Indigestion (Dyspepsia)",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "DB-1",
+      "display": "Agnimandya",
+      "definition": "Reduced digestive capacity and appetite.",
+      "designation": [
+        {
+          "value": "Weak Digestion",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-5",
+      "display": "Aruci",
+      "definition": "Persistent lack of desire to eat.",
+      "designation": [
+        {
+          "value": "Loss of Appetite",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-2.15",
+      "display": "Alasaka",
+      "definition": "Severe gut dysmotility with obstruction-like features.",
+      "designation": [
+        {
+          "value": "Intestinal Atony/Ileus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-3.7",
+      "display": "Visuchika",
+      "definition": "Acute vomiting and diarrhea (foodborne infection).",
+      "designation": [
+        {
+          "value": "Acute Gastroenteritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-2",
+      "display": "Atisara",
+      "definition": "Frequent loose watery stools.",
+      "designation": [
+        {
+          "value": "Diarrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-2.13",
+      "display": "Pravahika",
+      "definition": "Bloody mucoid diarrhea with tenesmus.",
+      "designation": [
+        {
+          "value": "Dysentery",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-7",
+      "display": "Grahani",
+      "definition": "Chronic malabsorption with weight loss/diarrhea.",
+      "designation": [
+        {
+          "value": "Malabsorption Syndrome",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "AAB-17",
+      "display": "Udavarta",
+      "definition": "Upward movement of gas/contents; belching/bloating.",
+      "designation": [
+        {
+          "value": "Reverse Peristalsis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-4",
+      "display": "Amlapitta",
+      "definition": "Acid reflux with heartburn and sour belching.",
+      "designation": [
+        {
+          "value": "GERD/Acid Dyspepsia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EA-2",
+      "display": "Hikka",
+      "definition": "Involuntary diaphragmatic spasms (singultus).",
+      "designation": [
+        {
+          "value": "Hiccup",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-10",
+      "display": "Shula",
+      "definition": "Severe spasmodic abdominal pain.",
+      "designation": [
+        {
+          "value": "Colic/Abdominal Pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EB-10.16",
+      "display": "Parinama Shula",
+      "definition": "Post-digestive epigastric pain typical of duodenal ulcer.",
+      "designation": [
+        {
+          "value": "Duodenal Ulcer Pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EK-4",
+      "display": "Gulma",
+      "definition": "Palpable intra-abdominal lump/mass.",
+      "designation": [
+        {
+          "value": "Abdominal Mass",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-12",
+      "display": "Plihodara",
+      "definition": "Enlarged spleen causing abdominal fullness.",
+      "designation": [
+        {
+          "value": "Splenomegaly",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-12.5",
+      "display": "Yakrtodara",
+      "definition": "Enlarged liver causing RUQ fullness.",
+      "designation": [
+        {
+          "value": "Hepatomegaly",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EC-5",
+      "display": "Pandu",
+      "definition": "Pallor and fatigue due to low haemoglobin/iron.",
+      "designation": [
+        {
+          "value": "Iron Deficiency Anaemia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-7",
+      "display": "Raktapitta",
+      "definition": "Spontaneous bleeding from multiple sites.",
+      "designation": [
+        {
+          "value": "Bleeding Disorder",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EK-3",
+      "display": "Shotha",
+      "definition": "Swelling due to fluid accumulation.",
+      "designation": [
+        {
+          "value": "Oedema",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-9",
+      "display": "Vidradhi",
+      "definition": "Localized pus collection causing painful swelling.",
+      "designation": [
+        {
+          "value": "Abscess",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EE-4",
+      "display": "Granthi",
+      "definition": "Encapsulated benign nodule/cyst.",
+      "designation": [
+        {
+          "value": "Benign Cystic Swelling",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EE-2",
+      "display": "Arbuda",
+      "definition": "Abnormally growing mass; often malignant.",
+      "designation": [
+        {
+          "value": "Tumor/Neoplasm",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-13",
+      "display": "Slipada",
+      "definition": "Chronic lymphedema due to filariasis.",
+      "designation": [
+        {
+          "value": "Elephantiasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-4",
+      "display": "Kustha",
+      "definition": "Chronic dermatoses; historically includes leprosy.",
+      "designation": [
+        {
+          "value": "Leprosy / Skin Disorders",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-4.4",
+      "display": "Mahakustha",
+      "definition": "Severe multibacillary leprosy forms.",
+      "designation": [
+        {
+          "value": "Major Leprosy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-4.3",
+      "display": "Ksudra Kustha",
+      "definition": "Milder/localized dermatoses.",
+      "designation": [
+        {
+          "value": "Minor Skin Disorders",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-5",
+      "display": "Svitra",
+      "definition": "Acquired depigmentation causing white patches.",
+      "designation": [
+        {
+          "value": "Vitiligo",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-4.3.3",
+      "display": "Kitibha",
+      "definition": "Chronic scaly erythematous plaques.",
+      "designation": [
+        {
+          "value": "Psoriasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-4.3.6",
+      "display": "Dadru",
+      "definition": "Superficial fungal ringworm infection.",
+      "designation": [
+        {
+          "value": "Dermatophytosis (Tinea)",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-4.3.8",
+      "display": "Pama",
+      "definition": "Mite infestation with intense itching.",
+      "designation": [
+        {
+          "value": "Scabies",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-2.2",
+      "display": "Kandu",
+      "definition": "Generalized itching sensation.",
+      "designation": [
+        {
+          "value": "Pruritus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-4.3.7",
+      "display": "Carmadala",
+      "definition": "Transient itchy wheals due to hypersensitivity.",
+      "designation": [
+        {
+          "value": "Urticaria (Hives)",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-6",
+      "display": "Masurika",
+      "definition": "Febrile vesicular exanthem (e.g., varicella).",
+      "designation": [
+        {
+          "value": "Pox-like Eruptions",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-2.9",
+      "display": "Pidaka",
+      "definition": "Painful pus-filled skin lesions from follicles.",
+      "designation": [
+        {
+          "value": "Boils/Furuncles",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "HG-1",
+      "display": "Adhimantha",
+      "definition": "Severe eye pain, redness, vision loss—ocular emergency.",
+      "designation": [
+        {
+          "value": "Acute Angle-closure Glaucoma (like)",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "HG-1.sub",
+      "display": "Kaca",
+      "definition": "Partial lens opacity with cloudy vision.",
+      "designation": [
+        {
+          "value": "Early Cataract",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "HG-1.11",
+      "display": "Linganasha",
+      "definition": "Loss of sight due to mature cataract/other causes.",
+      "designation": [
+        {
+          "value": "Blindness (Advanced Cataract)",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-2.8",
+      "display": "Anidra",
+      "definition": "Difficulty initiating/maintaining sleep.",
+      "designation": [
+        {
+          "value": "Insomnia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EI-2",
+      "display": "Klaibya",
+      "definition": "Inability to maintain erection sufficient for intercourse.",
+      "designation": [
+        {
+          "value": "Erectile Dysfunction",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EI-2.7.4",
+      "display": "Shukra Kshaya",
+      "definition": "Low sperm count leading to subfertility.",
+      "designation": [
+        {
+          "value": "Oligospermia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EF-2.2.6",
+      "display": "Shukrameha",
+      "definition": "Involuntary seminal discharge.",
+      "designation": [
+        {
+          "value": "Spermatorrhea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EF-2",
+      "display": "Prameha",
+      "definition": "Group of disorders with excessive urination and dysmetabolism.",
+      "designation": [
+        {
+          "value": "Polyuria/Metabolic Syndrome",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EF-2.4.4",
+      "display": "Madhumeha",
+      "definition": "Metabolic disease with hyperglycaemia and glycosuria.",
+      "designation": [
+        {
+          "value": "Type 2 Diabetes Mellitus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EF-3",
+      "display": "Sthaulya",
+      "definition": "Excess adiposity with metabolic risk.",
+      "designation": [
+        {
+          "value": "Obesity",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "(None)",
+      "display": "Karshya",
+      "definition": "Malnutrition with low body weight and wasting.",
+      "designation": [
+        {
+          "value": "Underweight/Emaciation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "BI",
+      "display": "Rajayakshma",
+      "definition": "Chronic wasting respiratory TB with cough, fever, weight loss.",
+      "designation": [
+        {
+          "value": "Pulmonary Tuberculosis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "AAB-18",
+      "display": "Katigraha",
+      "definition": "Lumbosacral pain and stiffness.",
+      "designation": [
+        {
+          "value": "Low Back Pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "AAC-32",
+      "display": "Manyastambha",
+      "definition": "Painful neck stiffness due to spasm/degeneration.",
+      "designation": [
+        {
+          "value": "Torticollis/Cervical Spondylosis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "AAB-33",
+      "display": "Visvachi",
+      "definition": "Neck-to-arm radiating neuropathic pain.",
+      "designation": [
+        {
+          "value": "Cervico-brachial Neuralgia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "AAC-8",
+      "display": "Avabahuka",
+      "definition": "Adhesive capsulitis with restricted shoulder movement.",
+      "designation": [
+        {
+          "value": "Frozen Shoulder",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "AAE-16",
+      "display": "Sandhivata",
+      "definition": "Degenerative joint disease with pain and stiffness.",
+      "designation": [
+        {
+          "value": "Osteoarthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "EC-6",
+      "display": "Amavata",
+      "definition": "Inflammatory polyarthritis resembling rheumatoid arthritis.",
+      "designation": [
+        {
+          "value": "Rheumatoid Arthritis-like",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "ED-8",
+      "display": "Vatarakta",
+      "definition": "Acute red painful swelling of joints due to urate deposition.",
+      "designation": [
+        {
+          "value": "Gout-like Arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "AAB-37",
+      "display": "Gridhrasi",
+      "definition": "Low back to leg radiating sciatic nerve pain.",
+      "designation": [
+        {
+          "value": "Sciatica",
+          "language": "en"
+        }
+      ]
+    }
+  ]
+}

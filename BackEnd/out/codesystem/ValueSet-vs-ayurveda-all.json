@@ -1,0 +1,20 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vs-ayurveda-all",
+  "url": "https://yourgithubusername.github.io/namaste-fhir/ValueSet/vs-ayurveda-all",
+  "version": "2025.09",
+  "name": "AllAyurvedaDisordersVS",
+  "title": "ValueSet - All NAMASTE Ayurveda Disorders",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Team Namaste, SIH 2025",
+  "date": "2025-09-29",
+  "description": "This ValueSet includes all ayurveda disorders from the associated CodeSystem.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-ayurveda"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1876 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "namaste-siddha",
+  "url": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-siddha",
+  "version": "2025.09",
+  "name": "NAMASTESiddhaTerms",
+  "title": "NAMASTE Siddha Terms",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Team Namaste, SIH 2025",
+  "date": "2025-09-29",
+  "description": "Terminology for siddha disorders curated from CSV; generated as FHIR CodeSystem.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "SI-0001",
+      "display": "Gunmam",
+      "definition": "Inflammation of the gastric mucosa.",
+      "designation": [
+        {
+          "value": "Gastritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0002",
+      "display": "Akkaram",
+      "definition": "Excess gastric acid with heartburn/regurgitation.",
+      "designation": [
+        {
+          "value": "Hyperacidity",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0003",
+      "display": "Athisaram",
+      "definition": "Diarrhoea: brief clinical description not available.",
+      "designation": [
+        {
+          "value": "Diarrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0004",
+      "display": "Kazhichal",
+      "definition": "Inflammatory diarrhoea with blood and mucus.",
+      "designation": [
+        {
+          "value": "Dysentery",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0005",
+      "display": "Malakattu",
+      "definition": "Infrequent or difficult stool passage.",
+      "designation": [
+        {
+          "value": "Constipation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0006",
+      "display": "Kamalai",
+      "definition": "Yellow discoloration from elevated bilirubin.",
+      "designation": [
+        {
+          "value": "Jaundice",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0007",
+      "display": "Kalleeral Noi",
+      "definition": "Liver disease: brief clinical description not available.",
+      "designation": [
+        {
+          "value": "Liver disease",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0008",
+      "display": "Manneeral Noi",
+      "definition": "Enlarged spleen from infection, congestion, or hematologic disease.",
+      "designation": [
+        {
+          "value": "Splenomegaly",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0009",
+      "display": "Peruvayuru",
+      "definition": "Free intraperitoneal fluid accumulation.",
+      "designation": [
+        {
+          "value": "Ascites",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0010",
+      "display": "Parisa Vali",
+      "definition": "Cramping abdominal pain due to smooth‑muscle spasm.",
+      "designation": [
+        {
+          "value": "Abdominal colic",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0011",
+      "display": "Suram",
+      "definition": "Elevation of body temperature, commonly due to infection or inflammation.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0012",
+      "display": "Kaasam",
+      "definition": "Reflex to clear airways; may be acute or chronic.",
+      "designation": [
+        {
+          "value": "Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0013",
+      "display": "Erumal",
+      "definition": "Cough persisting for eight weeks or more.",
+      "designation": [
+        {
+          "value": "Chronic cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0014",
+      "display": "Eraippu Noi",
+      "definition": "Chronic airway inflammation with variable airflow limitation and wheeze.",
+      "designation": [
+        {
+          "value": "Asthma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0015",
+      "display": "Neer Mookkadaippu",
+      "definition": "IgE‑mediated nasal inflammation with sneezing and rhinorrhoea.",
+      "designation": [
+        {
+          "value": "Allergic rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0016",
+      "display": "Mookkadaippu",
+      "definition": "Inflammation of the nasal mucosa causing congestion and discharge.",
+      "designation": [
+        {
+          "value": "Rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0017",
+      "display": "Sevi Soraivu",
+      "definition": "Ear discharge due to infection or tympanic membrane perforation.",
+      "designation": [
+        {
+          "value": "Otorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0018",
+      "display": "Thondai Soorai",
+      "definition": "Inflammation of palatine tonsils causing sore throat and fever.",
+      "designation": [
+        {
+          "value": "Tonsillitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0019",
+      "display": "Kann Thinai",
+      "definition": "Allergic inflammation of the conjunctiva causing itch and redness.",
+      "designation": [
+        {
+          "value": "Allergic conjunctivitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0020",
+      "display": "Kan Punn",
+      "definition": "Open sore on the cornea, often infectious, causing pain and photophobia.",
+      "designation": [
+        {
+          "value": "Corneal ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0021",
+      "display": "Thamaraga Noi",
+      "definition": "Cardiac structural or functional disorder affecting perfusion or rhythm.",
+      "designation": [
+        {
+          "value": "Heart disease",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0022",
+      "display": "Athi Kuruthi Azhutham",
+      "definition": "Persistently elevated arterial blood pressure.",
+      "designation": [
+        {
+          "value": "Hypertension",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0023",
+      "display": "Neerizhivu (Madhumegam)",
+      "definition": "Chronic hyperglycaemia due to impaired insulin secretion or action.",
+      "designation": [
+        {
+          "value": "Diabetes mellitus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0024",
+      "display": "Siruneeraga Noi",
+      "definition": "Functional or structural abnormality of the urinary tract.",
+      "designation": [
+        {
+          "value": "Urinary disorder",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0025",
+      "display": "Moothirakiricharam",
+      "definition": "Painful or difficult urination, often from infection or irritation.",
+      "designation": [
+        {
+          "value": "Dysuria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0026",
+      "display": "Kalladaippu",
+      "definition": "Stones in the urinary tract causing colic and haematuria.",
+      "designation": [
+        {
+          "value": "Urolithiasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0027",
+      "display": "Soothagavali",
+      "definition": "Painful menstrual cramps from uterine contractions.",
+      "designation": [
+        {
+          "value": "Dysmenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0028",
+      "display": "Soothaga Thadai",
+      "definition": "Absence of menstruation beyond expected intervals.",
+      "designation": [
+        {
+          "value": "Amenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0029",
+      "display": "Vellai Noi",
+      "definition": "Non‑bloody vaginal discharge; may be physiological or infectious.",
+      "designation": [
+        {
+          "value": "Leucorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0030",
+      "display": "Perumbadu",
+      "definition": "Excessive menstrual blood loss.",
+      "designation": [
+        {
+          "value": "Menorrhagia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0031",
+      "display": "Karuppai Katti",
+      "definition": "Benign smooth‑muscle tumour of the uterus.",
+      "designation": [
+        {
+          "value": "Uterine fibroid",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0032",
+      "display": "Karuppai Veekam",
+      "definition": "Ectopic endometrium within the myometrium causing dysmenorrhoea.",
+      "designation": [
+        {
+          "value": "Adenomyosis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0033",
+      "display": "Kadai Poopu Kollaru",
+      "definition": "Ectropion/exposed columnar epithelium on the cervix.",
+      "designation": [
+        {
+          "value": "Cervical erosion",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0034",
+      "display": "Nagir Katti",
+      "definition": "Fluid‑filled ovarian sac; functional or pathological.",
+      "designation": [
+        {
+          "value": "Ovarian cyst",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0035",
+      "display": "Mulaippai Katti",
+      "definition": "Palpable breast mass; benign or malignant aetiologies.",
+      "designation": [
+        {
+          "value": "Breast lump",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0036",
+      "display": "Pen Maladu",
+      "definition": "Failure to conceive after 12 months of unprotected intercourse.",
+      "designation": [
+        {
+          "value": "Female infertility",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0037",
+      "display": "Aan Maladu",
+      "definition": "Impaired male reproductive function leading to subfertility.",
+      "designation": [
+        {
+          "value": "Male infertility",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0038",
+      "display": "Nabunjagam",
+      "definition": "Persistent difficulty in achieving or maintaining erection.",
+      "designation": [
+        {
+          "value": "Erectile dysfunction",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0039",
+      "display": "Neer Andam",
+      "definition": "Fluid collection around the testis within the tunica vaginalis.",
+      "designation": [
+        {
+          "value": "Hydrocele",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0040",
+      "display": "Varpaadai",
+      "definition": "Dilated pampiniform venous plexus of the spermatic cord.",
+      "designation": [
+        {
+          "value": "Varicocele",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0041",
+      "display": "Vathakarnagam",
+      "definition": "Impaired coordination due to cerebellar or sensory dysfunction.",
+      "designation": [
+        {
+          "value": "Ataxia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0042",
+      "display": "Pranalaya Vatham",
+      "definition": "Inherited progressive muscle‑fibre degeneration.",
+      "designation": [
+        {
+          "value": "Muscular dystrophy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0043",
+      "display": "Aaguni Vatham",
+      "definition": "Primary disease of muscle causing weakness.",
+      "designation": [
+        {
+          "value": "Myopathy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0044",
+      "display": "Nadukku Vatham",
+      "definition": "Syndrome of bradykinesia with rigidity and/or tremor.",
+      "designation": [
+        {
+          "value": "Parkinsonism",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0045",
+      "display": "Thalai Suttralai",
+      "definition": "Recurrent headache attacks with hypersensitivity ± aura.",
+      "designation": [
+        {
+          "value": "Migraine",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0046",
+      "display": "Sira Veppam",
+      "definition": "Pain in the head or face; primary or secondary.",
+      "designation": [
+        {
+          "value": "Headache",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0047",
+      "display": "Keel Vayu",
+      "definition": "Inflammation of joints causing pain and stiffness.",
+      "designation": [
+        {
+          "value": "Arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0048",
+      "display": "Azhal Keel Vayu",
+      "definition": "Immune‑mediated joint inflammation (e.g., RA).",
+      "designation": [
+        {
+          "value": "Inflammatory arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0049",
+      "display": "Mudakku Vatham",
+      "definition": "Degenerative joint disease with cartilage loss.",
+      "designation": [
+        {
+          "value": "Osteoarthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0050",
+      "display": "Siruviral Vatham",
+      "definition": "Median nerve compression at the wrist causing paresthesia.",
+      "designation": [
+        {
+          "value": "Carpal tunnel syndrome",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0051",
+      "display": "Ilaippu Vatham",
+      "definition": "Degenerative changes of cervical spine with neck pain.",
+      "designation": [
+        {
+          "value": "Cervical spondylosis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0052",
+      "display": "Karappan",
+      "definition": "Pruritic inflammatory dermatitis with xerosis and vesicles.",
+      "designation": [
+        {
+          "value": "Eczema",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0053",
+      "display": "Sori",
+      "definition": "Chronic immune‑mediated dermatosis with scaly plaques.",
+      "designation": [
+        {
+          "value": "Psoriasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0054",
+      "display": "Kuttam",
+      "definition": "Non‑healing skin or mucosal ulceration.",
+      "designation": [
+        {
+          "value": "Chronic ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0055",
+      "display": "Ven Pulli",
+      "definition": "Acquired depigmentation due to melanocyte loss.",
+      "designation": [
+        {
+          "value": "Vitiligo",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0056",
+      "display": "Paama Noi",
+      "definition": "Pruritic infestation by Sarcoptes scabiei.",
+      "designation": [
+        {
+          "value": "Scabies",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0057",
+      "display": "Sirangu",
+      "definition": "Dermatophyte fungal infection of keratinized tissues.",
+      "designation": [
+        {
+          "value": "Tinea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0058",
+      "display": "Kalkaadai",
+      "definition": "Benign epidermal proliferations due to HPV.",
+      "designation": [
+        {
+          "value": "Warts",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0059",
+      "display": "Maanthar",
+      "definition": "Transient pruritic wheals due to histamine release.",
+      "designation": [
+        {
+          "value": "Urticaria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0060",
+      "display": "Punn",
+      "definition": "Deep folliculitis forming a painful boil.",
+      "designation": [
+        {
+          "value": "Furuncle",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0061",
+      "display": "Moolam",
+      "definition": "Venous cushions of anorectum causing bleeding/pain.",
+      "designation": [
+        {
+          "value": "Haemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0062",
+      "display": "Kadi Vatham",
+      "definition": "Abnormal tract between anal canal and perianal skin.",
+      "designation": [
+        {
+          "value": "Anal fistula",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0063",
+      "display": "Mudal Kattu",
+      "definition": "Linear tear of anoderm causing severe pain.",
+      "designation": [
+        {
+          "value": "Anal fissure",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0064",
+      "display": "Naatu Soorai",
+      "definition": "Sinus in natal cleft with hair and chronic infection.",
+      "designation": [
+        {
+          "value": "Pilonidal sinus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0065",
+      "display": "Vasambu Pidippu",
+      "definition": "Dilated, tortuous superficial leg veins from valve failure.",
+      "designation": [
+        {
+          "value": "Varicose veins",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0066",
+      "display": "Kaba Suram",
+      "definition": "Elevation of body temperature, commonly due to infection or inflammation.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0067",
+      "display": "Vatha Suram",
+      "definition": "Elevation of body temperature, commonly due to infection or inflammation.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0068",
+      "display": "Pitha Suram",
+      "definition": "Elevation of body temperature, commonly due to infection or inflammation.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0069",
+      "display": "Mukkuttra Suram",
+      "definition": "Elevation of body temperature, commonly due to infection or inflammation.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0070",
+      "display": "Thondai Vaatham",
+      "definition": "Inflammation of the pharynx causing sore throat.",
+      "designation": [
+        {
+          "value": "Pharyngitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0071",
+      "display": "Sevi Ootru",
+      "definition": "Ear discharge due to infection or tympanic membrane perforation.",
+      "designation": [
+        {
+          "value": "Otorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0072",
+      "display": "Peenisam",
+      "definition": "Inflammation of paranasal sinuses causing facial pain.",
+      "designation": [
+        {
+          "value": "Sinusitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0073",
+      "display": "Neer Peenisam",
+      "definition": "Inflammation of paranasal sinuses causing facial pain.",
+      "designation": [
+        {
+          "value": "Sinusitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0074",
+      "display": "Siruneer Sotha",
+      "definition": "Bacterial infection of urinary tract; cystitis or pyelonephritis.",
+      "designation": [
+        {
+          "value": "Urinary tract infection",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0075",
+      "display": "Siruneer Perukkam",
+      "definition": "Increased voiding frequency without increased volume.",
+      "designation": [
+        {
+          "value": "Urinary frequency",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0076",
+      "display": "Soothaga Vellai",
+      "definition": "Normal increase in vaginal discharge without infection.",
+      "designation": [
+        {
+          "value": "Physiological leucorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0077",
+      "display": "Soothaga Suram",
+      "definition": "Postpartum fever due to genital tract infection.",
+      "designation": [
+        {
+          "value": "Puerperal fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0078",
+      "display": "Mulaippai Vedippu",
+      "definition": "Inflammation of breast tissue, often lactational.",
+      "designation": [
+        {
+          "value": "Mastitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0079",
+      "display": "Pazhuthi Vatham",
+      "definition": "Low back pain without radiculopathy.",
+      "designation": [
+        {
+          "value": "Lumbago",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0080",
+      "display": "Irumal Kaasam",
+      "definition": "Cough with sputum production.",
+      "designation": [
+        {
+          "value": "Productive cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0081",
+      "display": "Uthiravatham",
+      "definition": "Radicular leg pain from lumbosacral nerve‑root irritation.",
+      "designation": [
+        {
+          "value": "Sciatica",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0082",
+      "display": "Siragu Vatham",
+      "definition": "Pain around the scapula; musculoskeletal in origin.",
+      "designation": [
+        {
+          "value": "Scapular pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0083",
+      "display": "Vayu Mudakku",
+      "definition": "Reduced range of motion due to pain or fibrosis.",
+      "designation": [
+        {
+          "value": "Joint stiffness",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0084",
+      "display": "Kaalanjaga Padai",
+      "definition": "Inflammatory arthritis associated with psoriasis.",
+      "designation": [
+        {
+          "value": "Psoriatic arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0085",
+      "display": "Kuttam Karappan",
+      "definition": "Pruritic inflammatory dermatitis with xerosis and vesicles.",
+      "designation": [
+        {
+          "value": "Eczema",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0086",
+      "display": "Puzhu Kuttam",
+      "definition": "Infestation of tissues by fly larvae.",
+      "designation": [
+        {
+          "value": "Myiasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0087",
+      "display": "Sirangu Pulli",
+      "definition": "Malassezia‑related hypo/hyperpigmented macules.",
+      "designation": [
+        {
+          "value": "Tinea versicolor",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0088",
+      "display": "Sanni",
+      "definition": "Sudden involuntary muscle contractions due to neuronal discharge.",
+      "designation": [
+        {
+          "value": "Convulsions",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0089",
+      "display": "Ammai",
+      "definition": "Eradicated orthopoxvirus disease; retained for surveillance.",
+      "designation": [
+        {
+          "value": "Smallpox",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0090",
+      "display": "Siruneer Pidippu",
+      "definition": "Urinary retention: brief clinical description not available.",
+      "designation": [
+        {
+          "value": "Urinary retention",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0091",
+      "display": "Iraippai Soorai",
+      "definition": "Acute inflammation of stomach and intestines causing diarrhoea/vomiting.",
+      "designation": [
+        {
+          "value": "Gastroenteritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0092",
+      "display": "Vali Suram",
+      "definition": "Elevation of body temperature, commonly due to infection or inflammation.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0093",
+      "display": "Azhal Suram",
+      "definition": "Elevation of body temperature, commonly due to infection or inflammation.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0094",
+      "display": "Iyam Suram",
+      "definition": "Elevation of body temperature, commonly due to infection or inflammation.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0095",
+      "display": "Vali Kaasam",
+      "definition": "Reflex to clear airways; may be acute or chronic.",
+      "designation": [
+        {
+          "value": "Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0096",
+      "display": "Azhal Kaasam",
+      "definition": "Reflex to clear airways; may be acute or chronic.",
+      "designation": [
+        {
+          "value": "Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0097",
+      "display": "Iyam Kaasam",
+      "definition": "Reflex to clear airways; may be acute or chronic.",
+      "designation": [
+        {
+          "value": "Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0098",
+      "display": "Mukkuttra Kaasam",
+      "definition": "Reflex to clear airways; may be acute or chronic.",
+      "designation": [
+        {
+          "value": "Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0099",
+      "display": "Vali Gunmam",
+      "definition": "Inflammation of the gastric mucosa.",
+      "designation": [
+        {
+          "value": "Gastritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0100",
+      "display": "Azhal Gunmam",
+      "definition": "Inflammation of the gastric mucosa.",
+      "designation": [
+        {
+          "value": "Gastritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0101",
+      "display": "Iyam Gunmam",
+      "definition": "Inflammation of the gastric mucosa.",
+      "designation": [
+        {
+          "value": "Gastritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0102",
+      "display": "Mukkuttra Gunmam",
+      "definition": "Inflammation of the gastric mucosa.",
+      "designation": [
+        {
+          "value": "Gastritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0103",
+      "display": "Vali Moolam",
+      "definition": "Venous cushions of anorectum causing bleeding/pain.",
+      "designation": [
+        {
+          "value": "Haemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0104",
+      "display": "Azhal Moolam",
+      "definition": "Venous cushions of anorectum causing bleeding/pain.",
+      "designation": [
+        {
+          "value": "Haemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0105",
+      "display": "Iyam Moolam",
+      "definition": "Venous cushions of anorectum causing bleeding/pain.",
+      "designation": [
+        {
+          "value": "Haemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0106",
+      "display": "Mukkuttra Moolam",
+      "definition": "Venous cushions of anorectum causing bleeding/pain.",
+      "designation": [
+        {
+          "value": "Haemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0107",
+      "display": "Vali Keel Vayu",
+      "definition": "Inflammation of joints causing pain and stiffness.",
+      "designation": [
+        {
+          "value": "Arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0108",
+      "display": "Iyam Keel Vayu",
+      "definition": "Inflammation of joints causing pain and stiffness.",
+      "designation": [
+        {
+          "value": "Arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0109",
+      "display": "Mukkuttra Keel Vayu",
+      "definition": "Inflammation of joints causing pain and stiffness.",
+      "designation": [
+        {
+          "value": "Arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0110",
+      "display": "Vali Thamaraga Noi",
+      "definition": "Cardiac structural or functional disorder affecting perfusion or rhythm.",
+      "designation": [
+        {
+          "value": "Heart disease",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0111",
+      "display": "Azhal Thamaraga Noi",
+      "definition": "Cardiac structural or functional disorder affecting perfusion or rhythm.",
+      "designation": [
+        {
+          "value": "Heart disease",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0112",
+      "display": "Iyam Thamaraga Noi",
+      "definition": "Cardiac structural or functional disorder affecting perfusion or rhythm.",
+      "designation": [
+        {
+          "value": "Heart disease",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0113",
+      "display": "Mukkuttra Thamaraga Noi",
+      "definition": "Cardiac structural or functional disorder affecting perfusion or rhythm.",
+      "designation": [
+        {
+          "value": "Heart disease",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0114",
+      "display": "Vali Eraippu Noi",
+      "definition": "Chronic airway inflammation with variable airflow limitation and wheeze.",
+      "designation": [
+        {
+          "value": "Asthma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0115",
+      "display": "Azhal Eraippu Noi",
+      "definition": "Chronic airway inflammation with variable airflow limitation and wheeze.",
+      "designation": [
+        {
+          "value": "Asthma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0116",
+      "display": "Iyam Eraippu Noi",
+      "definition": "Chronic airway inflammation with variable airflow limitation and wheeze.",
+      "designation": [
+        {
+          "value": "Asthma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0117",
+      "display": "Mukkuttra Eraippu Noi",
+      "definition": "Chronic airway inflammation with variable airflow limitation and wheeze.",
+      "designation": [
+        {
+          "value": "Asthma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0118",
+      "display": "Vali Kalladaippu",
+      "definition": "Stones in the urinary tract causing colic and haematuria.",
+      "designation": [
+        {
+          "value": "Urolithiasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0119",
+      "display": "Azhal Kalladaippu",
+      "definition": "Stones in the urinary tract causing colic and haematuria.",
+      "designation": [
+        {
+          "value": "Urolithiasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0120",
+      "display": "Iyam Kalladaippu",
+      "definition": "Stones in the urinary tract causing colic and haematuria.",
+      "designation": [
+        {
+          "value": "Urolithiasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0121",
+      "display": "Mukkuttra Kalladaippu",
+      "definition": "Stones in the urinary tract causing colic and haematuria.",
+      "designation": [
+        {
+          "value": "Urolithiasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0122",
+      "display": "Vali Athisaram",
+      "definition": "Diarrhoea: brief clinical description not available.",
+      "designation": [
+        {
+          "value": "Diarrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0123",
+      "display": "Azhal Athisaram",
+      "definition": "Diarrhoea: brief clinical description not available.",
+      "designation": [
+        {
+          "value": "Diarrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0124",
+      "display": "Iyam Athisaram",
+      "definition": "Diarrhoea: brief clinical description not available.",
+      "designation": [
+        {
+          "value": "Diarrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0125",
+      "display": "Mukkuttra Athisaram",
+      "definition": "Diarrhoea: brief clinical description not available.",
+      "designation": [
+        {
+          "value": "Diarrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0126",
+      "display": "Vali Kazhichal",
+      "definition": "Inflammatory diarrhoea with blood and mucus.",
+      "designation": [
+        {
+          "value": "Dysentery",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0127",
+      "display": "Azhal Kazhichal",
+      "definition": "Inflammatory diarrhoea with blood and mucus.",
+      "designation": [
+        {
+          "value": "Dysentery",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0128",
+      "display": "Iyam Kazhichal",
+      "definition": "Inflammatory diarrhoea with blood and mucus.",
+      "designation": [
+        {
+          "value": "Dysentery",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0129",
+      "display": "Mukkuttra Kazhichal",
+      "definition": "Inflammatory diarrhoea with blood and mucus.",
+      "designation": [
+        {
+          "value": "Dysentery",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0130",
+      "display": "Vali Malakattu",
+      "definition": "Infrequent or difficult stool passage.",
+      "designation": [
+        {
+          "value": "Constipation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0131",
+      "display": "Azhal Malakattu",
+      "definition": "Infrequent or difficult stool passage.",
+      "designation": [
+        {
+          "value": "Constipation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0132",
+      "display": "Iyam Malakattu",
+      "definition": "Infrequent or difficult stool passage.",
+      "designation": [
+        {
+          "value": "Constipation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0133",
+      "display": "Mukkuttra Malakattu",
+      "definition": "Infrequent or difficult stool passage.",
+      "designation": [
+        {
+          "value": "Constipation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0134",
+      "display": "Vali Neer Mookkadaippu",
+      "definition": "IgE‑mediated nasal inflammation with sneezing and rhinorrhoea.",
+      "designation": [
+        {
+          "value": "Allergic rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0135",
+      "display": "Azhal Neer Mookkadaippu",
+      "definition": "IgE‑mediated nasal inflammation with sneezing and rhinorrhoea.",
+      "designation": [
+        {
+          "value": "Allergic rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0136",
+      "display": "Iyam Neer Mookkadaippu",
+      "definition": "IgE‑mediated nasal inflammation with sneezing and rhinorrhoea.",
+      "designation": [
+        {
+          "value": "Allergic rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0137",
+      "display": "Mukkuttra Neer Mookkadaippu",
+      "definition": "IgE‑mediated nasal inflammation with sneezing and rhinorrhoea.",
+      "designation": [
+        {
+          "value": "Allergic rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0138",
+      "display": "Vali Vellai Noi",
+      "definition": "Non‑bloody vaginal discharge; may be physiological or infectious.",
+      "designation": [
+        {
+          "value": "Leucorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0139",
+      "display": "Azhal Vellai Noi",
+      "definition": "Non‑bloody vaginal discharge; may be physiological or infectious.",
+      "designation": [
+        {
+          "value": "Leucorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0140",
+      "display": "Iyam Vellai Noi",
+      "definition": "Non‑bloody vaginal discharge; may be physiological or infectious.",
+      "designation": [
+        {
+          "value": "Leucorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0141",
+      "display": "Mukkuttra Vellai Noi",
+      "definition": "Non‑bloody vaginal discharge; may be physiological or infectious.",
+      "designation": [
+        {
+          "value": "Leucorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0142",
+      "display": "Vali Soothagavali",
+      "definition": "Painful menstrual cramps from uterine contractions.",
+      "designation": [
+        {
+          "value": "Dysmenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0143",
+      "display": "Azhal Soothagavali",
+      "definition": "Painful menstrual cramps from uterine contractions.",
+      "designation": [
+        {
+          "value": "Dysmenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0144",
+      "display": "Iyam Soothagavali",
+      "definition": "Painful menstrual cramps from uterine contractions.",
+      "designation": [
+        {
+          "value": "Dysmenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0145",
+      "display": "Mukkuttra Soothagavali",
+      "definition": "Painful menstrual cramps from uterine contractions.",
+      "designation": [
+        {
+          "value": "Dysmenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0146",
+      "display": "Vali Soothaga Thadai",
+      "definition": "Absence of menstruation beyond expected intervals.",
+      "designation": [
+        {
+          "value": "Amenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0147",
+      "display": "Azhal Soothaga Thadai",
+      "definition": "Absence of menstruation beyond expected intervals.",
+      "designation": [
+        {
+          "value": "Amenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0148",
+      "display": "Iyam Soothaga Thadai",
+      "definition": "Absence of menstruation beyond expected intervals.",
+      "designation": [
+        {
+          "value": "Amenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0149",
+      "display": "Mukkuttra Soothaga Thadai",
+      "definition": "Absence of menstruation beyond expected intervals.",
+      "designation": [
+        {
+          "value": "Amenorrhoea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0150",
+      "display": "Vali Karappan",
+      "definition": "Pruritic inflammatory dermatitis with xerosis and vesicles.",
+      "designation": [
+        {
+          "value": "Eczema",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0151",
+      "display": "Azhal Karappan",
+      "definition": "Pruritic inflammatory dermatitis with xerosis and vesicles.",
+      "designation": [
+        {
+          "value": "Eczema",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0152",
+      "display": "Iyam Karappan",
+      "definition": "Pruritic inflammatory dermatitis with xerosis and vesicles.",
+      "designation": [
+        {
+          "value": "Eczema",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0153",
+      "display": "Mukkuttra Karappan",
+      "definition": "Pruritic inflammatory dermatitis with xerosis and vesicles.",
+      "designation": [
+        {
+          "value": "Eczema",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0154",
+      "display": "Vali Sori",
+      "definition": "Chronic immune‑mediated dermatosis with scaly plaques.",
+      "designation": [
+        {
+          "value": "Psoriasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0155",
+      "display": "Azhal Sori",
+      "definition": "Chronic immune‑mediated dermatosis with scaly plaques.",
+      "designation": [
+        {
+          "value": "Psoriasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0156",
+      "display": "Iyam Sori",
+      "definition": "Chronic immune‑mediated dermatosis with scaly plaques.",
+      "designation": [
+        {
+          "value": "Psoriasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0157",
+      "display": "Mukkuttra Sori",
+      "definition": "Chronic immune‑mediated dermatosis with scaly plaques.",
+      "designation": [
+        {
+          "value": "Psoriasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0158",
+      "display": "Vali Kuttam",
+      "definition": "Non‑healing skin or mucosal ulceration.",
+      "designation": [
+        {
+          "value": "Chronic ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0159",
+      "display": "Azhal Kuttam",
+      "definition": "Non‑healing skin or mucosal ulceration.",
+      "designation": [
+        {
+          "value": "Chronic ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0160",
+      "display": "Iyam Kuttam",
+      "definition": "Non‑healing skin or mucosal ulceration.",
+      "designation": [
+        {
+          "value": "Chronic ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0161",
+      "display": "Mukkuttra Kuttam",
+      "definition": "Non‑healing skin or mucosal ulceration.",
+      "designation": [
+        {
+          "value": "Chronic ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0162",
+      "display": "Vali Erumal",
+      "definition": "Cough persisting for eight weeks or more.",
+      "designation": [
+        {
+          "value": "Chronic cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0163",
+      "display": "Azhal Erumal",
+      "definition": "Cough persisting for eight weeks or more.",
+      "designation": [
+        {
+          "value": "Chronic cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0164",
+      "display": "Iyam Erumal",
+      "definition": "Cough persisting for eight weeks or more.",
+      "designation": [
+        {
+          "value": "Chronic cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0165",
+      "display": "Mukkuttra Erumal",
+      "definition": "Cough persisting for eight weeks or more.",
+      "designation": [
+        {
+          "value": "Chronic cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0166",
+      "display": "Vali Mudakku Vatham",
+      "definition": "Degenerative joint disease with cartilage loss.",
+      "designation": [
+        {
+          "value": "Osteoarthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0167",
+      "display": "Azhal Mudakku Vatham",
+      "definition": "Degenerative joint disease with cartilage loss.",
+      "designation": [
+        {
+          "value": "Osteoarthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0168",
+      "display": "Iyam Mudakku Vatham",
+      "definition": "Degenerative joint disease with cartilage loss.",
+      "designation": [
+        {
+          "value": "Osteoarthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "SI-0169",
+      "display": "Mukkuttra Mudakku Vatham",
+      "definition": "Degenerative joint disease with cartilage loss.",
+      "designation": [
+        {
+          "value": "Osteoarthritis",
+          "language": "en"
+        }
+      ]
+    }
+  ]
+}

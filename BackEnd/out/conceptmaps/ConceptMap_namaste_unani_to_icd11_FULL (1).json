@@ -1,0 +1,2781 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "namaste-unani-to-icd11",
+  "url": "https://yourgithubusername.github.io/namaste-fhir/ConceptMap/namaste-unani-to-icd11",
+  "version": "2025.09",
+  "name": "NamasteUnaniToICD11",
+  "title": "ConceptMap: NAMASTE Unani → ICD-11",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Team Namaste, SIH 2025",
+  "date": "2025-09-29",
+  "description": "Mapping between NAMASTE Unani codes and ICD-11 MMS (TM2 where provided).",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <h2>ConceptMap: NAMASTE Unani → ICD-11</h2>\n  <p>Built from 'unani_diseases_250_icd11_filled_complete'. Separates MMS and TM2 by the 'icd11_module' column.</p>\n  <p><b>Total elements:</b> MMS=241, TM2=9</p>\n</div>"
+  },
+  "group": [
+    {
+      "source": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-unani",
+      "target": "http://id.who.int/icd/release/11/mms",
+      "element": [
+        {
+          "code": "UN-0001",
+          "display": "Humma",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "UN-0002",
+          "display": "Nazla",
+          "target": [
+            {
+              "code": "CA00",
+              "equivalence": "relatedto",
+              "display": "Acute rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0003",
+          "display": "Zukam",
+          "target": [
+            {
+              "code": "CA00",
+              "equivalence": "relatedto",
+              "display": "Common cold"
+            }
+          ]
+        },
+        {
+          "code": "UN-0004",
+          "display": "Su'al",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Cough"
+            }
+          ]
+        },
+        {
+          "code": "UN-0005",
+          "display": "Sil",
+          "target": [
+            {
+              "code": "1B10.Z",
+              "equivalence": "relatedto",
+              "display": "Pulmonary tuberculosis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0006",
+          "display": "Dhiq al-Nafas",
+          "target": [
+            {
+              "code": "MD11.5",
+              "equivalence": "relatedto",
+              "display": "Dyspnea"
+            }
+          ]
+        },
+        {
+          "code": "UN-0007",
+          "display": "Rabw",
+          "target": [
+            {
+              "code": "CA23",
+              "equivalence": "relatedto",
+              "display": "Bronchial asthma"
+            }
+          ]
+        },
+        {
+          "code": "UN-0008",
+          "display": "Warm-e-Riya",
+          "target": [
+            {
+              "code": "CA40.Z",
+              "equivalence": "relatedto",
+              "display": "Pneumonia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0009",
+          "display": "Iltihab-e-Bronchi",
+          "target": [
+            {
+              "code": "CA42.Z",
+              "equivalence": "relatedto",
+              "display": "Bronchitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0010",
+          "display": "Iltihab-e-Halaq",
+          "target": [
+            {
+              "code": "CA02.Z",
+              "equivalence": "relatedto",
+              "display": "Pharyngitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0011",
+          "display": "Iltihab-e-Lawzatayn",
+          "target": [
+            {
+              "code": "CA03.Z",
+              "equivalence": "relatedto",
+              "display": "Tonsillitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0012",
+          "display": "Iltihab-e-Hanjara",
+          "target": [
+            {
+              "code": "CA05",
+              "equivalence": "relatedto",
+              "display": "Laryngitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0013",
+          "display": "Ramad",
+          "target": [
+            {
+              "code": "9A60.Z",
+              "equivalence": "relatedto",
+              "display": "Ophthalmia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0014",
+          "display": "Nazf al-Anf",
+          "target": [
+            {
+              "code": "MD20",
+              "equivalence": "relatedto",
+              "display": "Epistaxis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0015",
+          "display": "Waja'-e-Sadr",
+          "target": [
+            {
+              "code": "MD30.Z",
+              "equivalence": "relatedto",
+              "display": "Chest pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0016",
+          "display": "Khafqan",
+          "target": [
+            {
+              "code": "MC81.2",
+              "equivalence": "relatedto",
+              "display": "Palpitations"
+            }
+          ]
+        },
+        {
+          "code": "UN-0017",
+          "display": "Farat al-Dam",
+          "target": [
+            {
+              "code": "BA00",
+              "equivalence": "relatedto",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        {
+          "code": "UN-0018",
+          "display": "Zo'f al-Qalb",
+          "target": [
+            {
+              "code": "BD10",
+              "equivalence": "relatedto",
+              "display": "Cardiac weakness"
+            }
+          ]
+        },
+        {
+          "code": "UN-0019",
+          "display": "Suda'",
+          "target": [
+            {
+              "code": "8A8Z",
+              "equivalence": "relatedto",
+              "display": "Headache"
+            }
+          ]
+        },
+        {
+          "code": "UN-0020",
+          "display": "Shaqeeqa",
+          "target": [
+            {
+              "code": "8A80",
+              "equivalence": "relatedto",
+              "display": "Migraine"
+            }
+          ]
+        },
+        {
+          "code": "UN-0021",
+          "display": "Falij",
+          "target": [
+            {
+              "code": "8E40.Z",
+              "equivalence": "relatedto",
+              "display": "Paralysis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0022",
+          "display": "Laqwa",
+          "target": [
+            {
+              "code": "NA05.0",
+              "equivalence": "relatedto",
+              "display": "Facial palsy"
+            }
+          ]
+        },
+        {
+          "code": "UN-0023",
+          "display": "Sara'",
+          "target": [
+            {
+              "code": "8A60",
+              "equivalence": "relatedto",
+              "display": "Epilepsy"
+            }
+          ]
+        },
+        {
+          "code": "UN-0024",
+          "display": "Nisyan",
+          "target": [
+            {
+              "code": "MB26.2",
+              "equivalence": "relatedto",
+              "display": "Amnesia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0025",
+          "display": "Malikhuliya",
+          "target": [
+            {
+              "code": "6A70",
+              "equivalence": "relatedto",
+              "display": "Melancholia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0026",
+          "display": "Ishal",
+          "target": [
+            {
+              "code": "MD93",
+              "equivalence": "relatedto",
+              "display": "Diarrhea"
+            }
+          ]
+        },
+        {
+          "code": "UN-0027",
+          "display": "Qabz",
+          "target": [
+            {
+              "code": "MD94",
+              "equivalence": "relatedto",
+              "display": "Constipation"
+            }
+          ]
+        },
+        {
+          "code": "UN-0028",
+          "display": "Qai'",
+          "target": [
+            {
+              "code": "MD95.2",
+              "equivalence": "relatedto",
+              "display": "Vomiting"
+            }
+          ]
+        },
+        {
+          "code": "UN-0029",
+          "display": "Nafkha",
+          "target": [
+            {
+              "code": "MG52",
+              "equivalence": "relatedto",
+              "display": "Flatulence"
+            }
+          ]
+        },
+        {
+          "code": "UN-0030",
+          "display": "So'-e-Hazm",
+          "target": [
+            {
+              "code": "DD90",
+              "equivalence": "relatedto",
+              "display": "Indigestion"
+            }
+          ]
+        },
+        {
+          "code": "UN-0031",
+          "display": "Harqat al-Mi'da",
+          "target": [
+            {
+              "code": "DA01.1",
+              "equivalence": "relatedto",
+              "display": "Heartburn"
+            }
+          ]
+        },
+        {
+          "code": "UN-0032",
+          "display": "Qurooh-e-Mi'da",
+          "target": [
+            {
+              "code": "DB10",
+              "equivalence": "relatedto",
+              "display": "Gastric ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0033",
+          "display": "Qurooh-e-Isna 'Ashar",
+          "target": [
+            {
+              "code": "DB12",
+              "equivalence": "relatedto",
+              "display": "Duodenal ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0034",
+          "display": "Warm-e-Kabid",
+          "target": [
+            {
+              "code": "1D8Z",
+              "equivalence": "relatedto",
+              "display": "Hepatitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0035",
+          "display": "Warm-e-Marara",
+          "target": [
+            {
+              "code": "DB94",
+              "equivalence": "relatedto",
+              "display": "Cholecystitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0036",
+          "display": "Hissah-e-Marara",
+          "target": [
+            {
+              "code": "DB85",
+              "equivalence": "relatedto",
+              "display": "Gallstones"
+            }
+          ]
+        },
+        {
+          "code": "UN-0037",
+          "display": "Bawasir",
+          "target": [
+            {
+              "code": "DB63",
+              "equivalence": "relatedto",
+              "display": "Hemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "UN-0038",
+          "display": "Shiqaq-e-Maq'ad",
+          "target": [
+            {
+              "code": "DB61.0",
+              "equivalence": "relatedto",
+              "display": "Anal fissure"
+            }
+          ]
+        },
+        {
+          "code": "UN-0039",
+          "display": "Iltihab-e-Qolon",
+          "target": [
+            {
+              "code": "DD70.Z",
+              "equivalence": "relatedto",
+              "display": "Colitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0040",
+          "display": "Warm-e-Mi'da",
+          "target": [
+            {
+              "code": "DA41.Z",
+              "equivalence": "relatedto",
+              "display": "Gastritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0041",
+          "display": "Didan al-Ama'",
+          "target": [
+            {
+              "code": "1F6Z",
+              "equivalence": "relatedto",
+              "display": "Intestinal helminthiasis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0043",
+          "display": "Waja'-al-Mafasil",
+          "target": [
+            {
+              "code": "ME82",
+              "equivalence": "relatedto",
+              "display": "Arthralgia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0044",
+          "display": "Warm-e-Mafasil",
+          "target": [
+            {
+              "code": "FA20.Z",
+              "equivalence": "relatedto",
+              "display": "Arthritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0045",
+          "display": "Niqris",
+          "target": [
+            {
+              "code": "FA20",
+              "equivalence": "relatedto",
+              "display": "Gout"
+            }
+          ]
+        },
+        {
+          "code": "UN-0046",
+          "display": "Waja'-al-Zahr",
+          "target": [
+            {
+              "code": "MB31",
+              "equivalence": "relatedto",
+              "display": "Low back pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0047",
+          "display": "Irq al-Nasa",
+          "target": [
+            {
+              "code": "ME54.0",
+              "equivalence": "relatedto",
+              "display": "Sciatica"
+            }
+          ]
+        },
+        {
+          "code": "UN-0048",
+          "display": "Kasr",
+          "target": [
+            {
+              "code": "NA07.Z",
+              "equivalence": "relatedto",
+              "display": "Fracture"
+            }
+          ]
+        },
+        {
+          "code": "UN-0049",
+          "display": "Khal'a",
+          "target": [
+            {
+              "code": "NA08.Z",
+              "equivalence": "relatedto",
+              "display": "Joint dislocation"
+            }
+          ]
+        },
+        {
+          "code": "UN-0050",
+          "display": "Waja'-al-'Azm",
+          "target": [
+            {
+              "code": "ME83",
+              "equivalence": "relatedto",
+              "display": "Bone pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0051",
+          "display": "Jarab",
+          "target": [
+            {
+              "code": "1G04",
+              "equivalence": "relatedto",
+              "display": "Scabies"
+            }
+          ]
+        },
+        {
+          "code": "UN-0052",
+          "display": "Quba",
+          "target": [
+            {
+              "code": "1F23",
+              "equivalence": "relatedto",
+              "display": "Tinea"
+            }
+          ]
+        },
+        {
+          "code": "UN-0053",
+          "display": "Bars",
+          "target": [
+            {
+              "code": "ED63.0",
+              "equivalence": "relatedto",
+              "display": "Vitiligo"
+            }
+          ]
+        },
+        {
+          "code": "UN-0054",
+          "display": "Bahaq",
+          "target": [
+            {
+              "code": "EA88.4",
+              "equivalence": "relatedto",
+              "display": "Pityriasis alba"
+            }
+          ]
+        },
+        {
+          "code": "UN-0055",
+          "display": "Judam",
+          "target": [
+            {
+              "code": "1B20.Z",
+              "equivalence": "relatedto",
+              "display": "Leprosy"
+            }
+          ]
+        },
+        {
+          "code": "UN-0056",
+          "display": "Namash",
+          "target": [
+            {
+              "code": "ED61",
+              "equivalence": "relatedto",
+              "display": "Freckles"
+            }
+          ]
+        },
+        {
+          "code": "UN-0057",
+          "display": "Kalaf",
+          "target": [
+            {
+              "code": "ED60",
+              "equivalence": "relatedto",
+              "display": "Melasma"
+            }
+          ]
+        },
+        {
+          "code": "UN-0058",
+          "display": "Sozish-e-Bawl",
+          "target": [
+            {
+              "code": "MF50.7",
+              "equivalence": "relatedto",
+              "display": "Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "UN-0059",
+          "display": "Kasrat al-Bawl",
+          "target": [
+            {
+              "code": "5A10.1",
+              "equivalence": "relatedto",
+              "display": "Polyuria"
+            }
+          ]
+        },
+        {
+          "code": "UN-0060",
+          "display": "Qillat al-Bawl",
+          "target": [
+            {
+              "code": "GB60",
+              "equivalence": "relatedto",
+              "display": "Oliguria"
+            }
+          ]
+        },
+        {
+          "code": "UN-0061",
+          "display": "Ihtibas al-Bawl",
+          "target": [
+            {
+              "code": "MF50.3",
+              "equivalence": "relatedto",
+              "display": "Urinary retention"
+            }
+          ]
+        },
+        {
+          "code": "UN-0062",
+          "display": "Salas al-Bawl",
+          "target": [
+            {
+              "code": "MF50.2",
+              "equivalence": "relatedto",
+              "display": "Urinary incontinence"
+            }
+          ]
+        },
+        {
+          "code": "UN-0063",
+          "display": "Hissah-e-Kuliya",
+          "target": [
+            {
+              "code": "GB70.0",
+              "equivalence": "relatedto",
+              "display": "Renal calculus"
+            }
+          ]
+        },
+        {
+          "code": "UN-0064",
+          "display": "Iltihab-e-Masana",
+          "target": [
+            {
+              "code": "GC00.Z",
+              "equivalence": "relatedto",
+              "display": "Cystitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0065",
+          "display": "Warm-e-Kuliya",
+          "target": [
+            {
+              "code": "GB50.Z",
+              "equivalence": "relatedto",
+              "display": "Nephritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0066",
+          "display": "Sailan-ur-Rahm",
+          "target": [
+            {
+              "code": "GB02.2",
+              "equivalence": "relatedto",
+              "display": "Leucorrhea"
+            }
+          ]
+        },
+        {
+          "code": "UN-0067",
+          "display": "Kasrat al-Tamth",
+          "target": [
+            {
+              "code": "GA20.0Z",
+              "equivalence": "relatedto",
+              "display": "Menorrhagia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0068",
+          "display": "Qillat al-Tamth",
+          "target": [
+            {
+              "code": "GA20.1",
+              "equivalence": "relatedto",
+              "display": "Hypomenorrhea"
+            }
+          ]
+        },
+        {
+          "code": "UN-0069",
+          "display": "Inqita' al-Tamth",
+          "target": [
+            {
+              "code": "GA20",
+              "equivalence": "relatedto",
+              "display": "Amenorrhea"
+            }
+          ]
+        },
+        {
+          "code": "UN-0070",
+          "display": "Dard-e-Hayd",
+          "target": [
+            {
+              "code": "GA34",
+              "equivalence": "relatedto",
+              "display": "Dysmenorrhea"
+            }
+          ]
+        },
+        {
+          "code": "UN-0071",
+          "display": "Qai' al-Hubla",
+          "target": [
+            {
+              "code": "JA60",
+              "equivalence": "relatedto",
+              "display": "Hyperemesis gravidarum"
+            }
+          ]
+        },
+        {
+          "code": "UN-0072",
+          "display": "Ziabetus Shakri",
+          "target": [
+            {
+              "code": "5A14",
+              "equivalence": "relatedto",
+              "display": "Diabetes mellitus"
+            }
+          ]
+        },
+        {
+          "code": "UN-0073",
+          "display": "Saman-e-Mufrit",
+          "target": [
+            {
+              "code": "5B81",
+              "equivalence": "relatedto",
+              "display": "Obesity"
+            }
+          ]
+        },
+        {
+          "code": "UN-0074",
+          "display": "Huzal",
+          "target": [
+            {
+              "code": "5B54",
+              "equivalence": "relatedto",
+              "display": "Emaciation"
+            }
+          ]
+        },
+        {
+          "code": "UN-0075",
+          "display": "Istisqa",
+          "target": [
+            {
+              "code": "MD20.1",
+              "equivalence": "relatedto",
+              "display": "Ascites"
+            }
+          ]
+        },
+        {
+          "code": "UN-0076",
+          "display": "Warm-e-Tihal",
+          "target": [
+            {
+              "code": "BD72",
+              "equivalence": "relatedto",
+              "display": "Splenitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0077",
+          "display": "Nafth-ud-Dam",
+          "target": [
+            {
+              "code": "MD22",
+              "equivalence": "relatedto",
+              "display": "Hemoptysis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0078",
+          "display": "Buhha",
+          "target": [
+            {
+              "code": "CB23",
+              "equivalence": "relatedto",
+              "display": "Hoarseness of voice"
+            }
+          ]
+        },
+        {
+          "code": "UN-0079",
+          "display": "Iltihab-e-Udhun",
+          "target": [
+            {
+              "code": "AB30.Z",
+              "equivalence": "relatedto",
+              "display": "Otitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0080",
+          "display": "Waja'-e-Udhun",
+          "target": [
+            {
+              "code": "MC41.0",
+              "equivalence": "relatedto",
+              "display": "Earache"
+            }
+          ]
+        },
+        {
+          "code": "UN-0081",
+          "display": "Qurooh-e-Saqiyn",
+          "target": [
+            {
+              "code": "EF00",
+              "equivalence": "relatedto",
+              "display": "Leg ulcers"
+            }
+          ]
+        },
+        {
+          "code": "UN-0082",
+          "display": "Qurooh-e-Diabetici",
+          "target": [
+            {
+              "code": "BD54",
+              "equivalence": "relatedto",
+              "display": "Diabetic foot ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0083",
+          "display": "Hummay-e-Wabayi",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Epidemic fever"
+            }
+          ]
+        },
+        {
+          "code": "UN-0084",
+          "display": "Hummae-Malaria",
+          "target": [
+            {
+              "code": "1F4Z",
+              "equivalence": "relatedto",
+              "display": "Malaria"
+            }
+          ]
+        },
+        {
+          "code": "UN-0085",
+          "display": "Hummae-Rubayi",
+          "target": [
+            {
+              "code": "1F42",
+              "equivalence": "relatedto",
+              "display": "Quartan malaria"
+            }
+          ]
+        },
+        {
+          "code": "UN-0086",
+          "display": "Hummae-Salasah",
+          "target": [
+            {
+              "code": "1F41",
+              "equivalence": "relatedto",
+              "display": "Tertian malaria"
+            }
+          ]
+        },
+        {
+          "code": "UN-0087",
+          "display": "Sual-e-Muzmin",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Chronic cough"
+            }
+          ]
+        },
+        {
+          "code": "UN-0088",
+          "display": "Dafaq al-Bawl",
+          "target": [
+            {
+              "code": "GB02.1",
+              "equivalence": "relatedto",
+              "display": "Nocturia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0089",
+          "display": "Tabaal",
+          "target": [
+            {
+              "code": "6C00.0",
+              "equivalence": "relatedto",
+              "display": "Enuresis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0090",
+          "display": "Waswasa",
+          "target": [
+            {
+              "code": "6B00",
+              "equivalence": "relatedto",
+              "display": "Anxiety"
+            }
+          ]
+        },
+        {
+          "code": "UN-0096",
+          "display": "Zo'f-e-Basar",
+          "target": [
+            {
+              "code": "9D90.0",
+              "equivalence": "relatedto",
+              "display": "Reduced visual acuity"
+            }
+          ]
+        },
+        {
+          "code": "UN-0097",
+          "display": "Iltihab-e-Jild",
+          "target": [
+            {
+              "code": "EA8Z",
+              "equivalence": "relatedto",
+              "display": "Dermatitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0098",
+          "display": "Qishr-e-Sar",
+          "target": [
+            {
+              "code": "EA87.0",
+              "equivalence": "relatedto",
+              "display": "Dandruff"
+            }
+          ]
+        },
+        {
+          "code": "UN-0099",
+          "display": "Sa'fa",
+          "target": [
+            {
+              "code": "ED72",
+              "equivalence": "relatedto",
+              "display": "Alopecia areata"
+            }
+          ]
+        },
+        {
+          "code": "UN-0100",
+          "display": "Habb-e-Shababi",
+          "target": [
+            {
+              "code": "ED80.Z",
+              "equivalence": "relatedto",
+              "display": "Acne vulgaris"
+            }
+          ]
+        },
+        {
+          "code": "UN-0101",
+          "display": "Quruh-e-Damavi",
+          "target": [
+            {
+              "code": "DA61.1",
+              "equivalence": "relatedto",
+              "display": "Bleeding ulcers"
+            }
+          ]
+        },
+        {
+          "code": "UN-0102",
+          "display": "Quruh-e-Qadimah",
+          "target": [
+            {
+              "code": "EF00.Z",
+              "equivalence": "relatedto",
+              "display": "Chronic ulcers"
+            }
+          ]
+        },
+        {
+          "code": "UN-0103",
+          "display": "Nafkh-e-Bawasil",
+          "target": [
+            {
+              "code": "DB63.1",
+              "equivalence": "relatedto",
+              "display": "Thrombosed hemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "UN-0104",
+          "display": "Warid varicosi",
+          "target": [
+            {
+              "code": "BD73",
+              "equivalence": "relatedto",
+              "display": "Varicose veins"
+            }
+          ]
+        },
+        {
+          "code": "UN-0105",
+          "display": "Zahra al-Mathana",
+          "target": [
+            {
+              "code": "GC20",
+              "equivalence": "relatedto",
+              "display": "Urethral stricture"
+            }
+          ]
+        },
+        {
+          "code": "UN-0106",
+          "display": "Warm-e-Litha",
+          "target": [
+            {
+              "code": "DA01.0",
+              "equivalence": "relatedto",
+              "display": "Gingivitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0107",
+          "display": "Dard-e-Asnan",
+          "target": [
+            {
+              "code": "DA02.0",
+              "equivalence": "relatedto",
+              "display": "Toothache"
+            }
+          ]
+        },
+        {
+          "code": "UN-0108",
+          "display": "Nakhun-andar-ugna",
+          "target": [
+            {
+              "code": "ED23",
+              "equivalence": "relatedto",
+              "display": "Ingrown toenail"
+            }
+          ]
+        },
+        {
+          "code": "UN-0109",
+          "display": "Dard-e-Gardan",
+          "target": [
+            {
+              "code": "MB21",
+              "equivalence": "relatedto",
+              "display": "Neck pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0110",
+          "display": "Dard-e-Kandha",
+          "target": [
+            {
+              "code": "MB22",
+              "equivalence": "relatedto",
+              "display": "Shoulder pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0111",
+          "display": "Dard-e-Bazu",
+          "target": [
+            {
+              "code": "MB23",
+              "equivalence": "relatedto",
+              "display": "Arm pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0112",
+          "display": "Dard-e-Kuni",
+          "target": [
+            {
+              "code": "MB23.1",
+              "equivalence": "relatedto",
+              "display": "Elbow pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0113",
+          "display": "Dard-e-Kalai",
+          "target": [
+            {
+              "code": "MB23.2",
+              "equivalence": "relatedto",
+              "display": "Wrist pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0114",
+          "display": "Dard-e-Hath",
+          "target": [
+            {
+              "code": "MB23.3",
+              "equivalence": "relatedto",
+              "display": "Hand pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0115",
+          "display": "Dard-e-Ghutna",
+          "target": [
+            {
+              "code": "MB24",
+              "equivalence": "relatedto",
+              "display": "Knee pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0116",
+          "display": "Dard-e-Pindli",
+          "target": [
+            {
+              "code": "MB25.1",
+              "equivalence": "relatedto",
+              "display": "Calf pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0117",
+          "display": "Dard-e-Talva",
+          "target": [
+            {
+              "code": "MB25.2",
+              "equivalence": "relatedto",
+              "display": "Heel pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0118",
+          "display": "Dard-e-Qadam",
+          "target": [
+            {
+              "code": "MB25.3",
+              "equivalence": "relatedto",
+              "display": "Foot pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0119",
+          "display": "Warm-e-Anf",
+          "target": [
+            {
+              "code": "CA09.0",
+              "equivalence": "relatedto",
+              "display": "Rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0120",
+          "display": "Warm-e-Sinus",
+          "target": [
+            {
+              "code": "CA01.Z",
+              "equivalence": "relatedto",
+              "display": "Sinusitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0121",
+          "display": "Warm-e-Halaq",
+          "target": [
+            {
+              "code": "CA02.Z",
+              "equivalence": "relatedto",
+              "display": "Pharyngitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0122",
+          "display": "Warm-e-Lawzatayn",
+          "target": [
+            {
+              "code": "CA03.Z",
+              "equivalence": "relatedto",
+              "display": "Tonsillitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0123",
+          "display": "Warm-e-Hanjara",
+          "target": [
+            {
+              "code": "CA05",
+              "equivalence": "relatedto",
+              "display": "Laryngitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0124",
+          "display": "Warm-e-Bronchi",
+          "target": [
+            {
+              "code": "CA42.Z",
+              "equivalence": "relatedto",
+              "display": "Bronchitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0125",
+          "display": "Warm-e-Qolon",
+          "target": [
+            {
+              "code": "DD70.Z",
+              "equivalence": "relatedto",
+              "display": "Colitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0126",
+          "display": "Warm-e-Duodenum",
+          "target": [
+            {
+              "code": "DA64",
+              "equivalence": "relatedto",
+              "display": "Duodenitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0127",
+          "display": "Warm-e-Bankriyās",
+          "target": [
+            {
+              "code": "DC52",
+              "equivalence": "relatedto",
+              "display": "Pancreatitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0128",
+          "display": "Warm-e-Masana",
+          "target": [
+            {
+              "code": "GC00.Z",
+              "equivalence": "relatedto",
+              "display": "Cystitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0129",
+          "display": "Warm-e-Udhun",
+          "target": [
+            {
+              "code": "AB30.Z",
+              "equivalence": "relatedto",
+              "display": "Otitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0130",
+          "display": "Warm-e-Ain",
+          "target": [
+            {
+              "code": "9A60.Z",
+              "equivalence": "relatedto",
+              "display": "Conjunctivitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0131",
+          "display": "Warm-e-Jild",
+          "target": [
+            {
+              "code": "EA8Z",
+              "equivalence": "relatedto",
+              "display": "Dermatitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0132",
+          "display": "Warm-e-Lisan",
+          "target": [
+            {
+              "code": "DA44",
+              "equivalence": "relatedto",
+              "display": "Glossitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0133",
+          "display": "Warm-e-Mafasil",
+          "target": [
+            {
+              "code": "FB20",
+              "equivalence": "relatedto",
+              "display": "Synovitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0134",
+          "display": "Warm-e-Gadud-e-Darqi",
+          "target": [
+            {
+              "code": "5A70",
+              "equivalence": "relatedto",
+              "display": "Thyroiditis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0135",
+          "display": "Qurooh-e-Mida",
+          "target": [
+            {
+              "code": "DB10",
+              "equivalence": "relatedto",
+              "display": "Gastric ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0136",
+          "display": "Qurooh-e-Duodenum",
+          "target": [
+            {
+              "code": "DB12",
+              "equivalence": "relatedto",
+              "display": "Duodenal ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0137",
+          "display": "Qurooh-e-Qolon",
+          "target": [
+            {
+              "code": "DD90.3",
+              "equivalence": "relatedto",
+              "display": "Colonic ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0138",
+          "display": "Qurooh-e-Muhasha",
+          "target": [
+            {
+              "code": "DA0Y",
+              "equivalence": "relatedto",
+              "display": "Mouth ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0139",
+          "display": "Qurooh-e-Jild",
+          "target": [
+            {
+              "code": "EF00.Z",
+              "equivalence": "relatedto",
+              "display": "Skin ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0140",
+          "display": "Qurooh-e-Qadam",
+          "target": [
+            {
+              "code": "EF00.2",
+              "equivalence": "relatedto",
+              "display": "Foot ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0141",
+          "display": "Qurooh-e-Patella",
+          "target": [
+            {
+              "code": "EF00.2",
+              "equivalence": "relatedto",
+              "display": "Knee ulceration"
+            }
+          ]
+        },
+        {
+          "code": "UN-0142",
+          "display": "Qurooh-e-Saqiyn",
+          "target": [
+            {
+              "code": "EF00.2",
+              "equivalence": "relatedto",
+              "display": "Leg ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0143",
+          "display": "Qurooh-e-Qabl",
+          "target": [
+            {
+              "code": "GB10.Z",
+              "equivalence": "relatedto",
+              "display": "Genital ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0144",
+          "display": "Dard-e-Sar",
+          "target": [
+            {
+              "code": "8A8Z",
+              "equivalence": "relatedto",
+              "display": "Headache"
+            }
+          ]
+        },
+        {
+          "code": "UN-0145",
+          "display": "Dard-e-Chashm",
+          "target": [
+            {
+              "code": "9D90.1",
+              "equivalence": "relatedto",
+              "display": "Eye pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0146",
+          "display": "Dard-e-Angoothha",
+          "target": [
+            {
+              "code": "MB23.30",
+              "equivalence": "relatedto",
+              "display": "Thumb pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0147",
+          "display": "Dard-e-Seena",
+          "target": [
+            {
+              "code": "MD30.Z",
+              "equivalence": "relatedto",
+              "display": "Chest pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0148",
+          "display": "Dard-e-Shikam",
+          "target": [
+            {
+              "code": "MD55",
+              "equivalence": "relatedto",
+              "display": "Abdominal pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0149",
+          "display": "Dard-e-Kamar",
+          "target": [
+            {
+              "code": "MB31",
+              "equivalence": "relatedto",
+              "display": "Low back pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0150",
+          "display": "Dard-e-Kan",
+          "target": [
+            {
+              "code": "MC41.0",
+              "equivalence": "relatedto",
+              "display": "Ear pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0151",
+          "display": "Dard-e-Dandan",
+          "target": [
+            {
+              "code": "DA02.0",
+              "equivalence": "relatedto",
+              "display": "Toothache"
+            }
+          ]
+        },
+        {
+          "code": "UN-0152",
+          "display": "Zof-e-A'sab",
+          "target": [
+            {
+              "code": "8D60.Z",
+              "equivalence": "relatedto",
+              "display": "Peripheral neuropathy"
+            }
+          ]
+        },
+        {
+          "code": "UN-0153",
+          "display": "Rasha",
+          "target": [
+            {
+              "code": "8C20",
+              "equivalence": "relatedto",
+              "display": "Tremor"
+            }
+          ]
+        },
+        {
+          "code": "UN-0154",
+          "display": "Nuqsan al-Dam",
+          "target": [
+            {
+              "code": "3A00",
+              "equivalence": "relatedto",
+              "display": "Anemia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0155",
+          "display": "Safra Ziyadah",
+          "target": [
+            {
+              "code": "DB90",
+              "equivalence": "relatedto",
+              "display": "Hyperbilirubinemia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0156",
+          "display": "Yaraqan",
+          "target": [
+            {
+              "code": "DB91",
+              "equivalence": "relatedto",
+              "display": "Jaundice"
+            }
+          ]
+        },
+        {
+          "code": "UN-0157",
+          "display": "Dard-e-Masna",
+          "target": [
+            {
+              "code": "MC41.1",
+              "equivalence": "relatedto",
+              "display": "Bladder pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0158",
+          "display": "Sadd-e-Sharaayin",
+          "target": [
+            {
+              "code": "BA80",
+              "equivalence": "relatedto",
+              "display": "Atherosclerosis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0159",
+          "display": "Sakta-e-Dimaghi",
+          "target": [
+            {
+              "code": "8B11",
+              "equivalence": "relatedto",
+              "display": "Stroke"
+            }
+          ]
+        },
+        {
+          "code": "UN-0160",
+          "display": "Zo'f-e-Hafiza",
+          "target": [
+            {
+              "code": "MB26.2",
+              "equivalence": "relatedto",
+              "display": "Memory impairment"
+            }
+          ]
+        },
+        {
+          "code": "UN-0161",
+          "display": "Iltihab-e-A'sab",
+          "target": [
+            {
+              "code": "8D4Z",
+              "equivalence": "relatedto",
+              "display": "Neuritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0162",
+          "display": "Nafkha-e-Shikam",
+          "target": [
+            {
+              "code": "MG52",
+              "equivalence": "relatedto",
+              "display": "Abdominal distension"
+            }
+          ]
+        },
+        {
+          "code": "UN-0163",
+          "display": "Qayul-e-Dam",
+          "target": [
+            {
+              "code": "MD96.1",
+              "equivalence": "relatedto",
+              "display": "Hematemesis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0164",
+          "display": "Bawasiroon ka Khoon",
+          "target": [
+            {
+              "code": "MD97.0",
+              "equivalence": "relatedto",
+              "display": "Rectal bleeding"
+            }
+          ]
+        },
+        {
+          "code": "UN-0165",
+          "display": "Sarsam",
+          "target": [
+            {
+              "code": "1E90.Z",
+              "equivalence": "relatedto",
+              "display": "Meningitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0166",
+          "display": "Dimaqi Bukhar",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Typhoid-like fever"
+            }
+          ]
+        },
+        {
+          "code": "UN-0167",
+          "display": "Hummae-Nakhlia",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Remittent fever"
+            }
+          ]
+        },
+        {
+          "code": "UN-0168",
+          "display": "Hummae-Qutrab",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Relapsing fever"
+            }
+          ]
+        },
+        {
+          "code": "UN-0169",
+          "display": "Nazla-e-Harra",
+          "target": [
+            {
+              "code": "CA00",
+              "equivalence": "relatedto",
+              "display": "Hot catarrh"
+            }
+          ]
+        },
+        {
+          "code": "UN-0170",
+          "display": "Nazla-e-Barida",
+          "target": [
+            {
+              "code": "CA00",
+              "equivalence": "relatedto",
+              "display": "Cold catarrh"
+            }
+          ]
+        },
+        {
+          "code": "UN-0171",
+          "display": "Zo'f-e-Meda",
+          "target": [
+            {
+              "code": "DB95",
+              "equivalence": "relatedto",
+              "display": "Gastric weakness"
+            }
+          ]
+        },
+        {
+          "code": "UN-0172",
+          "display": "Bawari",
+          "target": [
+            {
+              "code": "5A00",
+              "equivalence": "relatedto",
+              "display": "Goiter"
+            }
+          ]
+        },
+        {
+          "code": "UN-0173",
+          "display": "Iltihab-e-Ghadud-e-Darqi",
+          "target": [
+            {
+              "code": "5A70",
+              "equivalence": "relatedto",
+              "display": "Thyroiditis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0174",
+          "display": "Fasadu'l-Bawl",
+          "target": [
+            {
+              "code": "GC50.Z",
+              "equivalence": "relatedto",
+              "display": "Urinary tract infection"
+            }
+          ]
+        },
+        {
+          "code": "UN-0175",
+          "display": "Sailan al-Dam",
+          "target": [
+            {
+              "code": "GA20.0Z",
+              "equivalence": "relatedto",
+              "display": "Menometrorrhagia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0176",
+          "display": "Iltihab-e-Rahim",
+          "target": [
+            {
+              "code": "GB01.Z",
+              "equivalence": "relatedto",
+              "display": "Endometritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0177",
+          "display": "Suqut-ur-Rahim",
+          "target": [
+            {
+              "code": "GA30",
+              "equivalence": "relatedto",
+              "display": "Uterine prolapse"
+            }
+          ]
+        },
+        {
+          "code": "UN-0178",
+          "display": "Warid-e-Mutawarri",
+          "target": [
+            {
+              "code": "BD71",
+              "equivalence": "relatedto",
+              "display": "Thrombophlebitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0179",
+          "display": "Qalb ki Bijli Be-Intizam",
+          "target": [
+            {
+              "code": "BC8Z",
+              "equivalence": "relatedto",
+              "display": "Arrhythmia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0180",
+          "display": "Zo'f-e-Bah",
+          "target": [
+            {
+              "code": "HA10.Z",
+              "equivalence": "relatedto",
+              "display": "Sexual weakness"
+            }
+          ]
+        },
+        {
+          "code": "UN-0181",
+          "display": "Sur'at-e-Inzal",
+          "target": [
+            {
+              "code": "HA00.2",
+              "equivalence": "relatedto",
+              "display": "Premature ejaculation"
+            }
+          ]
+        },
+        {
+          "code": "UN-0182",
+          "display": "Qillat-e-Shahwat",
+          "target": [
+            {
+              "code": "HA10.1",
+              "equivalence": "relatedto",
+              "display": "Decreased libido"
+            }
+          ]
+        },
+        {
+          "code": "UN-0183",
+          "display": "Silsila-e-Nawm ka Ikhtilal",
+          "target": [
+            {
+              "code": "6C02",
+              "equivalence": "relatedto",
+              "display": "Insomnia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0184",
+          "display": "Kasrat-e-Nawm",
+          "target": [
+            {
+              "code": "6C03",
+              "equivalence": "relatedto",
+              "display": "Hypersomnia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0185",
+          "display": "Sarinah",
+          "target": [
+            {
+              "code": "MB23.0",
+              "equivalence": "relatedto",
+              "display": "Vertigo"
+            }
+          ]
+        },
+        {
+          "code": "UN-0186",
+          "display": "Qabz-e-Muzmin",
+          "target": [
+            {
+              "code": "MD94",
+              "equivalence": "relatedto",
+              "display": "Chronic constipation"
+            }
+          ]
+        },
+        {
+          "code": "UN-0187",
+          "display": "Ishal-e-Muzmin",
+          "target": [
+            {
+              "code": "MD93",
+              "equivalence": "relatedto",
+              "display": "Chronic diarrhea"
+            }
+          ]
+        },
+        {
+          "code": "UN-0189",
+          "display": "Bawasir-e-Amya",
+          "target": [
+            {
+              "code": "DB63",
+              "equivalence": "relatedto",
+              "display": "Blind hemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "UN-0190",
+          "display": "Zof-e-Jigar",
+          "target": [
+            {
+              "code": "DB95",
+              "equivalence": "relatedto",
+              "display": "Liver weakness"
+            }
+          ]
+        },
+        {
+          "code": "UN-0191",
+          "display": "Ramad-e-Muzmin",
+          "target": [
+            {
+              "code": "9A60.Z",
+              "equivalence": "relatedto",
+              "display": "Chronic conjunctivitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0192",
+          "display": "Zurqah",
+          "target": [
+            {
+              "code": "9C60.Z",
+              "equivalence": "relatedto",
+              "display": "Glaucoma"
+            }
+          ]
+        },
+        {
+          "code": "UN-0193",
+          "display": "Sadaf",
+          "target": [
+            {
+              "code": "EA90.Z",
+              "equivalence": "relatedto",
+              "display": "Psoriasis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0194",
+          "display": "Qilfil",
+          "target": [
+            {
+              "code": "EA8Z",
+              "equivalence": "relatedto",
+              "display": "Eczema"
+            }
+          ]
+        },
+        {
+          "code": "UN-0195",
+          "display": "Dummal",
+          "target": [
+            {
+              "code": "1F01.1",
+              "equivalence": "relatedto",
+              "display": "Furunculosis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0196",
+          "display": "Khajli",
+          "target": [
+            {
+              "code": "EA90",
+              "equivalence": "relatedto",
+              "display": "Pruritus"
+            }
+          ]
+        },
+        {
+          "code": "UN-0197",
+          "display": "Hika",
+          "target": [
+            {
+              "code": "MD98",
+              "equivalence": "relatedto",
+              "display": "Hiccups"
+            }
+          ]
+        },
+        {
+          "code": "UN-0198",
+          "display": "Nakhun ka Fungal",
+          "target": [
+            {
+              "code": "1F28.Z",
+              "equivalence": "relatedto",
+              "display": "Onychomycosis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0199",
+          "display": "Ghasayan",
+          "target": [
+            {
+              "code": "DA41.Z",
+              "equivalence": "relatedto",
+              "display": "Gastric irritation"
+            }
+          ]
+        },
+        {
+          "code": "UN-0200",
+          "display": "Qai-e-Sabahi",
+          "target": [
+            {
+              "code": "JA60",
+              "equivalence": "relatedto",
+              "display": "Morning sickness"
+            }
+          ]
+        },
+        {
+          "code": "UN-0201",
+          "display": "Dard-e-Masoor",
+          "target": [
+            {
+              "code": "DA02.1",
+              "equivalence": "relatedto",
+              "display": "Gum pain"
+            }
+          ]
+        },
+        {
+          "code": "UN-0202",
+          "display": "Sarsari Naza",
+          "target": [
+            {
+              "code": "CA08.0",
+              "equivalence": "relatedto",
+              "display": "Allergic rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0203",
+          "display": "Hasba",
+          "target": [
+            {
+              "code": "1E91.Z",
+              "equivalence": "relatedto",
+              "display": "Measles"
+            }
+          ]
+        },
+        {
+          "code": "UN-0204",
+          "display": "Khasra-o-Khanse",
+          "target": [
+            {
+              "code": "1C12.Z",
+              "equivalence": "relatedto",
+              "display": "Whooping cough"
+            }
+          ]
+        },
+        {
+          "code": "UN-0205",
+          "display": "Hummae-Qumal",
+          "target": [
+            {
+              "code": "1D53.Z",
+              "equivalence": "relatedto",
+              "display": "Typhus"
+            }
+          ]
+        },
+        {
+          "code": "UN-0206",
+          "display": "Wabai Ishal",
+          "target": [
+            {
+              "code": "1A10.Z",
+              "equivalence": "relatedto",
+              "display": "Cholera"
+            }
+          ]
+        },
+        {
+          "code": "UN-0207",
+          "display": "Sartan-e-Jild",
+          "target": [
+            {
+              "code": "2C43.Z",
+              "equivalence": "relatedto",
+              "display": "Skin cancer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0208",
+          "display": "Sartan-e-Sadi",
+          "target": [
+            {
+              "code": "2C61.Z",
+              "equivalence": "relatedto",
+              "display": "Breast cancer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0209",
+          "display": "Sartan-e-Qolon",
+          "target": [
+            {
+              "code": "2C80.Z",
+              "equivalence": "relatedto",
+              "display": "Colon cancer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0210",
+          "display": "Sartan-e-Riya",
+          "target": [
+            {
+              "code": "2C25.Z",
+              "equivalence": "relatedto",
+              "display": "Lung cancer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0211",
+          "display": "Sartan-e-Meda",
+          "target": [
+            {
+              "code": "2C11.Z",
+              "equivalence": "relatedto",
+              "display": "Gastric cancer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0212",
+          "display": "Sartan-e-Bidah",
+          "target": [
+            {
+              "code": "2C82.Z",
+              "equivalence": "relatedto",
+              "display": "Prostate cancer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0213",
+          "display": "Sartan-e-Rahim",
+          "target": [
+            {
+              "code": "2C72.Z",
+              "equivalence": "relatedto",
+              "display": "Cervical cancer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0214",
+          "display": "Sartan-e-Jigar",
+          "target": [
+            {
+              "code": "2C13.0",
+              "equivalence": "relatedto",
+              "display": "Hepatocellular carcinoma"
+            }
+          ]
+        },
+        {
+          "code": "UN-0215",
+          "display": "Zo'f-e-Masame",
+          "target": [
+            {
+              "code": "MD70.1",
+              "equivalence": "relatedto",
+              "display": "Hyperhidrosis?"
+            }
+          ]
+        },
+        {
+          "code": "UN-0216",
+          "display": "Urtikariya",
+          "target": [
+            {
+              "code": "EA12",
+              "equivalence": "relatedto",
+              "display": "Urticaria"
+            }
+          ]
+        },
+        {
+          "code": "UN-0217",
+          "display": "Sammiyat-e-Ghiza",
+          "target": [
+            {
+              "code": "1A08",
+              "equivalence": "relatedto",
+              "display": "Food poisoning"
+            }
+          ]
+        },
+        {
+          "code": "UN-0218",
+          "display": "Sauda-e-Muzmin",
+          "target": [
+            {
+              "code": "6A70",
+              "equivalence": "relatedto",
+              "display": "Chronic melancholia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0219",
+          "display": "Iltihab-e-Mafasil al-Rumati",
+          "target": [
+            {
+              "code": "FA20.Z",
+              "equivalence": "relatedto",
+              "display": "Rheumatoid arthritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0220",
+          "display": "Waja'-al-'Asab al-Wajhi",
+          "target": [
+            {
+              "code": "8C40.0",
+              "equivalence": "relatedto",
+              "display": "Trigeminal neuralgia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0221",
+          "display": "Zo'f-e-A'sab-e-Nazar",
+          "target": [
+            {
+              "code": "9D50.0",
+              "equivalence": "relatedto",
+              "display": "Optic neuritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0222",
+          "display": "Sada-e-Kan",
+          "target": [
+            {
+              "code": "MC41",
+              "equivalence": "relatedto",
+              "display": "Tinnitus"
+            }
+          ]
+        },
+        {
+          "code": "UN-0223",
+          "display": "Summa",
+          "target": [
+            {
+              "code": "AB51.Z",
+              "equivalence": "relatedto",
+              "display": "Hearing loss"
+            }
+          ]
+        },
+        {
+          "code": "UN-0224",
+          "display": "Zafarani Peshab",
+          "target": [
+            {
+              "code": "MG30.4",
+              "equivalence": "relatedto",
+              "display": "Hematuria"
+            }
+          ]
+        },
+        {
+          "code": "UN-0226",
+          "display": "Qabz-e-Haml",
+          "target": [
+            {
+              "code": "MD94",
+              "equivalence": "relatedto",
+              "display": "Constipation in pregnancy"
+            }
+          ]
+        },
+        {
+          "code": "UN-0227",
+          "display": "Nafkha-e-Haml",
+          "target": [
+            {
+              "code": "MG52",
+              "equivalence": "relatedto",
+              "display": "Bloating in pregnancy"
+            }
+          ]
+        },
+        {
+          "code": "UN-0228",
+          "display": "Sartan-e-Masana",
+          "target": [
+            {
+              "code": "2C73.Z",
+              "equivalence": "relatedto",
+              "display": "Bladder cancer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0229",
+          "display": "Iltihab-e-Pankriyās",
+          "target": [
+            {
+              "code": "DC52",
+              "equivalence": "relatedto",
+              "display": "Pancreatitis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0230",
+          "display": "Iltihab-e-Mafasil-e-Niqrisi",
+          "target": [
+            {
+              "code": "FA20.Z",
+              "equivalence": "relatedto",
+              "display": "Gouty arthritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0231",
+          "display": "Waja'-al-Qalb",
+          "target": [
+            {
+              "code": "BA40",
+              "equivalence": "relatedto",
+              "display": "Angina pectoris"
+            }
+          ]
+        },
+        {
+          "code": "UN-0232",
+          "display": "Zo'f-e-Tahallul-e-Ghiza",
+          "target": [
+            {
+              "code": "DD92.Z",
+              "equivalence": "relatedto",
+              "display": "Malabsorption syndrome"
+            }
+          ]
+        },
+        {
+          "code": "UN-0233",
+          "display": "Sozish-e-Halaq",
+          "target": [
+            {
+              "code": "MD10.0",
+              "equivalence": "relatedto",
+              "display": "Sore throat"
+            }
+          ]
+        },
+        {
+          "code": "UN-0234",
+          "display": "Fasadu'l-Hazm",
+          "target": [
+            {
+              "code": "DD90",
+              "equivalence": "relatedto",
+              "display": "Functional dyspepsia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0235",
+          "display": "Zo'f-e-Basarat-e-Shab",
+          "target": [
+            {
+              "code": "9D13",
+              "equivalence": "relatedto",
+              "display": "Nyctalopia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0236",
+          "display": "Zo'f-e-Basarat-e-Nahari",
+          "target": [
+            {
+              "code": "9D90",
+              "equivalence": "relatedto",
+              "display": "Photophobia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0237",
+          "display": "Qarha-e-Qornia",
+          "target": [
+            {
+              "code": "9A76",
+              "equivalence": "relatedto",
+              "display": "Corneal ulcer"
+            }
+          ]
+        },
+        {
+          "code": "UN-0238",
+          "display": "Sha'rah",
+          "target": [
+            {
+              "code": "9B70",
+              "equivalence": "relatedto",
+              "display": "Pterygium"
+            }
+          ]
+        },
+        {
+          "code": "UN-0239",
+          "display": "Iltihab-e-Qalb",
+          "target": [
+            {
+              "code": "BC41.Z",
+              "equivalence": "relatedto",
+              "display": "Myocarditis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0240",
+          "display": "Iltihab-e-Ghilaf-e-Qalb",
+          "target": [
+            {
+              "code": "BC42.Z",
+              "equivalence": "relatedto",
+              "display": "Pericarditis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0241",
+          "display": "Iltihab-e-Sharayeen",
+          "target": [
+            {
+              "code": "BA20.Z",
+              "equivalence": "relatedto",
+              "display": "Arteritis"
+            }
+          ]
+        },
+        {
+          "code": "UN-0242",
+          "display": "Bawari-e-Muzmin",
+          "target": [
+            {
+              "code": "5A00.1",
+              "equivalence": "relatedto",
+              "display": "Chronic goiter"
+            }
+          ]
+        },
+        {
+          "code": "UN-0243",
+          "display": "Qillat-e-Qalb ki Dhadkan",
+          "target": [
+            {
+              "code": "BD11",
+              "equivalence": "relatedto",
+              "display": "Bradycardia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0244",
+          "display": "Izdiad-e-Dhadkan",
+          "target": [
+            {
+              "code": "BD12",
+              "equivalence": "relatedto",
+              "display": "Tachycardia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0245",
+          "display": "Bukhari Sar dard ke Sath",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Fever with headache"
+            }
+          ]
+        },
+        {
+          "code": "UN-0246",
+          "display": "Bukhari Sard Zukam",
+          "target": [
+            {
+              "code": "1E32",
+              "equivalence": "relatedto",
+              "display": "Influenza-like illness"
+            }
+          ]
+        },
+        {
+          "code": "UN-0247",
+          "display": "Bukhar-e-Mutadil",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "Low-grade fever"
+            }
+          ]
+        },
+        {
+          "code": "UN-0248",
+          "display": "Bukhar-e-Shadid",
+          "target": [
+            {
+              "code": "MG26",
+              "equivalence": "relatedto",
+              "display": "High-grade fever"
+            }
+          ]
+        },
+        {
+          "code": "UN-0250",
+          "display": "Khansi Khushk",
+          "target": [
+            {
+              "code": "MD12",
+              "equivalence": "relatedto",
+              "display": "Dry cough"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-unani",
+      "target": "http://id.who.int/icd/release/11/tm2",
+      "element": [
+        {
+          "code": "UN-0042",
+          "display": "Ishaal-e-Damvi",
+          "target": [
+            {
+              "code": "SS72",
+              "equivalence": "relatedto",
+              "display": "Dysentery"
+            }
+          ]
+        },
+        {
+          "code": "UN-0091",
+          "display": "Soda'",
+          "target": [
+            {
+              "code": "SS75",
+              "equivalence": "relatedto",
+              "display": "Depressive temperament"
+            }
+          ]
+        },
+        {
+          "code": "UN-0092",
+          "display": "Balghami Su'-e-Mizaj",
+          "target": [
+            {
+              "code": "SS74",
+              "equivalence": "relatedto",
+              "display": "Phlegmatic dyscrasia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0093",
+          "display": "Damvi Su'-e-Mizaj",
+          "target": [
+            {
+              "code": "SS72",
+              "equivalence": "relatedto",
+              "display": "Sanguine dyscrasia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0094",
+          "display": "Safrai Su'-e-Mizaj",
+          "target": [
+            {
+              "code": "SS73",
+              "equivalence": "relatedto",
+              "display": "Choleric dyscrasia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0095",
+          "display": "Sauda'i Su'-e-Mizaj",
+          "target": [
+            {
+              "code": "SS75",
+              "equivalence": "relatedto",
+              "display": "Melancholic dyscrasia"
+            }
+          ]
+        },
+        {
+          "code": "UN-0188",
+          "display": "Bawasir-e-Damvi",
+          "target": [
+            {
+              "code": "SS72",
+              "equivalence": "relatedto",
+              "display": "Bleeding hemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "UN-0225",
+          "display": "Safra ka Ghalaba",
+          "target": [
+            {
+              "code": "SS73",
+              "equivalence": "relatedto",
+              "display": "Biliary colic"
+            }
+          ]
+        },
+        {
+          "code": "UN-0249",
+          "display": "Khansi Balghami",
+          "target": [
+            {
+              "code": "SS74",
+              "equivalence": "relatedto",
+              "display": "Productive cough"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@ const {
   WHO_BASE_URL = "https://id.who.int",
   WHO_API_VERSION = "v2",
   WHO_ACCEPT_LANGUAGE = "en",
-  WHO_RELEASE_ID = "latest"
+  WHO_RELEASE_ID = "2024-05"
 } = process.env;
 
 let tokenCache = { token: null, exp: 0 };
@@ -41,30 +41,40 @@ export async function searchLinearization(linearization, q, opts = {}) {
   if (!q) return [];
   const token = await getToken();
   const releaseId = opts.releaseId || WHO_RELEASE_ID || "latest";
-  const url = `${WHO_BASE_URL}/icd/release/11/${releaseId}/${linearization}/search`;
+  const base = (WHO_BASE_URL || "https://id.who.int").replace(/\/+$/, "");
+  const url = `${base}/icd/entity/search`;
 
-  const { data } = await axios.get(url, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "API-Version": WHO_API_VERSION,
-      "Accept-Language": WHO_ACCEPT_LANGUAGE
-    },
-    params: {
-      q,
-      flatResults: true,
-      useFlexisearch: true,
-      ...opts
-    },
-    timeout: 20000
-  });
+  if (process.env.DEBUG_WHO === "1") console.log("[WHO]", { url, linearization, releaseId, q });
 
-  const items = data?.items || data?.results || data || [];
-  return items.map(it => ({
-    code: it.code || it.id || it.uri || "",
-    title: it.title || it.label || "",
-    score: it.score ?? null,
-    uri: it.id || it.uri || null
-  }));
+  try {
+    const { data } = await axios.get(url, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "API-Version": WHO_API_VERSION,
+        "Accept-Language": WHO_ACCEPT_LANGUAGE
+      },
+      params: {
+        q,
+        flatResults: true,
+        useFlexisearch: true,
+        linearization: linearization === "mms" ? "icd11-mms" : "tm2",
+        releaseId,
+        ...opts
+      },
+      timeout: 20000
+    });
+
+    const items = data?.destinationEntities || data?.items || data?.results || [];
+    return items.map(it => ({
+      code: it.code || it.id || it.uri || "",
+      title: it.title?.["@value"] || it.title || it.label || "",
+      score: it.score ?? null,
+      uri: it.id || it.uri || null
+    }));
+  } catch (e) {
+    if (e.response?.status === 404) return [];
+    throw e;
+  }
 }
 
 export const searchMMS = (q, opts) => searchLinearization("mms", q, opts);

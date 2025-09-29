@@ -1,0 +1,1697 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "namaste-siddha-to-icd11",
+  "url": "https://yourgithubusername.github.io/namaste-fhir/ConceptMap/namaste-siddha-to-icd11",
+  "version": "2025.09",
+  "name": "NamasteSiddhaToICD11",
+  "title": "ConceptMap: NAMASTE Siddha → ICD-11",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Team Namaste, SIH 2025",
+  "date": "2025-09-29",
+  "description": "Mapping between NAMASTE Siddha codes and ICD-11 MMS (TM2 where provided).",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <h2>ConceptMap: NAMASTE Siddha → ICD-11</h2>\n  <p>Built from 'siddha_diseases_250_with_mock_namaste_codes_noNM'. Uses 'namaste_code' as source; maps MMS (icd11_code_mms) and TM2 (icd11_code_tms).</p>\n  <p><b>Total elements:</b> MMS=152, TM2=0</p>\n</div>"
+  },
+  "group": [
+    {
+      "source": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-siddha",
+      "target": "http://id.who.int/icd/release/11/mms",
+      "element": [
+        {
+          "code": "SI-0001",
+          "display": "Gunmam",
+          "target": [
+            {
+              "code": "DA42.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Gastritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0003",
+          "display": "Athisaram",
+          "target": [
+            {
+              "code": "DA61 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Diarrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0005",
+          "display": "Malakattu",
+          "target": [
+            {
+              "code": "DA64 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Constipation"
+            }
+          ]
+        },
+        {
+          "code": "SI-0006",
+          "display": "Kamalai",
+          "target": [
+            {
+              "code": "DB90.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Jaundice"
+            }
+          ]
+        },
+        {
+          "code": "SI-0007",
+          "display": "Kalleeral Noi",
+          "target": [
+            {
+              "code": "DB9Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Liver disease"
+            }
+          ]
+        },
+        {
+          "code": "SI-0008",
+          "display": "Manneeral Noi",
+          "target": [
+            {
+              "code": "BB26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Splenomegaly"
+            }
+          ]
+        },
+        {
+          "code": "SI-0009",
+          "display": "Peruvayuru",
+          "target": [
+            {
+              "code": "DB93 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Ascites"
+            }
+          ]
+        },
+        {
+          "code": "SI-0010",
+          "display": "Parisa Vali",
+          "target": [
+            {
+              "code": "ME84.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Abdominal colic"
+            }
+          ]
+        },
+        {
+          "code": "SI-0011",
+          "display": "Suram",
+          "target": [
+            {
+              "code": "MG26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0012",
+          "display": "Kaasam",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0013",
+          "display": "Erumal",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Chronic cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0014",
+          "display": "Eraippu Noi",
+          "target": [
+            {
+              "code": "CA23.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Asthma"
+            }
+          ]
+        },
+        {
+          "code": "SI-0015",
+          "display": "Neer Mookkadaippu",
+          "target": [
+            {
+              "code": "CA08.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Allergic rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0016",
+          "display": "Mookkadaippu",
+          "target": [
+            {
+              "code": "CA09.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0017",
+          "display": "Sevi Soraivu",
+          "target": [
+            {
+              "code": "AB70.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Otorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0018",
+          "display": "Thondai Soorai",
+          "target": [
+            {
+              "code": "CA03 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Tonsillitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0019",
+          "display": "Kann Thinai",
+          "target": [
+            {
+              "code": "9A60.02 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Allergic conjunctivitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0020",
+          "display": "Kan Punn",
+          "target": [
+            {
+              "code": "9A76 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Corneal ulcer"
+            }
+          ]
+        },
+        {
+          "code": "SI-0021",
+          "display": "Thamaraga Noi",
+          "target": [
+            {
+              "code": "BA8Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Heart disease"
+            }
+          ]
+        },
+        {
+          "code": "SI-0022",
+          "display": "Athi Kuruthi Azhutham",
+          "target": [
+            {
+              "code": "BA00 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        {
+          "code": "SI-0023",
+          "display": "Neerizhivu (Madhumegam)",
+          "target": [
+            {
+              "code": "5A11 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Diabetes mellitus"
+            }
+          ]
+        },
+        {
+          "code": "SI-0025",
+          "display": "Moothirakiricharam",
+          "target": [
+            {
+              "code": "MF50.7 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Dysuria"
+            }
+          ]
+        },
+        {
+          "code": "SI-0026",
+          "display": "Kalladaippu",
+          "target": [
+            {
+              "code": "GB70.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urolithiasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0027",
+          "display": "Soothagavali",
+          "target": [
+            {
+              "code": "GA20.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Dysmenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0028",
+          "display": "Soothaga Thadai",
+          "target": [
+            {
+              "code": "GA20.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Amenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0029",
+          "display": "Vellai Noi",
+          "target": [
+            {
+              "code": "MF3A (MMS)",
+              "equivalence": "relatedto",
+              "display": "Leucorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0030",
+          "display": "Perumbadu",
+          "target": [
+            {
+              "code": "GA20.2 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Menorrhagia"
+            }
+          ]
+        },
+        {
+          "code": "SI-0031",
+          "display": "Karuppai Katti",
+          "target": [
+            {
+              "code": "LA80.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Uterine fibroid"
+            }
+          ]
+        },
+        {
+          "code": "SI-0032",
+          "display": "Karuppai Veekam",
+          "target": [
+            {
+              "code": "LA8A (MMS)",
+              "equivalence": "relatedto",
+              "display": "Adenomyosis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0033",
+          "display": "Kadai Poopu Kollaru",
+          "target": [
+            {
+              "code": "LD22.1 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Cervical erosion"
+            }
+          ]
+        },
+        {
+          "code": "SI-0034",
+          "display": "Nagir Katti",
+          "target": [
+            {
+              "code": "LB24.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Ovarian cyst"
+            }
+          ]
+        },
+        {
+          "code": "SI-0035",
+          "display": "Mulaippai Katti",
+          "target": [
+            {
+              "code": "MF30 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Breast lump"
+            }
+          ]
+        },
+        {
+          "code": "SI-0036",
+          "display": "Pen Maladu",
+          "target": [
+            {
+              "code": "GA33 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Female infertility"
+            }
+          ]
+        },
+        {
+          "code": "SI-0037",
+          "display": "Aan Maladu",
+          "target": [
+            {
+              "code": "GB02 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Male infertility"
+            }
+          ]
+        },
+        {
+          "code": "SI-0039",
+          "display": "Neer Andam",
+          "target": [
+            {
+              "code": "GB20.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Hydrocele"
+            }
+          ]
+        },
+        {
+          "code": "SI-0040",
+          "display": "Varpaadai",
+          "target": [
+            {
+              "code": "GC98 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Varicocele"
+            }
+          ]
+        },
+        {
+          "code": "SI-0044",
+          "display": "Nadukku Vatham",
+          "target": [
+            {
+              "code": "8A20 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Parkinsonism"
+            }
+          ]
+        },
+        {
+          "code": "SI-0045",
+          "display": "Thalai Suttralai",
+          "target": [
+            {
+              "code": "8A80 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Migraine"
+            }
+          ]
+        },
+        {
+          "code": "SI-0046",
+          "display": "Sira Veppam",
+          "target": [
+            {
+              "code": "8A8Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Headache"
+            }
+          ]
+        },
+        {
+          "code": "SI-0047",
+          "display": "Keel Vayu",
+          "target": [
+            {
+              "code": "FA2Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Arthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0048",
+          "display": "Azhal Keel Vayu",
+          "target": [
+            {
+              "code": "FA20.00 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Inflammatory arthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0049",
+          "display": "Mudakku Vatham",
+          "target": [
+            {
+              "code": "FA0Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Osteoarthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0050",
+          "display": "Siruviral Vatham",
+          "target": [
+            {
+              "code": "8C10.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Carpal tunnel syndrome"
+            }
+          ]
+        },
+        {
+          "code": "SI-0051",
+          "display": "Ilaippu Vatham",
+          "target": [
+            {
+              "code": "FA80.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Cervical spondylosis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0052",
+          "display": "Karappan",
+          "target": [
+            {
+              "code": "EA20.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Eczema"
+            }
+          ]
+        },
+        {
+          "code": "SI-0053",
+          "display": "Sori",
+          "target": [
+            {
+              "code": "EA80 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Psoriasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0055",
+          "display": "Ven Pulli",
+          "target": [
+            {
+              "code": "EA83 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Vitiligo"
+            }
+          ]
+        },
+        {
+          "code": "SI-0056",
+          "display": "Paama Noi",
+          "target": [
+            {
+              "code": "1F20.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Scabies"
+            }
+          ]
+        },
+        {
+          "code": "SI-0057",
+          "display": "Sirangu",
+          "target": [
+            {
+              "code": "1F2Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Tinea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0058",
+          "display": "Kalkaadai",
+          "target": [
+            {
+              "code": "1E90.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Warts"
+            }
+          ]
+        },
+        {
+          "code": "SI-0059",
+          "display": "Maanthar",
+          "target": [
+            {
+              "code": "EB05 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urticaria"
+            }
+          ]
+        },
+        {
+          "code": "SI-0060",
+          "display": "Punn",
+          "target": [
+            {
+              "code": "1B75.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Furuncle"
+            }
+          ]
+        },
+        {
+          "code": "SI-0061",
+          "display": "Moolam",
+          "target": [
+            {
+              "code": "DC20 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Haemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "SI-0062",
+          "display": "Kadi Vatham",
+          "target": [
+            {
+              "code": "DC21.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Anal fistula"
+            }
+          ]
+        },
+        {
+          "code": "SI-0063",
+          "display": "Mudal Kattu",
+          "target": [
+            {
+              "code": "DC21.2 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Anal fissure"
+            }
+          ]
+        },
+        {
+          "code": "SI-0064",
+          "display": "Naatu Soorai",
+          "target": [
+            {
+              "code": "QA1A.4 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Pilonidal sinus"
+            }
+          ]
+        },
+        {
+          "code": "SI-0065",
+          "display": "Vasambu Pidippu",
+          "target": [
+            {
+              "code": "BD72.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Varicose veins"
+            }
+          ]
+        },
+        {
+          "code": "SI-0066",
+          "display": "Kaba Suram",
+          "target": [
+            {
+              "code": "MG26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0067",
+          "display": "Vatha Suram",
+          "target": [
+            {
+              "code": "MG26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0068",
+          "display": "Pitha Suram",
+          "target": [
+            {
+              "code": "MG26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0069",
+          "display": "Mukkuttra Suram",
+          "target": [
+            {
+              "code": "MG26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0070",
+          "display": "Thondai Vaatham",
+          "target": [
+            {
+              "code": "CA02 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Pharyngitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0071",
+          "display": "Sevi Ootru",
+          "target": [
+            {
+              "code": "AB70.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Otorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0072",
+          "display": "Peenisam",
+          "target": [
+            {
+              "code": "CA05.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Sinusitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0073",
+          "display": "Neer Peenisam",
+          "target": [
+            {
+              "code": "CA05.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Sinusitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0074",
+          "display": "Siruneer Sotha",
+          "target": [
+            {
+              "code": "GC08.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urinary tract infection"
+            }
+          ]
+        },
+        {
+          "code": "SI-0075",
+          "display": "Siruneer Perukkam",
+          "target": [
+            {
+              "code": "MF50.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urinary frequency"
+            }
+          ]
+        },
+        {
+          "code": "SI-0076",
+          "display": "Soothaga Vellai",
+          "target": [
+            {
+              "code": "MF3A (MMS)",
+              "equivalence": "relatedto",
+              "display": "Physiological leucorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0077",
+          "display": "Soothaga Suram",
+          "target": [
+            {
+              "code": "JB70 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Puerperal fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0078",
+          "display": "Mulaippai Vedippu",
+          "target": [
+            {
+              "code": "ND12.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Mastitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0079",
+          "display": "Pazhuthi Vatham",
+          "target": [
+            {
+              "code": "FA50 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Lumbago"
+            }
+          ]
+        },
+        {
+          "code": "SI-0080",
+          "display": "Irumal Kaasam",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Productive cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0081",
+          "display": "Uthiravatham",
+          "target": [
+            {
+              "code": "FA54 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Sciatica"
+            }
+          ]
+        },
+        {
+          "code": "SI-0082",
+          "display": "Siragu Vatham",
+          "target": [
+            {
+              "code": "ME84.2 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Scapular pain"
+            }
+          ]
+        },
+        {
+          "code": "SI-0083",
+          "display": "Vayu Mudakku",
+          "target": [
+            {
+              "code": "ME84.1 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Joint stiffness"
+            }
+          ]
+        },
+        {
+          "code": "SI-0084",
+          "display": "Kaalanjaga Padai",
+          "target": [
+            {
+              "code": "FA20.50 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Psoriatic arthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0085",
+          "display": "Kuttam Karappan",
+          "target": [
+            {
+              "code": "EA20.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Eczema"
+            }
+          ]
+        },
+        {
+          "code": "SI-0086",
+          "display": "Puzhu Kuttam",
+          "target": [
+            {
+              "code": "1F9Z.2 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Myiasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0087",
+          "display": "Sirangu Pulli",
+          "target": [
+            {
+              "code": "1F2D.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Tinea versicolor"
+            }
+          ]
+        },
+        {
+          "code": "SI-0089",
+          "display": "Ammai",
+          "target": [
+            {
+              "code": "1D10 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Smallpox"
+            }
+          ]
+        },
+        {
+          "code": "SI-0090",
+          "display": "Siruneer Pidippu",
+          "target": [
+            {
+              "code": "MF50.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urinary retention"
+            }
+          ]
+        },
+        {
+          "code": "SI-0091",
+          "display": "Iraippai Soorai",
+          "target": [
+            {
+              "code": "DD90.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Gastroenteritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0092",
+          "display": "Vali Suram",
+          "target": [
+            {
+              "code": "MG26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0093",
+          "display": "Azhal Suram",
+          "target": [
+            {
+              "code": "MG26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0094",
+          "display": "Iyam Suram",
+          "target": [
+            {
+              "code": "MG26 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Fever"
+            }
+          ]
+        },
+        {
+          "code": "SI-0095",
+          "display": "Vali Kaasam",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0096",
+          "display": "Azhal Kaasam",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0097",
+          "display": "Iyam Kaasam",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0098",
+          "display": "Mukkuttra Kaasam",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0099",
+          "display": "Vali Gunmam",
+          "target": [
+            {
+              "code": "DA42.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Gastritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0100",
+          "display": "Azhal Gunmam",
+          "target": [
+            {
+              "code": "DA42.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Gastritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0101",
+          "display": "Iyam Gunmam",
+          "target": [
+            {
+              "code": "DA42.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Gastritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0102",
+          "display": "Mukkuttra Gunmam",
+          "target": [
+            {
+              "code": "DA42.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Gastritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0103",
+          "display": "Vali Moolam",
+          "target": [
+            {
+              "code": "DC20 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Haemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "SI-0104",
+          "display": "Azhal Moolam",
+          "target": [
+            {
+              "code": "DC20 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Haemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "SI-0105",
+          "display": "Iyam Moolam",
+          "target": [
+            {
+              "code": "DC20 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Haemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "SI-0106",
+          "display": "Mukkuttra Moolam",
+          "target": [
+            {
+              "code": "DC20 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Haemorrhoids"
+            }
+          ]
+        },
+        {
+          "code": "SI-0107",
+          "display": "Vali Keel Vayu",
+          "target": [
+            {
+              "code": "FA2Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Arthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0108",
+          "display": "Iyam Keel Vayu",
+          "target": [
+            {
+              "code": "FA2Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Arthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0109",
+          "display": "Mukkuttra Keel Vayu",
+          "target": [
+            {
+              "code": "FA2Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Arthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0110",
+          "display": "Vali Thamaraga Noi",
+          "target": [
+            {
+              "code": "BA8Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Heart disease"
+            }
+          ]
+        },
+        {
+          "code": "SI-0111",
+          "display": "Azhal Thamaraga Noi",
+          "target": [
+            {
+              "code": "BA8Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Heart disease"
+            }
+          ]
+        },
+        {
+          "code": "SI-0112",
+          "display": "Iyam Thamaraga Noi",
+          "target": [
+            {
+              "code": "BA8Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Heart disease"
+            }
+          ]
+        },
+        {
+          "code": "SI-0113",
+          "display": "Mukkuttra Thamaraga Noi",
+          "target": [
+            {
+              "code": "BA8Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Heart disease"
+            }
+          ]
+        },
+        {
+          "code": "SI-0114",
+          "display": "Vali Eraippu Noi",
+          "target": [
+            {
+              "code": "CA23.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Asthma"
+            }
+          ]
+        },
+        {
+          "code": "SI-0115",
+          "display": "Azhal Eraippu Noi",
+          "target": [
+            {
+              "code": "CA23.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Asthma"
+            }
+          ]
+        },
+        {
+          "code": "SI-0116",
+          "display": "Iyam Eraippu Noi",
+          "target": [
+            {
+              "code": "CA23.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Asthma"
+            }
+          ]
+        },
+        {
+          "code": "SI-0117",
+          "display": "Mukkuttra Eraippu Noi",
+          "target": [
+            {
+              "code": "CA23.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Asthma"
+            }
+          ]
+        },
+        {
+          "code": "SI-0118",
+          "display": "Vali Kalladaippu",
+          "target": [
+            {
+              "code": "GB70.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urolithiasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0119",
+          "display": "Azhal Kalladaippu",
+          "target": [
+            {
+              "code": "GB70.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urolithiasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0120",
+          "display": "Iyam Kalladaippu",
+          "target": [
+            {
+              "code": "GB70.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urolithiasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0121",
+          "display": "Mukkuttra Kalladaippu",
+          "target": [
+            {
+              "code": "GB70.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Urolithiasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0122",
+          "display": "Vali Athisaram",
+          "target": [
+            {
+              "code": "DA61 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Diarrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0123",
+          "display": "Azhal Athisaram",
+          "target": [
+            {
+              "code": "DA61 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Diarrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0124",
+          "display": "Iyam Athisaram",
+          "target": [
+            {
+              "code": "DA61 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Diarrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0125",
+          "display": "Mukkuttra Athisaram",
+          "target": [
+            {
+              "code": "DA61 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Diarrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0130",
+          "display": "Vali Malakattu",
+          "target": [
+            {
+              "code": "DA64 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Constipation"
+            }
+          ]
+        },
+        {
+          "code": "SI-0131",
+          "display": "Azhal Malakattu",
+          "target": [
+            {
+              "code": "DA64 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Constipation"
+            }
+          ]
+        },
+        {
+          "code": "SI-0132",
+          "display": "Iyam Malakattu",
+          "target": [
+            {
+              "code": "DA64 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Constipation"
+            }
+          ]
+        },
+        {
+          "code": "SI-0133",
+          "display": "Mukkuttra Malakattu",
+          "target": [
+            {
+              "code": "DA64 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Constipation"
+            }
+          ]
+        },
+        {
+          "code": "SI-0134",
+          "display": "Vali Neer Mookkadaippu",
+          "target": [
+            {
+              "code": "CA08.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Allergic rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0135",
+          "display": "Azhal Neer Mookkadaippu",
+          "target": [
+            {
+              "code": "CA08.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Allergic rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0136",
+          "display": "Iyam Neer Mookkadaippu",
+          "target": [
+            {
+              "code": "CA08.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Allergic rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0137",
+          "display": "Mukkuttra Neer Mookkadaippu",
+          "target": [
+            {
+              "code": "CA08.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Allergic rhinitis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0138",
+          "display": "Vali Vellai Noi",
+          "target": [
+            {
+              "code": "MF3A (MMS)",
+              "equivalence": "relatedto",
+              "display": "Leucorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0139",
+          "display": "Azhal Vellai Noi",
+          "target": [
+            {
+              "code": "MF3A (MMS)",
+              "equivalence": "relatedto",
+              "display": "Leucorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0140",
+          "display": "Iyam Vellai Noi",
+          "target": [
+            {
+              "code": "MF3A (MMS)",
+              "equivalence": "relatedto",
+              "display": "Leucorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0141",
+          "display": "Mukkuttra Vellai Noi",
+          "target": [
+            {
+              "code": "MF3A (MMS)",
+              "equivalence": "relatedto",
+              "display": "Leucorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0142",
+          "display": "Vali Soothagavali",
+          "target": [
+            {
+              "code": "GA20.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Dysmenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0143",
+          "display": "Azhal Soothagavali",
+          "target": [
+            {
+              "code": "GA20.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Dysmenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0144",
+          "display": "Iyam Soothagavali",
+          "target": [
+            {
+              "code": "GA20.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Dysmenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0145",
+          "display": "Mukkuttra Soothagavali",
+          "target": [
+            {
+              "code": "GA20.0 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Dysmenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0146",
+          "display": "Vali Soothaga Thadai",
+          "target": [
+            {
+              "code": "GA20.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Amenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0147",
+          "display": "Azhal Soothaga Thadai",
+          "target": [
+            {
+              "code": "GA20.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Amenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0148",
+          "display": "Iyam Soothaga Thadai",
+          "target": [
+            {
+              "code": "GA20.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Amenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0149",
+          "display": "Mukkuttra Soothaga Thadai",
+          "target": [
+            {
+              "code": "GA20.3 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Amenorrhoea"
+            }
+          ]
+        },
+        {
+          "code": "SI-0150",
+          "display": "Vali Karappan",
+          "target": [
+            {
+              "code": "EA20.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Eczema"
+            }
+          ]
+        },
+        {
+          "code": "SI-0151",
+          "display": "Azhal Karappan",
+          "target": [
+            {
+              "code": "EA20.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Eczema"
+            }
+          ]
+        },
+        {
+          "code": "SI-0152",
+          "display": "Iyam Karappan",
+          "target": [
+            {
+              "code": "EA20.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Eczema"
+            }
+          ]
+        },
+        {
+          "code": "SI-0153",
+          "display": "Mukkuttra Karappan",
+          "target": [
+            {
+              "code": "EA20.Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Eczema"
+            }
+          ]
+        },
+        {
+          "code": "SI-0154",
+          "display": "Vali Sori",
+          "target": [
+            {
+              "code": "EA80 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Psoriasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0155",
+          "display": "Azhal Sori",
+          "target": [
+            {
+              "code": "EA80 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Psoriasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0156",
+          "display": "Iyam Sori",
+          "target": [
+            {
+              "code": "EA80 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Psoriasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0157",
+          "display": "Mukkuttra Sori",
+          "target": [
+            {
+              "code": "EA80 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Psoriasis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0162",
+          "display": "Vali Erumal",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Chronic cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0163",
+          "display": "Azhal Erumal",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Chronic cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0164",
+          "display": "Iyam Erumal",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Chronic cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0165",
+          "display": "Mukkuttra Erumal",
+          "target": [
+            {
+              "code": "MD12 (MMS)",
+              "equivalence": "relatedto",
+              "display": "Chronic cough"
+            }
+          ]
+        },
+        {
+          "code": "SI-0166",
+          "display": "Vali Mudakku Vatham",
+          "target": [
+            {
+              "code": "FA0Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Osteoarthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0167",
+          "display": "Azhal Mudakku Vatham",
+          "target": [
+            {
+              "code": "FA0Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Osteoarthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0168",
+          "display": "Iyam Mudakku Vatham",
+          "target": [
+            {
+              "code": "FA0Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Osteoarthritis"
+            }
+          ]
+        },
+        {
+          "code": "SI-0169",
+          "display": "Mukkuttra Mudakku Vatham",
+          "target": [
+            {
+              "code": "FA0Z (MMS)",
+              "equivalence": "relatedto",
+              "display": "Osteoarthritis"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

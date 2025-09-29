@@ -1,0 +1,2767 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "namaste-unani",
+  "url": "https://yourgithubusername.github.io/namaste-fhir/CodeSystem/namaste-unani",
+  "version": "2025.09",
+  "name": "NAMASTEUnaniTerms",
+  "title": "NAMASTE Unani Terms",
+  "status": "active",
+  "experimental": true,
+  "publisher": "Team Namaste, SIH 2025",
+  "date": "2025-09-29",
+  "description": "Terminology for unani disorders curated from CSV; generated as FHIR CodeSystem.",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "UN-0001",
+      "display": "Humma",
+      "definition": "'Humma' refers to fever. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0002",
+      "display": "Nazla",
+      "definition": "'Nazla' refers to acute rhinitis/catarrh. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Acute rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0003",
+      "display": "Zukam",
+      "definition": "'Zukam' refers to common cold. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Common cold",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0004",
+      "display": "Su'al",
+      "definition": "'Su'al' refers to cough. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0005",
+      "display": "Sil",
+      "definition": "'Sil' refers to pulmonary tuberculosis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pulmonary tuberculosis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0006",
+      "display": "Dhiq al-Nafas",
+      "definition": "'Dhiq al-Nafas' refers to dyspnea. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Dyspnea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0007",
+      "display": "Rabw",
+      "definition": "'Rabw' refers to bronchial asthma. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bronchial asthma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0008",
+      "display": "Warm-e-Riya",
+      "definition": "'Warm-e-Riya' refers to pneumonia. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pneumonia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0009",
+      "display": "Iltihab-e-Bronchi",
+      "definition": "'Iltihab-e-Bronchi' refers to bronchitis. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bronchitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0010",
+      "display": "Iltihab-e-Halaq",
+      "definition": "'Iltihab-e-Halaq' refers to pharyngitis. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pharyngitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0011",
+      "display": "Iltihab-e-Lawzatayn",
+      "definition": "'Iltihab-e-Lawzatayn' refers to tonsillitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Tonsillitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0012",
+      "display": "Iltihab-e-Hanjara",
+      "definition": "'Iltihab-e-Hanjara' refers to laryngitis. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Laryngitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0013",
+      "display": "Ramad",
+      "definition": "'Ramad' refers to ophthalmia/conjunctivitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Ophthalmia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0014",
+      "display": "Nazf al-Anf",
+      "definition": "'Nazf al-Anf' refers to epistaxis (nosebleed). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Epistaxis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0015",
+      "display": "Waja'-e-Sadr",
+      "definition": "'Waja'-e-Sadr' refers to chest pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chest pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0016",
+      "display": "Khafqan",
+      "definition": "'Khafqan' refers to palpitations. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Palpitations",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0017",
+      "display": "Farat al-Dam",
+      "definition": "'Farat al-Dam' refers to hypertension. Typical features include elevated blood pressure, headache, and fatigue. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hypertension",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0018",
+      "display": "Zo'f al-Qalb",
+      "definition": "'Zo'f al-Qalb' refers to cardiac weakness. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Cardiac weakness",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0019",
+      "display": "Suda'",
+      "definition": "'Suda'' refers to headache. Typical features include neurological symptoms such as headache or dizziness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Headache",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0020",
+      "display": "Shaqeeqa",
+      "definition": "'Shaqeeqa' refers to migraine. Typical features include neurological symptoms such as headache or dizziness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Migraine",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0021",
+      "display": "Falij",
+      "definition": "'Falij' refers to paralysis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Paralysis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0022",
+      "display": "Laqwa",
+      "definition": "'Laqwa' refers to facial palsy (bell's palsy). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Facial palsy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0023",
+      "display": "Sara'",
+      "definition": "'Sara'' refers to epilepsy. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Epilepsy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0024",
+      "display": "Nisyan",
+      "definition": "'Nisyan' refers to amnesia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Amnesia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0025",
+      "display": "Malikhuliya",
+      "definition": "'Malikhuliya' refers to melancholia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Melancholia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0026",
+      "display": "Ishal",
+      "definition": "'Ishal' refers to diarrhea. Typical features include increased stool frequency with abdominal cramps. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Diarrhea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0027",
+      "display": "Qabz",
+      "definition": "'Qabz' refers to constipation. Typical features include infrequent, hard stools and straining. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Constipation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0028",
+      "display": "Qai'",
+      "definition": "'Qai'' refers to vomiting. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Vomiting",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0029",
+      "display": "Nafkha",
+      "definition": "'Nafkha' refers to flatulence/bloating. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Flatulence",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0030",
+      "display": "So'-e-Hazm",
+      "definition": "'So'-e-Hazm' refers to indigestion/dyspepsia. Typical features include epigastric discomfort, burning, and dyspepsia. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Indigestion",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0031",
+      "display": "Harqat al-Mi'da",
+      "definition": "'Harqat al-Mi'da' refers to heartburn. Typical features include epigastric discomfort, burning, and dyspepsia. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Heartburn",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0032",
+      "display": "Qurooh-e-Mi'da",
+      "definition": "'Qurooh-e-Mi'da' refers to gastric ulcer. Typical features include localized ulceration, burning pain, and tenderness, epigastric discomfort, burning, and dyspepsia. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gastric ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0033",
+      "display": "Qurooh-e-Isna 'Ashar",
+      "definition": "'Qurooh-e-Isna 'Ashar' refers to duodenal ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Duodenal ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0034",
+      "display": "Warm-e-Kabid",
+      "definition": "'Warm-e-Kabid' refers to hepatitis. Typical features include right upper quadrant discomfort and fatigue. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hepatitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0035",
+      "display": "Warm-e-Marara",
+      "definition": "'Warm-e-Marara' refers to cholecystitis. Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Cholecystitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0036",
+      "display": "Hissah-e-Marara",
+      "definition": "'Hissah-e-Marara' refers to gallstones (cholelithiasis). Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gallstones",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0037",
+      "display": "Bawasir",
+      "definition": "'Bawasir' refers to hemorrhoids. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0038",
+      "display": "Shiqaq-e-Maq'ad",
+      "definition": "'Shiqaq-e-Maq'ad' refers to anal fissure. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Anal fissure",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0039",
+      "display": "Iltihab-e-Qolon",
+      "definition": "'Iltihab-e-Qolon' refers to colitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Colitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0040",
+      "display": "Warm-e-Mi'da",
+      "definition": "'Warm-e-Mi'da' refers to gastritis. Typical features include epigastric discomfort, burning, and dyspepsia. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gastritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0041",
+      "display": "Didan al-Ama'",
+      "definition": "'Didan al-Ama'' refers to intestinal helminthiasis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Intestinal helminthiasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0042",
+      "display": "Ishaal-e-Damvi",
+      "definition": "'Ishaal-e-Damvi' refers to dysentery (bloody diarrhea). Typical features include increased stool frequency with abdominal cramps. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Dysentery",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0043",
+      "display": "Waja'-al-Mafasil",
+      "definition": "'Waja'-al-Mafasil' refers to arthralgia (joint pain). Typical features include localized pain and functional limitation, joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Arthralgia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0044",
+      "display": "Warm-e-Mafasil",
+      "definition": "'Warm-e-Mafasil' refers to arthritis. Typical features include joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0045",
+      "display": "Niqris",
+      "definition": "'Niqris' refers to gout. Typical features include joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gout",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0046",
+      "display": "Waja'-al-Zahr",
+      "definition": "'Waja'-al-Zahr' refers to low back pain. Typical features include localized pain and functional limitation, joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Low back pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0047",
+      "display": "Irq al-Nasa",
+      "definition": "'Irq al-Nasa' refers to sciatica. Typical features include joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Sciatica",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0048",
+      "display": "Kasr",
+      "definition": "'Kasr' refers to fracture. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Fracture",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0049",
+      "display": "Khal'a",
+      "definition": "'Khal'a' refers to joint dislocation. Typical features include joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Joint dislocation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0050",
+      "display": "Waja'-al-'Azm",
+      "definition": "'Waja'-al-'Azm' refers to bone pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bone pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0051",
+      "display": "Jarab",
+      "definition": "'Jarab' refers to scabies. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Scabies",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0052",
+      "display": "Quba",
+      "definition": "'Quba' refers to tinea (ringworm). Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Tinea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0053",
+      "display": "Bars",
+      "definition": "'Bars' refers to vitiligo. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Vitiligo",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0054",
+      "display": "Bahaq",
+      "definition": "'Bahaq' refers to pityriasis alba/leucoderma. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pityriasis alba",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0055",
+      "display": "Judam",
+      "definition": "'Judam' refers to leprosy. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Leprosy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0056",
+      "display": "Namash",
+      "definition": "'Namash' refers to freckles. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Freckles",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0057",
+      "display": "Kalaf",
+      "definition": "'Kalaf' refers to melasma/chloasma. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Melasma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0058",
+      "display": "Sozish-e-Bawl",
+      "definition": "'Sozish-e-Bawl' refers to dysuria (burning micturition). Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Dysuria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0059",
+      "display": "Kasrat al-Bawl",
+      "definition": "'Kasrat al-Bawl' refers to polyuria. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Polyuria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0060",
+      "display": "Qillat al-Bawl",
+      "definition": "'Qillat al-Bawl' refers to oliguria. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Oliguria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0061",
+      "display": "Ihtibas al-Bawl",
+      "definition": "'Ihtibas al-Bawl' refers to urinary retention. Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Urinary retention",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0062",
+      "display": "Salas al-Bawl",
+      "definition": "'Salas al-Bawl' refers to urinary incontinence. Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Urinary incontinence",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0063",
+      "display": "Hissah-e-Kuliya",
+      "definition": "'Hissah-e-Kuliya' refers to renal calculus (kidney stone). Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Renal calculus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0064",
+      "display": "Iltihab-e-Masana",
+      "definition": "'Iltihab-e-Masana' refers to cystitis. Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Cystitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0065",
+      "display": "Warm-e-Kuliya",
+      "definition": "'Warm-e-Kuliya' refers to nephritis. Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Nephritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0066",
+      "display": "Sailan-ur-Rahm",
+      "definition": "'Sailan-ur-Rahm' refers to leucorrhea. Typical features include gynecologic symptoms such as pelvic pain or cycle changes. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Leucorrhea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0067",
+      "display": "Kasrat al-Tamth",
+      "definition": "'Kasrat al-Tamth' refers to menorrhagia. Typical features include gynecologic symptoms such as pelvic pain or cycle changes. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Menorrhagia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0068",
+      "display": "Qillat al-Tamth",
+      "definition": "'Qillat al-Tamth' refers to hypomenorrhea. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hypomenorrhea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0069",
+      "display": "Inqita' al-Tamth",
+      "definition": "'Inqita' al-Tamth' refers to amenorrhea. Typical features include gynecologic symptoms such as pelvic pain or cycle changes. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Amenorrhea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0070",
+      "display": "Dard-e-Hayd",
+      "definition": "'Dard-e-Hayd' refers to dysmenorrhea. Typical features include gynecologic symptoms such as pelvic pain or cycle changes. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Dysmenorrhea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0071",
+      "display": "Qai' al-Hubla",
+      "definition": "'Qai' al-Hubla' refers to hyperemesis gravidarum. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hyperemesis gravidarum",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0072",
+      "display": "Ziabetus Shakri",
+      "definition": "'Ziabetus Shakri' refers to diabetes mellitus. Typical features include polyuria, polydipsia, and weight change. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Diabetes mellitus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0073",
+      "display": "Saman-e-Mufrit",
+      "definition": "'Saman-e-Mufrit' refers to obesity. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Obesity",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0074",
+      "display": "Huzal",
+      "definition": "'Huzal' refers to emaciation/undernutrition. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Emaciation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0075",
+      "display": "Istisqa",
+      "definition": "'Istisqa' refers to ascites (dropsy). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Ascites",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0076",
+      "display": "Warm-e-Tihal",
+      "definition": "'Warm-e-Tihal' refers to splenitis/splenomegaly. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Splenitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0077",
+      "display": "Nafth-ud-Dam",
+      "definition": "'Nafth-ud-Dam' refers to hemoptysis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hemoptysis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0078",
+      "display": "Buhha",
+      "definition": "'Buhha' refers to hoarseness of voice. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hoarseness of voice",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0079",
+      "display": "Iltihab-e-Udhun",
+      "definition": "'Iltihab-e-Udhun' refers to otitis (ear infection). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Otitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0080",
+      "display": "Waja'-e-Udhun",
+      "definition": "'Waja'-e-Udhun' refers to earache. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Earache",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0081",
+      "display": "Qurooh-e-Saqiyn",
+      "definition": "'Qurooh-e-Saqiyn' refers to leg ulcers. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Leg ulcers",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0082",
+      "display": "Qurooh-e-Diabetici",
+      "definition": "'Qurooh-e-Diabetici' refers to diabetic foot ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Diabetic foot ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0083",
+      "display": "Hummay-e-Wabayi",
+      "definition": "'Hummay-e-Wabayi' refers to epidemic fever. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Epidemic fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0084",
+      "display": "Hummae-Malaria",
+      "definition": "'Hummae-Malaria' refers to malaria. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Malaria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0085",
+      "display": "Hummae-Rubayi",
+      "definition": "'Hummae-Rubayi' refers to quartan malaria. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Quartan malaria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0086",
+      "display": "Hummae-Salasah",
+      "definition": "'Hummae-Salasah' refers to tertian malaria. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Tertian malaria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0087",
+      "display": "Sual-e-Muzmin",
+      "definition": "'Sual-e-Muzmin' refers to chronic cough. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chronic cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0088",
+      "display": "Dafaq al-Bawl",
+      "definition": "'Dafaq al-Bawl' refers to nocturia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Nocturia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0089",
+      "display": "Tabaal",
+      "definition": "'Tabaal' refers to enuresis (bed-wetting). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Enuresis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0090",
+      "display": "Waswasa",
+      "definition": "'Waswasa' refers to anxiety/obsessive thoughts. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Anxiety",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0091",
+      "display": "Soda'",
+      "definition": "'Soda'' refers to depressive temperament (black bile dominance). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Depressive temperament",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0092",
+      "display": "Balghami Su'-e-Mizaj",
+      "definition": "'Balghami Su'-e-Mizaj' refers to phlegmatic dyscrasia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Phlegmatic dyscrasia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0093",
+      "display": "Damvi Su'-e-Mizaj",
+      "definition": "'Damvi Su'-e-Mizaj' refers to sanguine dyscrasia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Sanguine dyscrasia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0094",
+      "display": "Safrai Su'-e-Mizaj",
+      "definition": "'Safrai Su'-e-Mizaj' refers to choleric dyscrasia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Choleric dyscrasia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0095",
+      "display": "Sauda'i Su'-e-Mizaj",
+      "definition": "'Sauda'i Su'-e-Mizaj' refers to melancholic dyscrasia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Melancholic dyscrasia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0096",
+      "display": "Zo'f-e-Basar",
+      "definition": "'Zo'f-e-Basar' refers to reduced visual acuity. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Reduced visual acuity",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0097",
+      "display": "Iltihab-e-Jild",
+      "definition": "'Iltihab-e-Jild' refers to dermatitis. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Dermatitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0098",
+      "display": "Qishr-e-Sar",
+      "definition": "'Qishr-e-Sar' refers to dandruff. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Dandruff",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0099",
+      "display": "Sa'fa",
+      "definition": "'Sa'fa' refers to alopecia areata. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Alopecia areata",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0100",
+      "display": "Habb-e-Shababi",
+      "definition": "'Habb-e-Shababi' refers to acne vulgaris. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Acne vulgaris",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0101",
+      "display": "Quruh-e-Damavi",
+      "definition": "'Quruh-e-Damavi' refers to bleeding ulcers. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bleeding ulcers",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0102",
+      "display": "Quruh-e-Qadimah",
+      "definition": "'Quruh-e-Qadimah' refers to chronic ulcers. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chronic ulcers",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0103",
+      "display": "Nafkh-e-Bawasil",
+      "definition": "'Nafkh-e-Bawasil' refers to thrombosed hemorrhoids. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Thrombosed hemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0104",
+      "display": "Warid varicosi",
+      "definition": "'Warid varicosi' refers to varicose veins. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Varicose veins",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0105",
+      "display": "Zahra al-Mathana",
+      "definition": "'Zahra al-Mathana' refers to urethral stricture. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Urethral stricture",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0106",
+      "display": "Warm-e-Litha",
+      "definition": "'Warm-e-Litha' refers to gingivitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gingivitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0107",
+      "display": "Dard-e-Asnan",
+      "definition": "'Dard-e-Asnan' refers to toothache. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Toothache",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0108",
+      "display": "Nakhun-andar-ugna",
+      "definition": "'Nakhun-andar-ugna' refers to ingrown toenail. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Ingrown toenail",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0109",
+      "display": "Dard-e-Gardan",
+      "definition": "'Dard-e-Gardan' refers to neck pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Neck pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0110",
+      "display": "Dard-e-Kandha",
+      "definition": "'Dard-e-Kandha' refers to shoulder pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Shoulder pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0111",
+      "display": "Dard-e-Bazu",
+      "definition": "'Dard-e-Bazu' refers to arm pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Arm pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0112",
+      "display": "Dard-e-Kuni",
+      "definition": "'Dard-e-Kuni' refers to elbow pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Elbow pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0113",
+      "display": "Dard-e-Kalai",
+      "definition": "'Dard-e-Kalai' refers to wrist pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Wrist pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0114",
+      "display": "Dard-e-Hath",
+      "definition": "'Dard-e-Hath' refers to hand pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hand pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0115",
+      "display": "Dard-e-Ghutna",
+      "definition": "'Dard-e-Ghutna' refers to knee pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Knee pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0116",
+      "display": "Dard-e-Pindli",
+      "definition": "'Dard-e-Pindli' refers to calf pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Calf pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0117",
+      "display": "Dard-e-Talva",
+      "definition": "'Dard-e-Talva' refers to heel pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Heel pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0118",
+      "display": "Dard-e-Qadam",
+      "definition": "'Dard-e-Qadam' refers to foot pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Foot pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0119",
+      "display": "Warm-e-Anf",
+      "definition": "'Warm-e-Anf' refers to rhinitis (nasal inflammation). Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0120",
+      "display": "Warm-e-Sinus",
+      "definition": "'Warm-e-Sinus' refers to sinusitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Sinusitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0121",
+      "display": "Warm-e-Halaq",
+      "definition": "'Warm-e-Halaq' refers to pharyngitis. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pharyngitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0122",
+      "display": "Warm-e-Lawzatayn",
+      "definition": "'Warm-e-Lawzatayn' refers to tonsillitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Tonsillitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0123",
+      "display": "Warm-e-Hanjara",
+      "definition": "'Warm-e-Hanjara' refers to laryngitis. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Laryngitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0124",
+      "display": "Warm-e-Bronchi",
+      "definition": "'Warm-e-Bronchi' refers to bronchitis. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bronchitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0125",
+      "display": "Warm-e-Qolon",
+      "definition": "'Warm-e-Qolon' refers to colitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Colitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0126",
+      "display": "Warm-e-Duodenum",
+      "definition": "'Warm-e-Duodenum' refers to duodenitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Duodenitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0127",
+      "display": "Warm-e-Bankriyās",
+      "definition": "'Warm-e-Bankriyās' refers to pancreatitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pancreatitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0128",
+      "display": "Warm-e-Masana",
+      "definition": "'Warm-e-Masana' refers to cystitis. Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Cystitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0129",
+      "display": "Warm-e-Udhun",
+      "definition": "'Warm-e-Udhun' refers to otitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Otitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0130",
+      "display": "Warm-e-Ain",
+      "definition": "'Warm-e-Ain' refers to conjunctivitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Conjunctivitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0131",
+      "display": "Warm-e-Jild",
+      "definition": "'Warm-e-Jild' refers to dermatitis. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Dermatitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0132",
+      "display": "Warm-e-Lisan",
+      "definition": "'Warm-e-Lisan' refers to glossitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Glossitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0133",
+      "display": "Warm-e-Mafasil",
+      "definition": "'Warm-e-Mafasil' refers to synovitis. Typical features include joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Synovitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0134",
+      "display": "Warm-e-Gadud-e-Darqi",
+      "definition": "'Warm-e-Gadud-e-Darqi' refers to thyroiditis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Thyroiditis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0135",
+      "display": "Qurooh-e-Mida",
+      "definition": "'Qurooh-e-Mida' refers to gastric ulcer. Typical features include localized ulceration, burning pain, and tenderness, epigastric discomfort, burning, and dyspepsia. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gastric ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0136",
+      "display": "Qurooh-e-Duodenum",
+      "definition": "'Qurooh-e-Duodenum' refers to duodenal ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Duodenal ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0137",
+      "display": "Qurooh-e-Qolon",
+      "definition": "'Qurooh-e-Qolon' refers to colonic ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Colonic ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0138",
+      "display": "Qurooh-e-Muhasha",
+      "definition": "'Qurooh-e-Muhasha' refers to mouth ulcer (aphthous). Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Mouth ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0139",
+      "display": "Qurooh-e-Jild",
+      "definition": "'Qurooh-e-Jild' refers to skin ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Skin ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0140",
+      "display": "Qurooh-e-Qadam",
+      "definition": "'Qurooh-e-Qadam' refers to foot ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Foot ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0141",
+      "display": "Qurooh-e-Patella",
+      "definition": "'Qurooh-e-Patella' refers to knee ulceration. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Knee ulceration",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0142",
+      "display": "Qurooh-e-Saqiyn",
+      "definition": "'Qurooh-e-Saqiyn' refers to leg ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Leg ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0143",
+      "display": "Qurooh-e-Qabl",
+      "definition": "'Qurooh-e-Qabl' refers to genital ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Genital ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0144",
+      "display": "Dard-e-Sar",
+      "definition": "'Dard-e-Sar' refers to headache (cephalalgia). Typical features include localized pain and functional limitation, neurological symptoms such as headache or dizziness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Headache",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0145",
+      "display": "Dard-e-Chashm",
+      "definition": "'Dard-e-Chashm' refers to eye pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Eye pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0146",
+      "display": "Dard-e-Angoothha",
+      "definition": "'Dard-e-Angoothha' refers to thumb pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Thumb pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0147",
+      "display": "Dard-e-Seena",
+      "definition": "'Dard-e-Seena' refers to chest pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chest pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0148",
+      "display": "Dard-e-Shikam",
+      "definition": "'Dard-e-Shikam' refers to abdominal pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Abdominal pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0149",
+      "display": "Dard-e-Kamar",
+      "definition": "'Dard-e-Kamar' refers to low back pain. Typical features include localized pain and functional limitation, joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Low back pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0150",
+      "display": "Dard-e-Kan",
+      "definition": "'Dard-e-Kan' refers to ear pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Ear pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0151",
+      "display": "Dard-e-Dandan",
+      "definition": "'Dard-e-Dandan' refers to toothache. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Toothache",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0152",
+      "display": "Zof-e-A'sab",
+      "definition": "'Zof-e-A'sab' refers to peripheral neuropathy (nerve weakness). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Peripheral neuropathy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0153",
+      "display": "Rasha",
+      "definition": "'Rasha' refers to tremor. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Tremor",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0154",
+      "display": "Nuqsan al-Dam",
+      "definition": "'Nuqsan al-Dam' refers to anemia. Typical features include pallor, fatigue, and reduced exercise tolerance. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Anemia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0155",
+      "display": "Safra Ziyadah",
+      "definition": "'Safra Ziyadah' refers to hyperbilirubinemia/jaundice (icterus). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hyperbilirubinemia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0156",
+      "display": "Yaraqan",
+      "definition": "'Yaraqan' refers to jaundice. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Jaundice",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0157",
+      "display": "Dard-e-Masna",
+      "definition": "'Dard-e-Masna' refers to bladder pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bladder pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0158",
+      "display": "Sadd-e-Sharaayin",
+      "definition": "'Sadd-e-Sharaayin' refers to atherosclerosis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Atherosclerosis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0159",
+      "display": "Sakta-e-Dimaghi",
+      "definition": "'Sakta-e-Dimaghi' refers to stroke (cerebrovascular accident). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Stroke",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0160",
+      "display": "Zo'f-e-Hafiza",
+      "definition": "'Zo'f-e-Hafiza' refers to memory impairment. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Memory impairment",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0161",
+      "display": "Iltihab-e-A'sab",
+      "definition": "'Iltihab-e-A'sab' refers to neuritis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Neuritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0162",
+      "display": "Nafkha-e-Shikam",
+      "definition": "'Nafkha-e-Shikam' refers to abdominal distension. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Abdominal distension",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0163",
+      "display": "Qayul-e-Dam",
+      "definition": "'Qayul-e-Dam' refers to hematemesis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hematemesis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0164",
+      "display": "Bawasiroon ka Khoon",
+      "definition": "'Bawasiroon ka Khoon' refers to rectal bleeding. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Rectal bleeding",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0165",
+      "display": "Sarsam",
+      "definition": "'Sarsam' refers to meningitis/encephalitis (traditional term). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Meningitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0166",
+      "display": "Dimaqi Bukhar",
+      "definition": "'Dimaqi Bukhar' refers to typhoid-like fever (enteric fever). Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Typhoid-like fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0167",
+      "display": "Hummae-Nakhlia",
+      "definition": "'Hummae-Nakhlia' refers to remittent fever. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Remittent fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0168",
+      "display": "Hummae-Qutrab",
+      "definition": "'Hummae-Qutrab' refers to relapsing fever. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Relapsing fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0169",
+      "display": "Nazla-e-Harra",
+      "definition": "'Nazla-e-Harra' refers to hot catarrh (influenza-like). Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hot catarrh",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0170",
+      "display": "Nazla-e-Barida",
+      "definition": "'Nazla-e-Barida' refers to cold catarrh. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Cold catarrh",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0171",
+      "display": "Zo'f-e-Meda",
+      "definition": "'Zo'f-e-Meda' refers to gastric weakness (dyspepsia). Typical features include epigastric discomfort, burning, and dyspepsia. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gastric weakness",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0172",
+      "display": "Bawari",
+      "definition": "'Bawari' refers to goiter. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Goiter",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0173",
+      "display": "Iltihab-e-Ghadud-e-Darqi",
+      "definition": "'Iltihab-e-Ghadud-e-Darqi' refers to thyroiditis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Thyroiditis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0174",
+      "display": "Fasadu'l-Bawl",
+      "definition": "'Fasadu'l-Bawl' refers to urinary tract infection. Typical features include urinary symptoms such as dysuria, frequency, or colic. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Urinary tract infection",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0175",
+      "display": "Sailan al-Dam",
+      "definition": "'Sailan al-Dam' refers to menometrorrhagia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Menometrorrhagia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0176",
+      "display": "Iltihab-e-Rahim",
+      "definition": "'Iltihab-e-Rahim' refers to endometritis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Endometritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0177",
+      "display": "Suqut-ur-Rahim",
+      "definition": "'Suqut-ur-Rahim' refers to uterine prolapse. Typical features include gynecologic symptoms such as pelvic pain or cycle changes. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Uterine prolapse",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0178",
+      "display": "Warid-e-Mutawarri",
+      "definition": "'Warid-e-Mutawarri' refers to thrombophlebitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Thrombophlebitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0179",
+      "display": "Qalb ki Bijli Be-Intizam",
+      "definition": "'Qalb ki Bijli Be-Intizam' refers to arrhythmia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Arrhythmia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0180",
+      "display": "Zo'f-e-Bah",
+      "definition": "'Zo'f-e-Bah' refers to sexual weakness (erectile dysfunction). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Sexual weakness",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0181",
+      "display": "Sur'at-e-Inzal",
+      "definition": "'Sur'at-e-Inzal' refers to premature ejaculation. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Premature ejaculation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0182",
+      "display": "Qillat-e-Shahwat",
+      "definition": "'Qillat-e-Shahwat' refers to decreased libido. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Decreased libido",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0183",
+      "display": "Silsila-e-Nawm ka Ikhtilal",
+      "definition": "'Silsila-e-Nawm ka Ikhtilal' refers to insomnia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Insomnia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0184",
+      "display": "Kasrat-e-Nawm",
+      "definition": "'Kasrat-e-Nawm' refers to hypersomnia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hypersomnia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0185",
+      "display": "Sarinah",
+      "definition": "'Sarinah' refers to vertigo. Typical features include neurological symptoms such as headache or dizziness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Vertigo",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0186",
+      "display": "Qabz-e-Muzmin",
+      "definition": "'Qabz-e-Muzmin' refers to chronic constipation. Typical features include infrequent, hard stools and straining. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chronic constipation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0187",
+      "display": "Ishal-e-Muzmin",
+      "definition": "'Ishal-e-Muzmin' refers to chronic diarrhea. Typical features include increased stool frequency with abdominal cramps. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chronic diarrhea",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0188",
+      "display": "Bawasir-e-Damvi",
+      "definition": "'Bawasir-e-Damvi' refers to bleeding hemorrhoids. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bleeding hemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0189",
+      "display": "Bawasir-e-Amya",
+      "definition": "'Bawasir-e-Amya' refers to blind hemorrhoids. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Blind hemorrhoids",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0190",
+      "display": "Zof-e-Jigar",
+      "definition": "'Zof-e-Jigar' refers to liver weakness (hepatic insufficiency). Typical features include right upper quadrant discomfort and fatigue. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Liver weakness",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0191",
+      "display": "Ramad-e-Muzmin",
+      "definition": "'Ramad-e-Muzmin' refers to chronic conjunctivitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chronic conjunctivitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0192",
+      "display": "Zurqah",
+      "definition": "'Zurqah' refers to glaucoma. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Glaucoma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0193",
+      "display": "Sadaf",
+      "definition": "'Sadaf' refers to psoriasis. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Psoriasis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0194",
+      "display": "Qilfil",
+      "definition": "'Qilfil' refers to eczema (dermatitis). Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Eczema",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0195",
+      "display": "Dummal",
+      "definition": "'Dummal' refers to furunculosis (boils). Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Furunculosis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0196",
+      "display": "Khajli",
+      "definition": "'Khajli' refers to pruritus (itching). Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pruritus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0197",
+      "display": "Hika",
+      "definition": "'Hika' refers to hiccups. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hiccups",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0198",
+      "display": "Nakhun ka Fungal",
+      "definition": "'Nakhun ka Fungal' refers to onychomycosis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Onychomycosis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0199",
+      "display": "Ghasayan",
+      "definition": "'Ghasayan' refers to gastric irritation. Typical features include epigastric discomfort, burning, and dyspepsia. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gastric irritation",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0200",
+      "display": "Qai-e-Sabahi",
+      "definition": "'Qai-e-Sabahi' refers to morning sickness. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Morning sickness",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0201",
+      "display": "Dard-e-Masoor",
+      "definition": "'Dard-e-Masoor' refers to gum pain. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gum pain",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0202",
+      "display": "Sarsari Naza",
+      "definition": "'Sarsari Naza' refers to allergic rhinitis. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Allergic rhinitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0203",
+      "display": "Hasba",
+      "definition": "'Hasba' refers to measles. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Measles",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0204",
+      "display": "Khasra-o-Khanse",
+      "definition": "'Khasra-o-Khanse' refers to whooping cough (pertussis). Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Whooping cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0205",
+      "display": "Hummae-Qumal",
+      "definition": "'Hummae-Qumal' refers to typhus (louse-borne fever). Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Typhus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0206",
+      "display": "Wabai Ishal",
+      "definition": "'Wabai Ishal' refers to cholera. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Cholera",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0207",
+      "display": "Sartan-e-Jild",
+      "definition": "'Sartan-e-Jild' refers to skin cancer. Typical features include progressive mass-related symptoms depending on site. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Skin cancer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0208",
+      "display": "Sartan-e-Sadi",
+      "definition": "'Sartan-e-Sadi' refers to breast cancer. Typical features include progressive mass-related symptoms depending on site. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Breast cancer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0209",
+      "display": "Sartan-e-Qolon",
+      "definition": "'Sartan-e-Qolon' refers to colon cancer. Typical features include progressive mass-related symptoms depending on site. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Colon cancer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0210",
+      "display": "Sartan-e-Riya",
+      "definition": "'Sartan-e-Riya' refers to lung cancer. Typical features include progressive mass-related symptoms depending on site. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Lung cancer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0211",
+      "display": "Sartan-e-Meda",
+      "definition": "'Sartan-e-Meda' refers to gastric cancer. Typical features include epigastric discomfort, burning, and dyspepsia, progressive mass-related symptoms depending on site. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gastric cancer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0212",
+      "display": "Sartan-e-Bidah",
+      "definition": "'Sartan-e-Bidah' refers to prostate cancer. Typical features include progressive mass-related symptoms depending on site. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Prostate cancer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0213",
+      "display": "Sartan-e-Rahim",
+      "definition": "'Sartan-e-Rahim' refers to cervical cancer. Typical features include progressive mass-related symptoms depending on site, gynecologic symptoms such as pelvic pain or cycle changes. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Cervical cancer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0214",
+      "display": "Sartan-e-Jigar",
+      "definition": "'Sartan-e-Jigar' refers to hepatocellular carcinoma. Typical features include right upper quadrant discomfort and fatigue, progressive mass-related symptoms depending on site. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hepatocellular carcinoma",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0215",
+      "display": "Zo'f-e-Masame",
+      "definition": "'Zo'f-e-Masame' refers to hyperhidrosis? (sweat gland disorder). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hyperhidrosis?",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0216",
+      "display": "Urtikariya",
+      "definition": "'Urtikariya' refers to urticaria. Typical features include skin changes such as rash, pruritus, or lesions. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Urticaria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0217",
+      "display": "Sammiyat-e-Ghiza",
+      "definition": "'Sammiyat-e-Ghiza' refers to food poisoning. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Food poisoning",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0218",
+      "display": "Sauda-e-Muzmin",
+      "definition": "'Sauda-e-Muzmin' refers to chronic melancholia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chronic melancholia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0219",
+      "display": "Iltihab-e-Mafasil al-Rumati",
+      "definition": "'Iltihab-e-Mafasil al-Rumati' refers to rheumatoid arthritis. Typical features include joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Rheumatoid arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0220",
+      "display": "Waja'-al-'Asab al-Wajhi",
+      "definition": "'Waja'-al-'Asab al-Wajhi' refers to trigeminal neuralgia. Typical features include localized pain and functional limitation. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Trigeminal neuralgia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0221",
+      "display": "Zo'f-e-A'sab-e-Nazar",
+      "definition": "'Zo'f-e-A'sab-e-Nazar' refers to optic neuritis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Optic neuritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0222",
+      "display": "Sada-e-Kan",
+      "definition": "'Sada-e-Kan' refers to tinnitus. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Tinnitus",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0223",
+      "display": "Summa",
+      "definition": "'Summa' refers to hearing loss. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hearing loss",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0224",
+      "display": "Zafarani Peshab",
+      "definition": "'Zafarani Peshab' refers to hematuria (blood in urine). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Hematuria",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0225",
+      "display": "Safra ka Ghalaba",
+      "definition": "'Safra ka Ghalaba' refers to biliary colic. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Biliary colic",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0226",
+      "display": "Qabz-e-Haml",
+      "definition": "'Qabz-e-Haml' refers to constipation in pregnancy. Typical features include infrequent, hard stools and straining, gynecologic symptoms such as pelvic pain or cycle changes. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Constipation in pregnancy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0227",
+      "display": "Nafkha-e-Haml",
+      "definition": "'Nafkha-e-Haml' refers to bloating in pregnancy. Typical features include gynecologic symptoms such as pelvic pain or cycle changes. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bloating in pregnancy",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0228",
+      "display": "Sartan-e-Masana",
+      "definition": "'Sartan-e-Masana' refers to bladder cancer. Typical features include progressive mass-related symptoms depending on site. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bladder cancer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0229",
+      "display": "Iltihab-e-Pankriyās",
+      "definition": "'Iltihab-e-Pankriyās' refers to pancreatitis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pancreatitis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0230",
+      "display": "Iltihab-e-Mafasil-e-Niqrisi",
+      "definition": "'Iltihab-e-Mafasil-e-Niqrisi' refers to gouty arthritis. Typical features include joint inflammation, stiffness, or nerve-related pain. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Gouty arthritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0231",
+      "display": "Waja'-al-Qalb",
+      "definition": "'Waja'-al-Qalb' refers to angina pectoris. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Angina pectoris",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0232",
+      "display": "Zo'f-e-Tahallul-e-Ghiza",
+      "definition": "'Zo'f-e-Tahallul-e-Ghiza' refers to malabsorption syndrome. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Malabsorption syndrome",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0233",
+      "display": "Sozish-e-Halaq",
+      "definition": "'Sozish-e-Halaq' refers to sore throat. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Sore throat",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0234",
+      "display": "Fasadu'l-Hazm",
+      "definition": "'Fasadu'l-Hazm' refers to functional dyspepsia. Typical features include epigastric discomfort, burning, and dyspepsia. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Functional dyspepsia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0235",
+      "display": "Zo'f-e-Basarat-e-Shab",
+      "definition": "'Zo'f-e-Basarat-e-Shab' refers to nyctalopia (night blindness). Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Nyctalopia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0236",
+      "display": "Zo'f-e-Basarat-e-Nahari",
+      "definition": "'Zo'f-e-Basarat-e-Nahari' refers to photophobia/visual fatigue. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Photophobia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0237",
+      "display": "Qarha-e-Qornia",
+      "definition": "'Qarha-e-Qornia' refers to corneal ulcer. Typical features include localized ulceration, burning pain, and tenderness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Corneal ulcer",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0238",
+      "display": "Sha'rah",
+      "definition": "'Sha'rah' refers to pterygium. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pterygium",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0239",
+      "display": "Iltihab-e-Qalb",
+      "definition": "'Iltihab-e-Qalb' refers to myocarditis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Myocarditis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0240",
+      "display": "Iltihab-e-Ghilaf-e-Qalb",
+      "definition": "'Iltihab-e-Ghilaf-e-Qalb' refers to pericarditis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Pericarditis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0241",
+      "display": "Iltihab-e-Sharayeen",
+      "definition": "'Iltihab-e-Sharayeen' refers to arteritis. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Arteritis",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0242",
+      "display": "Bawari-e-Muzmin",
+      "definition": "'Bawari-e-Muzmin' refers to chronic goiter. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Chronic goiter",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0243",
+      "display": "Qillat-e-Qalb ki Dhadkan",
+      "definition": "'Qillat-e-Qalb ki Dhadkan' refers to bradycardia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Bradycardia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0244",
+      "display": "Izdiad-e-Dhadkan",
+      "definition": "'Izdiad-e-Dhadkan' refers to tachycardia. Typical features include symptoms vary by severity and temperament (mizaj). Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Tachycardia",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0245",
+      "display": "Bukhari Sar dard ke Sath",
+      "definition": "'Bukhari Sar dard ke Sath' refers to fever with headache. Typical features include pyrexia, chills, malaise, neurological symptoms such as headache or dizziness. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Fever with headache",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0246",
+      "display": "Bukhari Sard Zukam",
+      "definition": "'Bukhari Sard Zukam' refers to influenza-like illness. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Influenza-like illness",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0247",
+      "display": "Bukhar-e-Mutadil",
+      "definition": "'Bukhar-e-Mutadil' refers to low-grade fever. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Low-grade fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0248",
+      "display": "Bukhar-e-Shadid",
+      "definition": "'Bukhar-e-Shadid' refers to high-grade fever. Typical features include pyrexia, chills, malaise. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "High-grade fever",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0249",
+      "display": "Khansi Balghami",
+      "definition": "'Khansi Balghami' refers to productive cough. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Productive cough",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "code": "UN-0250",
+      "display": "Khansi Khushk",
+      "definition": "'Khansi Khushk' refers to dry cough. Typical features include airway irritation, cough, and breathing difficulty. Management traditionally considers correction of temperament (mizaj), dietetic measures (ilaj‑bil‑ghiza), regimenal therapy (ilaj‑bit‑tadbeer), and drugs (ilaj‑bid‑dawa) as appropriate.",
+      "designation": [
+        {
+          "value": "Dry cough",
+          "language": "en"
+        }
+      ]
+    }
+  ]
+}

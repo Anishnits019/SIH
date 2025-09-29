@@ -4,9 +4,9 @@ import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
 
-import { connectDB } from './BackEnd/config/db.js';
-import terminologyRoutes from './BackEnd/Routes/terminology.routes.js';
-
+import { connectDB } from './config/db.js';
+import terminologyRoutes from './Routes/terminology.routes.js';
+import authRoutes from './Routes/terminology.routes.js'
 dotenv.config();
 
 const app = express();
@@ -17,6 +17,8 @@ app.use(morgan('dev'));
 
 app.get('/', (req, res) => res.send('SIH Terminology API. Try /health'));
 app.use('/', terminologyRoutes);
+app.use('/', authRoutes);
+
 
 const port = process.env.PORT || 4000;
 connectDB().then(() => {
