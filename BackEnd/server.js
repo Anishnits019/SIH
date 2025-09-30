@@ -5,8 +5,13 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 
 import { connectDB } from './config/db.js';
-import terminologyRoutes from './Routes/terminology.routes.js';
-import authRoutes from './Routes/terminology.routes.js'
+import terminologyRoutes from './Routes/terminology_routes.js';
+import authRoutes from './Routes/auth_routes.js'
+import pateintRoutes from './Routes/pateints_routes.js'
+import suggestRoutes from './Routes/suggest.js'
+import fhirRoutes from "./Routes/api.js";
+import api from "./Routes/api.js";
+import suggestRoute from "./Routes/suggest.js"
 dotenv.config();
 
 const app = express();
@@ -18,6 +23,11 @@ app.use(morgan('dev'));
 app.get('/', (req, res) => res.send('SIH Terminology API. Try /health'));
 app.use('/', terminologyRoutes);
 app.use('/', authRoutes);
+app.use('/', pateintRoutes);
+app.use("/", api);
+app.use("/api/suggest", suggestRoute);
+
+
 
 
 const port = process.env.PORT || 4000;
