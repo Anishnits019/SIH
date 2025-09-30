@@ -702,7 +702,7 @@ export default function SuggestPage({
                     style={{ padding: 8, border: "1px solid #e5e7eb", borderRadius: 8, minWidth: 120 }}
                   />
                   <input
-                    placeholder="Patient family name"
+                    placeholder="Patient age"
                     value={patFamily}
                     onChange={(e) => setPatFamily(e.target.value)}
                     style={{ padding: 8, border: "1px solid #e5e7eb", borderRadius: 8, minWidth: 120 }}

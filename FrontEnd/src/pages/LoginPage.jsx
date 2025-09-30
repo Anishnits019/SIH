@@ -155,8 +155,8 @@ export default function LoginPage({ onLoginSuccess }) { // Added onLoginSuccess 
         {/* Demo Info */}
         <div className="mt-6 p-4 bg-gradient-to-r from-blue-50 to-teal-50 rounded-xl border border-blue-200">
           <p className="text-sm text-blue-800 text-center font-medium">
-            <strong>Demo Access Available</strong><br />
-            Use your hospital credentials
+            <strong>Doctor id :drayush</strong><br />
+            Password:demo123
           </p>
         </div>
 

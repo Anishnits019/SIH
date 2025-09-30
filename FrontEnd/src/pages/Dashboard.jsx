@@ -78,7 +78,11 @@ export default function Dashboard() {
       </div>
 
       {!patient ? (
-        <p className="text-gray-500">No patient selected. Click "Add Patient (ABHA)" to continue.</p>
+        <p className="text-gray-800">
+  ABHA ID:<br/>
+  Patient 1: 98765432109876<br/>
+  Patient 2: 12345678901234<br/>
+</p>
       ) : (
         <div className="grid sm:grid-cols-2 gap-4">
           <div className="bg-blue-50 p-4 rounded">

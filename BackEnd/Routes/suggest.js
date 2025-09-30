@@ -40,7 +40,7 @@ router.get("/", async (req, res) => {
             concepts: { $push: "$concept" },
           },
         },
-        {
+        { 
           $project: {
             _id: 0,
             resourceType: { $literal: "CodeSystem" },
