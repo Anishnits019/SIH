@@ -7,12 +7,16 @@ export default function Dashboard() {
   const [err, setErr] = useState("");
   const [loading, setLoading] = useState(false);
   const [patient, setPatient] = useState(() => {
-    try { return JSON.parse(localStorage.getItem("selectedPatient") || "null"); }
-    catch { return null; }
+    try { 
+      return JSON.parse(localStorage.getItem("selectedPatient") || "null"); 
+    } catch { 
+      return null; 
+    }
   });
   const navigate = useNavigate();
 
   const isValidAbha = (id) => /^\d{14}$/.test(id);
+  const goToComingSoon = () => navigate("/coming-soon");
 
   const openAdd = () => {
     setAbha("");
@@ -39,7 +43,7 @@ export default function Dashboard() {
       setPatient(data.patient);
       setShowModal(false);
       setLoading(false);
-      navigate("/suggest"); // 👉 go to common pages after a correct ABHA
+      navigate("/suggest"); // ✅ CHANGED BACK: Navigate to suggest after ABHA verification
     } catch {
       setErr("Network error. Is the API running on :4000?");
       setLoading(false);
@@ -50,6 +54,12 @@ export default function Dashboard() {
     localStorage.removeItem("selectedPatient");
     setPatient(null);
   };
+
+  // Navigation functions for other pages
+  const goToSuggest = () => navigate("/suggest");
+  const goToTranslate = () => navigate("/translate");
+  const goToBundleLab = () => navigate("/bundle-lab");
+  const goToEMR = () => navigate("/emr");
 
   return (
     <div className="bg-white p-6 rounded-xl shadow">
@@ -68,7 +78,7 @@ export default function Dashboard() {
       </div>
 
       {!patient ? (
-        <p className="text-gray-500">No patient selected. Click “Add Patient (ABHA)” to continue.</p>
+        <p className="text-gray-500">No patient selected. Click "Add Patient (ABHA)" to continue.</p>
       ) : (
         <div className="grid sm:grid-cols-2 gap-4">
           <div className="bg-blue-50 p-4 rounded">
@@ -78,8 +88,23 @@ export default function Dashboard() {
             <p><span className="font-medium">Age:</span> {patient.age}</p>
             <p><span className="font-medium">Gender:</span> {patient.gender}</p>
           </div>
-          <div className="p-4 text-sm text-gray-600">
-            You can now open <span className="font-medium">Suggest</span>, <span className="font-medium">Translate</span> or <span className="font-medium">Bundle Lab</span> from the top.
+          <div className="p-4">
+            <h3 className="font-semibold mb-3">Available Actions</h3>
+            <div className="flex flex-col gap-2">
+              <button onClick={goToComingSoon} className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-left">
+  📋 View EMR Record
+</button>
+<button onClick={goToComingSoon} className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 text-left">
+  🧪 Suggest Tests
+</button>
+<button onClick={goToComingSoon} className="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 text-left">
+  🔄 Translate Results
+</button>
+<button onClick={goToComingSoon} className="bg-orange-600 text-white px-4 py-2 rounded hover:bg-orange-700 text-left">
+  📦 Bundle Lab
+</button>
+
+            </div>
           </div>
         </div>
       )}
