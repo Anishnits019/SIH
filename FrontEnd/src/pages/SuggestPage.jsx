@@ -1,19 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 
-/**
- * All-in-one UI (drop into App and render <SuggestPage />)
- *
- * Props:
- *  - system?: "ayurveda" | "siddha" | "unani" | "" (optional; sent to /api/suggest)
- *  - apiBase?: string (default: VITE_API_BASE or http://localhost:4000)
- *  - excludeSystems?: string[]  // e.g. ["siddha"] to hide a system by id substring
- *  - icdOnly?: boolean          // true => show only concepts that have an ICD mapping
- */
 export default function SuggestPage({
   system = "",
   apiBase,
-  excludeSystems = ["siddha"],     // ✅ default: remove Siddha searches
-  icdOnly = true                   // ✅ default: keep only ICD-mappable concepts
+  excludeSystems = ["siddha"],
+  icdOnly = true
 }) {
   const API_BASE = useMemo(
     () => apiBase || import.meta.env.VITE_API_BASE || "http://localhost:4000",
@@ -22,13 +13,13 @@ export default function SuggestPage({
 
   // UI state
   const [isLeftCollapsed, setIsLeftCollapsed] = useState(false);
-  const [mode, setMode] = useState("results"); // "results" | "details"
+  const [mode, setMode] = useState("results");
 
   // Search + results
   const [q, setQ] = useState("");
   const [suggestLoading, setSuggestLoading] = useState(false);
   const [suggestErr, setSuggestErr] = useState("");
-  const [systems, setSystems] = useState([]); // merged CodeSystems with optional _icdConcepts
+  const [systems, setSystems] = useState([]);
 
   // Filtering/probing state
   const [filteringICD, setFilteringICD] = useState(false);
@@ -47,6 +38,21 @@ export default function SuggestPage({
 
   // Cache: hasMapping[`${sysId}|${code}`] => true/false
   const [hasMapping, setHasMapping] = useState({});
+
+  // Bundle UX state
+  const [patGiven, setPatGiven] = useState("");
+  const [patFamily, setPatFamily] = useState("");
+  const [collectionBundle, setCollectionBundle] = useState(null);
+  const [transactionBundle, setTransactionBundle] = useState(null);
+  const [collectionLoading, setCollectionLoading] = useState(false);
+  const [transactionLoading, setTransactionLoading] = useState(false);
+  const [collectionErr, setCollectionErr] = useState("");
+  const [transactionErr, setTransactionErr] = useState("");
+
+  // FHIR BUNDLE STATE
+  const [fhirBundle, setFhirBundle] = useState(null);
+  const [fhirBundleLoading, setFhirBundleLoading] = useState(false);
+  const [fhirBundleError, setFhirBundleError] = useState("");
 
   // helpers
   const toArray = (x) => (Array.isArray(x) ? x : x ? [x] : []);
@@ -68,6 +74,20 @@ export default function SuggestPage({
       }
     }
     return rows;
+  };
+
+  // find display for selected code in the current CS
+  const displayForSelected = () => {
+    if (!selectedCS || !selectedCode) return selectedCode;
+    const pool = icdOnly ? (selectedCS._icdConcepts ?? []) : toArray(selectedCS.concept);
+    return (pool.find((c) => c.code === selectedCode)?.display) || selectedCode;
+  };
+
+  // Get current concept with TM2/MMS codes
+  const getCurrentConcept = () => {
+    if (!selectedCS || !selectedCode) return null;
+    const pool = icdOnly ? (selectedCS._icdConcepts ?? []) : toArray(selectedCS.concept);
+    return pool.find((c) => c.code === selectedCode);
   };
 
   // Debounced search
@@ -151,7 +171,7 @@ export default function SuggestPage({
 
   // Probe mapping per concept (cap per system to avoid too many calls)
   async function filterCodeSystemsByICD(csList) {
-    const MAX_CONCEPTS_TO_CHECK = 24; // tune as needed
+    const MAX_CONCEPTS_TO_CHECK = 24;
     const updated = [];
     const cache = { ...hasMapping };
 
@@ -210,7 +230,6 @@ export default function SuggestPage({
     setShowCMJson(false);
     setShowCSJson(false);
 
-    // In case this CS came without _icdConcepts (icdOnly disabled), optionally probe here
     if (icdOnly && !cs._icdConcepts) {
       (async () => {
         setFilteringICD(true);
@@ -221,6 +240,12 @@ export default function SuggestPage({
         }
       })();
     }
+
+    // reset bundle panel
+    setPatGiven(""); setPatFamily("");
+    setCollectionBundle(null); setTransactionBundle(null);
+    setCollectionErr(""); setTransactionErr("");
+    setFhirBundle(null); setFhirBundleError("");
   }
 
   function backToResults() {
@@ -230,7 +255,50 @@ export default function SuggestPage({
     setMapErr("");
     setShowCMJson(false);
     setShowCSJson(false);
+    setPatGiven(""); setPatFamily("");
+    setCollectionBundle(null); setTransactionBundle(null);
+    setCollectionErr(""); setTransactionErr("");
+    setFhirBundle(null); setFhirBundleError("");
   }
+
+  // FHIR Bundle creation function (Collection)
+  const createFhirBundle = async () => {
+    if (!selectedCS || !selectedCode) return;
+    
+    setFhirBundleLoading(true);
+    setFhirBundleError("");
+    
+    try {
+      const response = await fetch(`${API_BASE}/api/suggest/fhir-bundle`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          system: sysShort(selectedCS.id || ""),
+          code: selectedCode,
+          patient: {
+            given: patGiven.trim() || "Clinical",
+            family: patFamily.trim() || "User", 
+            gender: "unknown"
+          }
+        })
+      });
+      
+      const bundle = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(bundle.issue?.[0]?.details?.text || "Failed to create FHIR bundle");
+      }
+      
+      setFhirBundle(bundle);
+      setFhirBundleError("");
+      
+    } catch (error) {
+      setFhirBundleError(error.message);
+      setFhirBundle(null);
+    } finally {
+      setFhirBundleLoading(false);
+    }
+  };
 
   async function handleTranslate(code) {
     if (!selectedCS || !code) return;
@@ -252,12 +320,102 @@ export default function SuggestPage({
         throw new Error(msg);
       }
       setConceptMap(data);
+      // Auto-create FHIR bundle when mapping is loaded
+      createFhirBundle();
+      // reset bundle results each time you pick a new code
+      setCollectionBundle(null); setTransactionBundle(null);
+      setCollectionErr(""); setTransactionErr("");
     } catch (e) {
       setMapErr(String(e?.message || e));
       setConceptMap(null);
     } finally {
       setMapLoading(false);
     }
+  }
+
+  // Create Collection Bundle
+  async function createCollectionBundle() {
+    if (!selectedCS || !selectedCode) return;
+    
+    setCollectionLoading(true);
+    setCollectionErr("");
+    
+    try {
+      const response = await fetch(`${API_BASE}/api/suggest/collection`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          system: sysShort(selectedCS.id || ""),
+          code: selectedCode,
+          patient: { 
+            given: patGiven.trim() || "Clinical",
+            family: patFamily.trim() || "User" 
+          }
+        })
+      });
+      
+      const bundle = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(bundle.issue?.[0]?.details?.text || "Failed to create Collection bundle");
+      }
+      
+      setCollectionBundle(bundle);
+      setCollectionErr("");
+      
+    } catch (error) {
+      setCollectionErr(error.message);
+      setCollectionBundle(null);
+    } finally {
+      setCollectionLoading(false);
+    }
+  }
+
+  // Create Transaction Bundle
+  async function createTransactionBundle() {
+    if (!selectedCS || !selectedCode) return;
+    
+    setTransactionLoading(true);
+    setTransactionErr("");
+    
+    try {
+      const response = await fetch(`${API_BASE}/api/suggest/transaction`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          system: sysShort(selectedCS.id || ""),
+          code: selectedCode,
+          patient: { 
+            given: patGiven.trim() || "Clinical",
+            family: patFamily.trim() || "User" 
+          }
+        })
+      });
+      
+      const bundle = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(bundle.issue?.[0]?.details?.text || "Failed to create Transaction bundle");
+      }
+      
+      setTransactionBundle(bundle);
+      setTransactionErr("");
+      
+    } catch (error) {
+      setTransactionErr(error.message);
+      setTransactionBundle(null);
+    } finally {
+      setTransactionLoading(false);
+    }
+  }
+
+  function downloadJSON(obj, filename) {
+    const blob = new Blob([JSON.stringify(obj, null, 2)], { type: "application/fhir+json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click(); a.remove();
+    URL.revokeObjectURL(url);
   }
 
   const showEmptyState =
@@ -346,7 +504,6 @@ export default function SuggestPage({
                     >
                       <option value="">All</option>
                       <option value="ayurveda">Ayurveda</option>
-                      {/* Siddha intentionally hidden by default */}
                       <option value="unani">Unani</option>
                     </select>
                   </div>
@@ -482,13 +639,12 @@ export default function SuggestPage({
         </div>
       </div>
 
-      {/* RIGHT PANEL: mapping + JSON */}
+      {/* RIGHT PANEL: mapping + JSON + bundle tools */}
       <div style={{ flex: 1, padding: 16, overflowY: "auto" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
           <h2 style={{ margin: 0 }}>AYUSH → ICD Mapping</h2>
           {mapLoading && <span style={chip}>Loading…</span>}
           {mapErr && <span style={{ ...chip, background: "#fee2e2", color: "#991b1b" }}>{mapErr}</span>}
-        
         </div>
 
         {conceptMap ? (
@@ -499,6 +655,7 @@ export default function SuggestPage({
               <span style={chip}>Groups: {toArray(conceptMap.group).length}</span>
             </div>
 
+            {/* Mapping table */}
             <div style={{ marginTop: 14, background: "#fff", border: "1px solid #e5e7eb", borderRadius: 10, overflow: "hidden" }}>
               <table style={{ borderCollapse: "collapse", width: "100%" }}>
                 <thead style={{ background: "#f8fafc" }}>
@@ -526,6 +683,300 @@ export default function SuggestPage({
               </table>
             </div>
 
+            {/* BUNDLE CREATION SECTIONS */}
+            <div style={{ marginTop: 20 }}>
+              {/* Patient Inputs for all bundles */}
+              <div style={{ 
+                padding: 16, 
+                border: "1px solid #e5e7eb", 
+                borderRadius: 12, 
+                background: "#fff",
+                marginBottom: 16
+              }}>
+                <h3 style={{ margin: "0 0 12px 0" }}>👤 Patient Information</h3>
+                <div style={{ display: "flex", gap: 12, flexWrap: "wrap", alignItems: "center" }}>
+                  <input
+                    placeholder="Patient given name"
+                    value={patGiven}
+                    onChange={(e) => setPatGiven(e.target.value)}
+                    style={{ padding: 8, border: "1px solid #e5e7eb", borderRadius: 8, minWidth: 120 }}
+                  />
+                  <input
+                    placeholder="Patient family name"
+                    value={patFamily}
+                    onChange={(e) => setPatFamily(e.target.value)}
+                    style={{ padding: 8, border: "1px solid #e5e7eb", borderRadius: 8, minWidth: 120 }}
+                  />
+                  <div style={{ fontSize: 12, color: "#64748b" }}>
+                    Leave empty for default: "Clinical User"
+                  </div>
+                </div>
+              </div>
+
+              {/* FHIR BUNDLE SECTION */}
+              <div style={{ 
+                padding: 16, 
+                border: "2px solid #10b981", 
+                borderRadius: 12, 
+                background: "#f0fdf4",
+                marginBottom: 16
+              }}>
+                <div style={{ 
+                  display: "flex", 
+                  alignItems: "center", 
+                  justifyContent: "space-between",
+                  marginBottom: 12 
+                }}>
+                  <div>
+                    <h3 style={{ margin: 0, color: "#065f46" }}>
+                      🚀 FHIR Standard Bundle (Collection)
+                    </h3>
+                    <p style={{ margin: "4px 0 0 0", color: "#047857", fontSize: 14 }}>
+                      Patient + Condition resources with AYUSH + ICD codes
+                    </p>
+                  </div>
+                  
+                  <button
+                    onClick={createFhirBundle}
+                    disabled={fhirBundleLoading}
+                    style={{
+                      padding: "8px 16px",
+                      background: "#10b981",
+                      color: "white",
+                      border: "none",
+                      borderRadius: 8,
+                      cursor: "pointer",
+                      fontWeight: "bold"
+                    }}
+                  >
+                    {fhirBundleLoading ? "🔄 Creating..." : "🔄 Regenerate"}
+                  </button>
+                </div>
+
+                {fhirBundleError && (
+                  <div style={{ 
+                    padding: 12, 
+                    background: "#fef2f2", 
+                    border: "1px solid #fecaca",
+                    borderRadius: 8,
+                    color: "#dc2626",
+                    marginBottom: 12
+                  }}>
+                    ❌ {fhirBundleError}
+                  </div>
+                )}
+
+                {fhirBundle && (
+                  <div>
+                    <div style={{ 
+                      display: "flex", 
+                      gap: 8, 
+                      marginBottom: 12,
+                      flexWrap: 'wrap' 
+                    }}>
+                      <button
+                        onClick={() => navigator.clipboard.writeText(JSON.stringify(fhirBundle, null, 2))}
+                        style={btnSecondary}
+                      >
+                        📋 Copy Bundle
+                      </button>
+                      <button
+                        onClick={() => downloadJSON(fhirBundle, `fhir-bundle-${selectedCode}.json`)}
+                        style={btnSecondary}
+                      >
+                        💾 Download
+                      </button>
+                    </div>
+                    
+                    <JsonPreviewLight data={fhirBundle} />
+                    
+                    {/* Show included resources */}
+                    <div style={{ 
+                      marginTop: 12,
+                      padding: 12,
+                      background: "#dbeafe",
+                      borderRadius: 8
+                    }}>
+                      <strong>Bundle Contents:</strong>
+                      <div>• Patient Resource</div>
+                      <div>• Condition Resource with AYUSH + ICD codes</div>
+                      {getCurrentConcept() && (getCurrentConcept().tm2Code || getCurrentConcept().mmsCode) && (
+                        <>
+                          <div style={{ marginTop: 8 }}><strong>Additional Codes:</strong></div>
+                          {getCurrentConcept().tm2Code && (
+                            <div>TM2 Code: <code>{getCurrentConcept().tm2Code}</code></div>
+                          )}
+                          {getCurrentConcept().mmsCode && (
+                            <div>MMS Code: <code>{getCurrentConcept().mmsCode}</code></div>
+                          )}
+                        </>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* SEPARATE COLLECTION BUNDLE SECTION */}
+              <div style={{ 
+                padding: 16, 
+                border: "2px solid #3b82f6", 
+                borderRadius: 12, 
+                background: "#eff6ff",
+                marginBottom: 16
+              }}>
+                <div style={{ 
+                  display: "flex", 
+                  alignItems: "center", 
+                  justifyContent: "space-between",
+                  marginBottom: 12 
+                }}>
+                  <div>
+                    <h3 style={{ margin: 0, color: "#1e40af" }}>
+                      📦 Collection Bundle
+                    </h3>
+                    <p style={{ margin: "4px 0 0 0", color: "#1d4ed8", fontSize: 14 }}>
+                      Simple collection of resources (read-only)
+                    </p>
+                  </div>
+                  
+                  <button
+                    onClick={createCollectionBundle}
+                    disabled={collectionLoading}
+                    style={{
+                      padding: "8px 16px",
+                      background: "#3b82f6",
+                      color: "white",
+                      border: "none",
+                      borderRadius: 8,
+                      cursor: "pointer",
+                      fontWeight: "bold"
+                    }}
+                  >
+                    {collectionLoading ? "🔄 Creating..." : "📦 Create Collection"}
+                  </button>
+                </div>
+
+                {collectionErr && (
+                  <div style={{ 
+                    padding: 12, 
+                    background: "#fef2f2", 
+                    border: "1px solid #fecaca",
+                    borderRadius: 8,
+                    color: "#dc2626",
+                    marginBottom: 12
+                  }}>
+                    ❌ {collectionErr}
+                  </div>
+                )}
+
+                {collectionBundle && (
+                  <div>
+                    <div style={{ 
+                      display: "flex", 
+                      gap: 8, 
+                      marginBottom: 12,
+                      flexWrap: 'wrap' 
+                    }}>
+                      <button
+                        onClick={() => navigator.clipboard.writeText(JSON.stringify(collectionBundle, null, 2))}
+                        style={btnSecondary}
+                      >
+                        📋 Copy Bundle
+                      </button>
+                      <button
+                        onClick={() => downloadJSON(collectionBundle, `collection-bundle-${selectedCode}.json`)}
+                        style={btnSecondary}
+                      >
+                        💾 Download
+                      </button>
+                    </div>
+                    
+                    <JsonPreviewLight data={collectionBundle} />
+                  </div>
+                )}
+              </div>
+
+              {/* SEPARATE TRANSACTION BUNDLE SECTION */}
+              <div style={{ 
+                padding: 16, 
+                border: "2px solid #dc2626", 
+                borderRadius: 12, 
+                background: "#fef2f2" 
+              }}>
+                <div style={{ 
+                  display: "flex", 
+                  alignItems: "center", 
+                  justifyContent: "space-between",
+                  marginBottom: 12 
+                }}>
+                  <div>
+                    <h3 style={{ margin: 0, color: "#991b1b" }}>
+                      ⚡ Transaction Bundle
+                    </h3>
+                    <p style={{ margin: "4px 0 0 0", color: "#b91c1c", fontSize: 14 }}>
+                      Ready for FHIR server submission with POST requests
+                    </p>
+                  </div>
+                  
+                  <button
+                    onClick={createTransactionBundle}
+                    disabled={transactionLoading}
+                    style={{
+                      padding: "8px 16px",
+                      background: "#dc2626",
+                      color: "white",
+                      border: "none",
+                      borderRadius: 8,
+                      cursor: "pointer",
+                      fontWeight: "bold"
+                    }}
+                  >
+                    {transactionLoading ? "🔄 Creating..." : "⚡ Create Transaction"}
+                  </button>
+                </div>
+
+                {transactionErr && (
+                  <div style={{ 
+                    padding: 12, 
+                    background: "#fef2f2", 
+                    border: "1px solid #fecaca",
+                    borderRadius: 8,
+                    color: "#dc2626",
+                    marginBottom: 12
+                  }}>
+                    ❌ {transactionErr}
+                  </div>
+                )}
+
+                {transactionBundle && (
+                  <div>
+                    <div style={{ 
+                      display: "flex", 
+                      gap: 8, 
+                      marginBottom: 12,
+                      flexWrap: 'wrap' 
+                    }}>
+                      <button
+                        onClick={() => navigator.clipboard.writeText(JSON.stringify(transactionBundle, null, 2))}
+                        style={btnSecondary}
+                      >
+                        📋 Copy Bundle
+                      </button>
+                      <button
+                        onClick={() => downloadJSON(transactionBundle, `transaction-bundle-${selectedCode}.json`)}
+                        style={btnSecondary}
+                      >
+                        💾 Download
+                      </button>
+                    </div>
+                    
+                    <JsonPreviewLight data={transactionBundle} />
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Toggles */}
             <div style={{ marginTop: 14, display: "flex", gap: 8, flexWrap: "wrap" }}>
               <button
                 onClick={() => setShowCMJson(v => !v)}
@@ -571,7 +1022,7 @@ export default function SuggestPage({
           </div>
         ) : (
           <div style={{ color: "#64748b", marginTop: 16 }}>
-            🧭 Open a CodeSystem on the left, then click <b>Translate</b> on a concept to view mappings here.
+            🧭 Open a CodeSystem on the left, then click <b>Translate</b> on a concept to view mappings and create bundles here.
           </div>
         )}
       </div>
