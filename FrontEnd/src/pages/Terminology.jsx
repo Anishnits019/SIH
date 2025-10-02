@@ -1,11 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-export default function SuggestPage({
+export default function TerminologyPage({
   system = "",
   apiBase,
   excludeSystems = ["siddha"],
   icdOnly = true
 }) {
+  const navigate = useNavigate();
   const API_BASE = useMemo(
     () => apiBase || import.meta.env.VITE_API_BASE || "http://localhost:4000",
     [apiBase]
@@ -54,6 +56,21 @@ export default function SuggestPage({
   const [fhirBundleLoading, setFhirBundleLoading] = useState(false);
   const [fhirBundleError, setFhirBundleError] = useState("");
 
+  // Selected codes to return to EMR
+  const [selectedCodes, setSelectedCodes] = useState([]);
+
+  // Copy feedback state
+  const [copyFeedback, setCopyFeedback] = useState("");
+
+  // NEW STATES FOR DISEASE SELECTION
+  const [selectedDiseases, setSelectedDiseases] = useState([]);
+  const [addNotification, setAddNotification] = useState("");
+  const [doctorInfo] = useState({
+    name: "Dr. Rajesh Sharma",
+    id: "DOC001",
+    qualification: "BAMS, MD"
+  });
+
   // helpers
   const toArray = (x) => (Array.isArray(x) ? x : x ? [x] : []);
   const sysShort = (csId) => (csId || "").replace(/^namaste-/, "");
@@ -89,6 +106,63 @@ export default function SuggestPage({
     const pool = icdOnly ? (selectedCS._icdConcepts ?? []) : toArray(selectedCS.concept);
     return pool.find((c) => c.code === selectedCode);
   };
+
+  // Copy to clipboard with feedback
+  const copyToClipboard = (text, type) => {
+    navigator.clipboard.writeText(text);
+    setCopyFeedback(`${type} copied!`);
+    setTimeout(() => setCopyFeedback(""), 2000);
+  };
+
+  // NEW FUNCTIONS FOR DISEASE SELECTION
+  const addDiseaseToPrescription = (disease) => {
+    const diseaseData = {
+      ...disease,
+      id: `${disease.ayushCode}-${disease.icdCode}-${Date.now()}`,
+      timestamp: new Date().toISOString(),
+      doctor: doctorInfo.name,
+      doctorId: doctorInfo.id,
+      status: "added"
+    };
+
+    setSelectedDiseases(prev => {
+      const exists = prev.find(d => 
+        d.ayushCode === disease.ayushCode && d.icdCode === disease.icdCode
+      );
+      if (exists) return prev;
+      return [...prev, diseaseData];
+    });
+
+    // Show notification
+    setAddNotification(`✅ ${disease.display} added to prescription!`);
+    setTimeout(() => setAddNotification(""), 3000);
+
+    // Save to localStorage for prescription page
+    const currentPrescription = JSON.parse(localStorage.getItem('prescriptionDiseases') || '[]');
+    const updatedPrescription = [...currentPrescription.filter(d => 
+      !(d.ayushCode === disease.ayushCode && d.icdCode === disease.icdCode)
+    ), diseaseData];
+    localStorage.setItem('prescriptionDiseases', JSON.stringify(updatedPrescription));
+  };
+
+  const removeDiseaseFromPrescription = (diseaseId) => {
+    setSelectedDiseases(prev => prev.filter(d => d.id !== diseaseId));
+    
+    // Update localStorage
+    const currentPrescription = JSON.parse(localStorage.getItem('prescriptionDiseases') || '[]');
+    const updatedPrescription = currentPrescription.filter(d => d.id !== diseaseId);
+    localStorage.setItem('prescriptionDiseases', JSON.stringify(updatedPrescription));
+  };
+
+  const goToPrescription = () => {
+    navigate("/prescription");
+  };
+
+  // Load selected diseases on component mount
+  useEffect(() => {
+    const savedDiseases = JSON.parse(localStorage.getItem('prescriptionDiseases') || '[]');
+    setSelectedDiseases(savedDiseases);
+  }, []);
 
   // Debounced search
   useEffect(() => {
@@ -261,43 +335,20 @@ export default function SuggestPage({
     setFhirBundle(null); setFhirBundleError("");
   }
 
-  // FHIR Bundle creation function (Collection)
-  const createFhirBundle = async () => {
-    if (!selectedCS || !selectedCode) return;
-    
-    setFhirBundleLoading(true);
-    setFhirBundleError("");
-    
-    try {
-      const response = await fetch(`${API_BASE}/api/suggest/fhir-bundle`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          system: sysShort(selectedCS.id || ""),
-          code: selectedCode,
-          patient: {
-            given: patGiven.trim() || "Clinical",
-            family: patFamily.trim() || "User", 
-            gender: "unknown"
-          }
-        })
-      });
-      
-      const bundle = await response.json();
-      
-      if (!response.ok) {
-        throw new Error(bundle.issue?.[0]?.details?.text || "Failed to create FHIR bundle");
-      }
-      
-      setFhirBundle(bundle);
-      setFhirBundleError("");
-      
-    } catch (error) {
-      setFhirBundleError(error.message);
-      setFhirBundle(null);
-    } finally {
-      setFhirBundleLoading(false);
-    }
+  // Add code to selection for EMR
+  const addCodeToSelection = (code, display, system) => {
+    const newCode = { code, display, system, timestamp: new Date().toISOString() };
+    setSelectedCodes(prev => [...prev.filter(c => c.code !== code), newCode]);
+  };
+
+  // Remove code from selection
+  const removeCodeFromSelection = (code) => {
+    setSelectedCodes(prev => prev.filter(c => c.code !== code));
+  };
+
+  // Apply selected codes and return to EMR
+  const applyAndReturn = () => {
+    navigate(-1);
   };
 
   async function handleTranslate(code) {
@@ -320,102 +371,19 @@ export default function SuggestPage({
         throw new Error(msg);
       }
       setConceptMap(data);
-      // Auto-create FHIR bundle when mapping is loaded
-      createFhirBundle();
-      // reset bundle results each time you pick a new code
-      setCollectionBundle(null); setTransactionBundle(null);
-      setCollectionErr(""); setTransactionErr("");
+      
+      // Auto-add to selection when mapping is loaded
+      const currentConcept = getCurrentConcept();
+      if (currentConcept) {
+        addCodeToSelection(currentConcept.code, currentConcept.display, sShort);
+      }
+      
     } catch (e) {
       setMapErr(String(e?.message || e));
       setConceptMap(null);
     } finally {
       setMapLoading(false);
     }
-  }
-
-  // Create Collection Bundle
-  async function createCollectionBundle() {
-    if (!selectedCS || !selectedCode) return;
-    
-    setCollectionLoading(true);
-    setCollectionErr("");
-    
-    try {
-      const response = await fetch(`${API_BASE}/api/suggest/collection`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          system: sysShort(selectedCS.id || ""),
-          code: selectedCode,
-          patient: { 
-            given: patGiven.trim() || "Clinical",
-            family: patFamily.trim() || "User" 
-          }
-        })
-      });
-      
-      const bundle = await response.json();
-      
-      if (!response.ok) {
-        throw new Error(bundle.issue?.[0]?.details?.text || "Failed to create Collection bundle");
-      }
-      
-      setCollectionBundle(bundle);
-      setCollectionErr("");
-      
-    } catch (error) {
-      setCollectionErr(error.message);
-      setCollectionBundle(null);
-    } finally {
-      setCollectionLoading(false);
-    }
-  }
-
-  // Create Transaction Bundle
-  async function createTransactionBundle() {
-    if (!selectedCS || !selectedCode) return;
-    
-    setTransactionLoading(true);
-    setTransactionErr("");
-    
-    try {
-      const response = await fetch(`${API_BASE}/api/suggest/transaction`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          system: sysShort(selectedCS.id || ""),
-          code: selectedCode,
-          patient: { 
-            given: patGiven.trim() || "Clinical",
-            family: patFamily.trim() || "User" 
-          }
-        })
-      });
-      
-      const bundle = await response.json();
-      
-      if (!response.ok) {
-        throw new Error(bundle.issue?.[0]?.details?.text || "Failed to create Transaction bundle");
-      }
-      
-      setTransactionBundle(bundle);
-      setTransactionErr("");
-      
-    } catch (error) {
-      setTransactionErr(error.message);
-      setTransactionBundle(null);
-    } finally {
-      setTransactionLoading(false);
-    }
-  }
-
-  function downloadJSON(obj, filename) {
-    const blob = new Blob([JSON.stringify(obj, null, 2)], { type: "application/fhir+json" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url; a.download = filename;
-    document.body.appendChild(a); a.click(); a.remove();
-    URL.revokeObjectURL(url);
   }
 
   const showEmptyState =
@@ -428,41 +396,81 @@ export default function SuggestPage({
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-teal-50">
-      {/* Header */}
-      <div className="bg-white/80 backdrop-blur-sm border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-teal-500 rounded-xl flex items-center justify-center shadow-lg">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h1 className="text-2xl font-bold text-gray-800">Ayush Terminology Portal</h1>
-                <p className="text-gray-600">NAMASTE → ICD-11 Mapping & FHIR Bundle Generation</p>
-              </div>
-            </div>
-            <div className="flex items-center space-x-3">
-              <span className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full font-medium">
-                FHIR R4
-              </span>
-              <span className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full font-medium">
-                NAMASTE
-              </span>
-              <span className="bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full font-medium">
-                ICD-11
-              </span>
-            </div>
+      {/* Enhanced Header */}
+
+      {addNotification && (
+  <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 animate-bounce">
+    <div className="bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg font-semibold flex items-center gap-2">
+      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+      </svg>
+      {addNotification}
+    </div>
+  </div>
+)}
+
+      <div className="bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-lg relative z-40">
+  <div className="max-w-7xl mx-auto px-6 py-4">
+    <div className="flex items-center justify-between">
+      <div className="flex items-center space-x-4">
+        <button
+          onClick={() => navigate(-1)}
+          className="w-12 h-12 bg-gradient-to-r from-blue-600 to-teal-500 rounded-xl flex items-center justify-center text-white hover:from-blue-700 hover:to-teal-600 transition-all duration-200 shadow-lg"
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+        </button>
+        <div className="flex items-center space-x-3">
+          <div className="w-14 h-14 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-xl flex items-center justify-center shadow-lg">
+            <svg className="w-7 h-7 text-white" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+          </div>
+          <div>
+            <h1 className="text-2xl font-bold text-gray-800">AYUSH Terminology Mapping</h1>
+            <p className="text-gray-600">NAMASTE → ICD-11 Mapping for EMR Integration</p>
           </div>
         </div>
       </div>
+      
+      <div className="flex items-center space-x-4">
+        {/* Copy Feedback - Keep this in header */}
+        {copyFeedback && (
+          <div className="bg-blue-100 text-blue-800 px-3 py-2 rounded-lg font-semibold">
+            {copyFeedback}
+          </div>
+        )}
+        
+        {/* Selected Diseases Badge */}
+        {selectedDiseases.length > 0 && (
+          <button
+            onClick={goToPrescription}
+            className="bg-gradient-to-r from-green-600 to-emerald-500 hover:from-green-700 hover:to-emerald-600 text-white px-6 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-200 flex items-center space-x-2"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+            </svg>
+            <span>Go to Prescription ({selectedDiseases.length})</span>
+          </button>
+        )}
+        
+        {/* Selected Codes Badge */}
+        {selectedCodes.length > 0 && (
+          <div className="bg-green-100 text-green-800 px-3 py-2 rounded-lg font-semibold">
+            {selectedCodes.length} code(s) selected
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</div>
 
       <div className="max-w-7xl mx-auto p-6">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-          {/* LEFT PANEL */}
+          {/* LEFT PANEL - Search & CodeSystems */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
               {/* Panel Header */}
               <div className="bg-gradient-to-r from-blue-600 to-teal-600 px-6 py-4">
                 <div className="flex items-center justify-between">
@@ -643,14 +651,100 @@ export default function SuggestPage({
             </div>
           </div>
 
-          {/* RIGHT PANEL */}
-          <div className="lg:col-span-3">
-            <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6">
+          {/* RIGHT PANEL - Mapping & Results */}
+          <div className="lg:col-span-3 space-y-6">
+            {/* ADDED DISEASES PANEL */}
+            {selectedDiseases.length > 0 && (
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-2xl p-6 shadow-lg">
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="font-bold text-gray-800 text-lg flex items-center">
+                    <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Added to Prescription ({selectedDiseases.length})
+                  </h3>
+                  <button
+                    onClick={goToPrescription}
+                    className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-medium text-sm"
+                  >
+                    Go to Prescription
+                  </button>
+                </div>
+                <div className="grid gap-3">
+                  {selectedDiseases.map((disease) => (
+                    <div key={disease.id} className="bg-white border border-green-200 rounded-xl p-4">
+                      <div className="flex items-center justify-between">
+                        <div className="flex-1">
+                          <div className="flex items-center gap-3 mb-2">
+                            <span className="font-semibold text-gray-800">{disease.display}</span>
+                            <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+                              AYUSH: {disease.ayushCode}
+                            </span>
+                            {disease.icdCode && (
+                              <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
+                                ICD: {disease.icdCode}
+                              </span>
+                            )}
+                          </div>
+                          <div className="text-sm text-gray-600">
+                            Added by {disease.doctor} • {new Date(disease.timestamp).toLocaleString()}
+                          </div>
+                        </div>
+                        <button
+                          onClick={() => removeDiseaseFromPrescription(disease.id)}
+                          className="text-red-500 hover:text-red-700 p-2 rounded-lg transition-colors ml-4"
+                          title="Remove from prescription"
+                        >
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Selected Codes Panel */}
+            {selectedCodes.length > 0 && (
+              <div className="bg-gradient-to-r from-blue-50 to-teal-50 border border-blue-200 rounded-2xl p-6 shadow-lg">
+                <h3 className="font-bold text-gray-800 text-lg mb-4 flex items-center">
+                  <svg className="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  Selected Codes for EMR ({selectedCodes.length})
+                </h3>
+                <div className="flex flex-wrap gap-3">
+                  {selectedCodes.map((code) => (
+                    <div key={code.code} className="bg-white border border-blue-200 rounded-xl p-3 flex items-center space-x-3">
+                      <div>
+                        <div className="font-semibold text-gray-800">{code.code}</div>
+                        <div className="text-sm text-gray-600">{code.display}</div>
+                        <div className="text-xs text-gray-500">{code.system}</div>
+                      </div>
+                      <button
+                        onClick={() => removeCodeFromSelection(code.code)}
+                        className="text-red-500 hover:text-red-700 p-1 rounded transition-colors"
+                        title="Remove from selection"
+                      >
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Main Mapping Panel */}
+            <div className="bg-white rounded-2xl shadow-xl border border-gray-200 p-6">
               {/* Header */}
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <h2 className="text-2xl font-bold text-gray-800">AYUSH → ICD Mapping</h2>
-                  <p className="text-gray-600">Real-time terminology mapping and FHIR bundle generation</p>
+                  <p className="text-gray-600">Real-time terminology mapping for EMR integration</p>
                 </div>
                 <div className="flex items-center space-x-2">
                   {mapLoading && (
@@ -682,7 +776,7 @@ export default function SuggestPage({
                     </div>
                   </div>
 
-                  {/* Mapping Table */}
+                  {/* Mapping Table with Add Buttons */}
                   <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
                     <div className="bg-gray-50 px-6 py-4 border-b border-gray-200">
                       <h3 className="font-semibold text-gray-800">Mapping Results</h3>
@@ -700,194 +794,138 @@ export default function SuggestPage({
                             <th className="px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider border-b border-gray-200">
                               Relationship
                             </th>
+                            <th className="px-6 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider border-b border-gray-200">
+                              Action
+                            </th>
                           </tr>
                         </thead>
                         <tbody className="divide-y divide-gray-200">
-                          {mappingRows(conceptMap).map((r, i) => (
-                            <tr key={i} className="hover:bg-gray-50 transition-colors">
-                              <td className="px-6 py-4">
-                                <div className="font-semibold text-gray-800">{r.srcCode}</div>
-                                <div className="text-sm text-gray-600">{r.srcDisp}</div>
-                              </td>
-                              <td className="px-6 py-4">
-                                <div className="font-semibold text-gray-800">{r.tgtCode}</div>
-                                <div className="text-sm text-gray-600">{r.tgtDisp}</div>
-                              </td>
-                              <td className="px-6 py-4">
-                                <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                                  {r.eq}
-                                </span>
-                              </td>
-                            </tr>
-                          ))}
+                          {mappingRows(conceptMap).map((r, i) => {
+                            const isAdded = selectedDiseases.some(d => 
+                              d.ayushCode === r.srcCode && d.icdCode === r.tgtCode
+                            );
+                            
+                            return (
+                              <tr key={i} className="hover:bg-gray-50 transition-colors">
+                                <td className="px-6 py-4">
+                                  <div className="font-semibold text-gray-800">{r.srcCode}</div>
+                                  <div className="text-sm text-gray-600">{r.srcDisp}</div>
+                                </td>
+                                <td className="px-6 py-4">
+                                  <div className="font-semibold text-gray-800">{r.tgtCode}</div>
+                                  <div className="text-sm text-gray-600">{r.tgtDisp}</div>
+                                </td>
+                                <td className="px-6 py-4">
+                                  <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                    {r.eq}
+                                  </span>
+                                </td>
+                                <td className="px-6 py-4">
+                                  {isAdded ? (
+                                    <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                      ✅ Added
+                                    </span>
+                                  ) : (
+                                    <button
+                                      onClick={() => addDiseaseToPrescription({
+                                        display: r.srcDisp,
+                                        ayushCode: r.srcCode,
+                                        icdCode: r.tgtCode,
+                                        icdDisplay: r.tgtDisp,
+                                        relationship: r.eq
+                                      })}
+                                      className="bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded text-sm font-medium transition-colors"
+                                    >
+                                      Add to Prescription
+                                    </button>
+                                  )}
+                                </td>
+                              </tr>
+                            );
+                          })}
                         </tbody>
                       </table>
                     </div>
                   </div>
 
-                  {/* Patient Information */}
-                  <div className="bg-white border border-gray-200 rounded-xl p-6">
-                    <h3 className="font-semibold text-gray-800 mb-4 flex items-center">
-                      <svg className="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
-                      Patient Information
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">Given Name</label>
-                        <input
-                          type="text"
-                          value={patGiven}
-                          onChange={(e) => setPatGiven(e.target.value)}
-                          placeholder="Clinical"
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">Age</label>
-                        <input
-                          type="text"
-                          value={patFamily}
-                          onChange={(e) => setPatFamily(e.target.value)}
-                          placeholder="User"
-                          className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                        />
-                      </div>
-                    </div>
-                    <p className="text-sm text-gray-500 mt-2">Leave empty for default values</p>
-                  </div>
-
-                  {/* FHIR Bundle Section */}
-                  <div className="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-xl p-6">
-                    <div className="flex items-center justify-between mb-4">
-                      <div>
-                        <h3 className="font-semibold text-gray-800 text-lg flex items-center">
-                          🚀 FHIR Standard Bundle
-                        </h3>
-                        <p className="text-gray-600">Complete patient record with AYUSH + ICD codes</p>
-                      </div>
-                      <button
-                        onClick={createFhirBundle}
-                        disabled={fhirBundleLoading}
-                        className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center space-x-2"
-                      >
-                        {fhirBundleLoading ? (
-                          <>
-                            <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
-                            <span>Creating...</span>
-                          </>
-                        ) : (
-                          <>
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
-                            </svg>
-                            <span>Generate Bundle</span>
-                          </>
-                        )}
-                      </button>
-                    </div>
-
-                    {fhirBundleError && (
-                      <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-red-700 mb-4">
-                        ❌ {fhirBundleError}
-                      </div>
-                    )}
-
-                    {fhirBundle && (
-                      <div className="space-y-4">
-                        <div className="flex flex-wrap gap-3">
-                          <button
-                            onClick={() => navigator.clipboard.writeText(JSON.stringify(fhirBundle, null, 2))}
-                            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2"
-                          >
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                            </svg>
-                            <span>Copy Bundle</span>
-                          </button>
-                          <button
-                            onClick={() => downloadJSON(fhirBundle, `fhir-bundle-${selectedCode}.json`)}
-                            className="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2"
-                          >
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                            </svg>
-                            <span>Download</span>
-                          </button>
-                        </div>
-
-                        <div className="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
-                          <pre className="text-sm">{JSON.stringify(fhirBundle, null, 2)}</pre>
-                        </div>
-
-                        {/* Additional Codes */}
-                        {getCurrentConcept() && (getCurrentConcept().tm2Code || getCurrentConcept().mmsCode) && (
-                          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                            <h4 className="font-semibold text-gray-800 mb-2">Additional Codes</h4>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                              {getCurrentConcept().tm2Code && (
-                                <div>
-                                  <span className="text-sm font-medium text-gray-600">TM2 Code:</span>
-                                  <code className="ml-2 bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">
-                                    {getCurrentConcept().tm2Code}
-                                  </code>
-                                </div>
-                              )}
-                              {getCurrentConcept().mmsCode && (
-                                <div>
-                                  <span className="text-sm font-medium text-gray-600">MMS Code:</span>
-                                  <code className="ml-2 bg-purple-100 text-purple-800 px-2 py-1 rounded text-sm">
-                                    {getCurrentConcept().mmsCode}
-                                  </code>
-                                </div>
-                              )}
-                            </div>
-                          </div>
-                        )}
-                      </div>
-                    )}
-                  </div>
-
                   {/* JSON Toggles */}
-                  <div className="flex flex-wrap gap-3">
+                  <div className="flex flex-wrap gap-3 mb-4">
                     <button
                       onClick={() => setShowCMJson(v => !v)}
-                      className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+                      className="bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2"
                     >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={showCMJson ? "M5 15l7-7 7 7" : "M19 9l-7 7-7-7"} />
+                      </svg>
                       {showCMJson ? "Hide ConceptMap JSON" : "Show ConceptMap JSON"}
                     </button>
                     {selectedCS && (
                       <button
                         onClick={() => setShowCSJson(v => !v)}
-                        className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+                        className="bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2"
                       >
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={showCSJson ? "M5 15l7-7 7 7" : "M19 9l-7 7-7-7"} />
+                        </svg>
                         {showCSJson ? "Hide CodeSystem JSON" : "Show CodeSystem JSON"}
                       </button>
                     )}
                   </div>
 
-                  {/* JSON Previews */}
+                  {/* JSON Previews - Small Expandable Windows */}
                   {(showCMJson || showCSJson) && (
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                       {showCMJson && (
-                        <div className="bg-gray-900 rounded-lg overflow-hidden">
-                          <div className="bg-gray-800 px-4 py-2 text-white font-semibold">
-                            ConceptMap JSON
+                        <div className="border border-gray-300 rounded-lg overflow-hidden bg-white shadow-sm">
+                          <div className="bg-gray-800 px-4 py-3 text-white font-semibold flex justify-between items-center">
+                            <span className="flex items-center gap-2">
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                              </svg>
+                              ConceptMap JSON
+                            </span>
+                            <button
+                              onClick={() => copyToClipboard(JSON.stringify(conceptMap, null, 2), "ConceptMap JSON")}
+                              className="bg-gray-700 hover:bg-gray-600 text-white px-3 py-1 rounded text-sm flex items-center gap-1 transition-colors"
+                            >
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                              </svg>
+                              Copy
+                            </button>
                           </div>
-                          <pre className="p-4 text-green-400 text-sm overflow-x-auto">
-                            {JSON.stringify(conceptMap, null, 2)}
-                          </pre>
+                          <div className="overflow-hidden transition-all duration-300">
+                            <pre className="p-4 text-gray-800 text-sm overflow-x-auto bg-white font-mono whitespace-pre-wrap max-h-80">
+                              {JSON.stringify(conceptMap, null, 2)}
+                            </pre>
+                          </div>
                         </div>
                       )}
+                      
                       {showCSJson && selectedCS && (
-                        <div className="bg-gray-900 rounded-lg overflow-hidden">
-                          <div className="bg-gray-800 px-4 py-2 text-white font-semibold">
-                            CodeSystem JSON
+                        <div className="border border-gray-300 rounded-lg overflow-hidden bg-white shadow-sm">
+                          <div className="bg-gray-800 px-4 py-3 text-white font-semibold flex justify-between items-center">
+                            <span className="flex items-center gap-2">
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                              </svg>
+                              CodeSystem JSON
+                            </span>
+                            <button
+                              onClick={() => copyToClipboard(JSON.stringify(selectedCS, null, 2), "CodeSystem JSON")}
+                              className="bg-gray-700 hover:bg-gray-600 text-white px-3 py-1 rounded text-sm flex items-center gap-1 transition-colors"
+                            >
+                              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                              </svg>
+                              Copy
+                            </button>
                           </div>
-                          <pre className="p-4 text-green-400 text-sm overflow-x-auto">
-                            {JSON.stringify(selectedCS, null, 2)}
-                          </pre>
+                          <div className="overflow-hidden transition-all duration-300">
+                            <pre className="p-4 text-gray-800 text-sm overflow-x-auto bg-white font-mono whitespace-pre-wrap max-h-80">
+                              {JSON.stringify(selectedCS, null, 2)}
+                            </pre>
+                          </div>
                         </div>
                       )}
                     </div>
@@ -903,7 +941,7 @@ export default function SuggestPage({
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">Ready to Map</h3>
                   <p className="text-gray-600 max-w-md mx-auto">
                     Select a CodeSystem from the left panel and click "Translate" on any concept to view 
-                    AYUSH → ICD mappings and generate FHIR bundles.
+                    AYUSH → ICD mappings for your EMR records.
                   </p>
                 </div>
               )}
@@ -914,3 +952,6 @@ export default function SuggestPage({
     </div>
   );
 }
+
+
+

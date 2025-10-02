@@ -1,1 +1,0 @@
-export default function CodeChip({ system, code, display }){return(<span className="badge"><span className="font-mono">{code}</span><span className="text-gray-500">·</span><span>{display}</span></span>)}

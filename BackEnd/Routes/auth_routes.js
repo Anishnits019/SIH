@@ -12,7 +12,6 @@ const DEMO_DOCTORS = [
 
 const JWT_SECRET = process.env.JWT_SECRET || "sih-demo-secret";
 
-// --- POST /api/login ---
 router.post("/api/login", (req, res) => {
   const { id, password } = req.body;
   const doc = DEMO_DOCTORS.find(d => d.id === id);
@@ -27,7 +26,6 @@ router.post("/api/login", (req, res) => {
   return res.json({ ok: true, token, doctor: { id: doc.id, name: doc.name, speciality: doc.speciality } });
 });
 
-// --- GET /api/me ---
 router.get("/api/me", (req, res) => {
   const h = req.headers.authorization || "";
   const m = h.match(/^Bearer\s+(.+)$/i);
