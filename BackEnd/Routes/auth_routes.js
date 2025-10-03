@@ -1,9 +1,7 @@
 // Routes/auth.routes.js
 import { Router } from "express";
-import jwt from "jsonwebtoken";
-
 const router = Router();
-
+import jwt from "jsonwebtoken"
 const DEMO_DOCTORS = [
   { id: "drayush",  password: "demo123", name: "Dr. Ayush Kumar",  speciality: "Ayurveda" },
   { id: "drsiddha", password: "demo123", name: "Dr. Siddha Priya", speciality: "Siddha" },

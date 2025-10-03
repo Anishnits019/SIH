@@ -9,7 +9,7 @@
     "seed": "node scripts/seed-concepts.js",
     "build:cs:all": "node scripts/build-codesystem.js --in data/namaste_mock_1000_detailed.csv --out out --version 2025.09 --publisher \"Team Namaste, SIH 2025\"",
     "cm:auto": "node scripts/build-conceptmaps-from-codesystem.js --in out/codesystem --out out/conceptmaps --limit 3 --max 0"
-    },
+  },
   "dependencies": {
     "axios": "^1.7.7",
     "cors": "^2.8.5",
@@ -17,10 +17,12 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.6.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
     "nodemon": "^3.1.0"
   },
   "description": "Run: ``` npm install npm run dev npm run seed ```",
