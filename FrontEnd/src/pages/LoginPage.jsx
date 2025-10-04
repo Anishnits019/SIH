@@ -7,14 +7,14 @@ export default function LoginPage({ onLoginSuccess }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const navigate = useNavigate();
-
+  const API = import.meta.env.VITE_API_URL;
   const handleLogin = async (e) => {
   e.preventDefault();
   setError("");
   setLoading(true);
 
   try {
-    const res = await fetch("http://localhost:4000/api/login", {
+    const res = await fetch(`${API}/api/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ id, password }),

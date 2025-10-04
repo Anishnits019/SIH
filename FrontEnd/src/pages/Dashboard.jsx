@@ -58,8 +58,10 @@ export default function Dashboard() {
       return;
     }
     setLoading(true);
+
+    const API = import.meta.env.VITE_API_URL;
     try {
-      const res = await fetch(`http://localhost:4000/api/patient/${abha}`);
+      const res = await fetch(`${API}/api/patient/${abha}`);
       const data = await res.json();
       if (!data.ok) {
         setErr(data.error || "Patient not found");

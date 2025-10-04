@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import LoginPage from "./pages/LoginPage.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
-import SuggestPage from "./pages/SuggestPage.jsx";
 import ComingSoon from "./pages/ComingSoon.jsx";
 import EMRRecord from "./pages/EMRRecord.jsx";
 import PrescriptionPage from "./pages/Prescription.jsx";
@@ -18,7 +17,7 @@ export default function App() {
   useEffect(() => {
     checkAuthStatus();
   }, []);
-
+ const API = import.meta.env.VITE_API_URL;
   const checkAuthStatus = async () => {
     const token = localStorage.getItem('token');
     
@@ -28,7 +27,7 @@ export default function App() {
     }
 
     try {
-      const response = await fetch("http://localhost:4000/api/me", {
+      const response = await fetch(`${API}api/me`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -84,7 +83,6 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/suggest" element={<SuggestPage system="" />} />
             <Route path="/coming-soon" element={<ComingSoon />} />
             <Route path="/emr-record" element={<EMRRecord />} />
             <Route path="/emr" element={<EMRRecord />} />

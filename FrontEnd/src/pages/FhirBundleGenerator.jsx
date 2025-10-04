@@ -11,8 +11,9 @@ export default function BundleGenerator() {
   const [currentBundle, setCurrentBundle] = useState(null);
   const [sending, setSending] = useState(false);
   const navigate = useNavigate();
-
+  const API = import.meta.env.VITE_API_URL;
   // ✅ FIXED: Generate Collection Bundle (READ-ONLY, no requests)
+
   const generateCollectionBundle = () => {
     const patientData = JSON.parse(localStorage.getItem("selectedPatient") || "null");
     const diagnosedProblems = JSON.parse(localStorage.getItem(`diagnosedProblems_${patientData?.abha}`) || "[]");
